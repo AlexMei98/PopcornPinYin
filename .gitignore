@@ -1,0 +1,9 @@
+# directories
+corpus/
+data/
+out/
+.idea/
+node_modules/
+
+# files
+package.json
