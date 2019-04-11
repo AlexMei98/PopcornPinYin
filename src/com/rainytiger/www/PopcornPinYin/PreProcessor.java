@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 
 @SuppressWarnings("unchecked")
-class CorpusProcessor {
+class PreProcessor {
 
     private List<String> corpus;
     private String cachePath;
@@ -16,7 +16,7 @@ class CorpusProcessor {
     private List<Integer>[] hanzi2pinyin = new List[6763];
     private List<Integer>[] pinyin2hanzi = new List[406];
 
-    CorpusProcessor(String corpusPath, String cachePath) {
+    PreProcessor(String corpusPath, String cachePath) {
         this.corpusPath = corpusPath;
         corpus = findCorpus(this.corpusPath);
         this.cachePath = cachePath;

@@ -8,7 +8,7 @@ public class MainTest {
         String corpusPath = "corpus";
         String cachePath = "cache";
 
-        CorpusProcessor processor = new CorpusProcessor(corpusPath, cachePath);
+        PreProcessor processor = new PreProcessor(corpusPath, cachePath);
 
         if (processor.cacheExist()) {
             processor.readAll();
