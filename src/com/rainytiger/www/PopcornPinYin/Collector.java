@@ -104,6 +104,7 @@ public class Collector {
         long ret = lnr.skip(Long.MAX_VALUE);
         if (ret >= Long.MAX_VALUE) throw new IOException("This File Is Too Large!");
         int lineNumber = lnr.getLineNumber() + 1;
+        lnr.close();
 
         String line;
         int lineIndex = 1;
@@ -118,6 +119,7 @@ public class Collector {
                 updateMap(term.word);
             }
         }
+        br.close();
     }
 
     private void parseAll() throws IOException {

@@ -1,0 +1,126 @@
+2019-04-12 19:46:20,976 ERROR [main] eu.plumbr.runtime.agent.cH - There are missing properties: at least one of [[clusterId, jvmId]] must be specified
+2019-04-12 19:46:21,002 INFO  [main] eu.plumbr.runtime.agent.uQ - Getting properties from file:/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar!/libs.md5
+2019-04-12 19:46:21,002 INFO  [main] eu.plumbr.runtime.agent.uQ - Getting properties from file:/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar!/libs.md5
+2019-04-12 19:46:21,003 INFO  [main] eu.plumbr.runtime.agent.cH - Extracting libs
+2019-04-12 19:46:21,058 INFO  [main] eu.plumbr.runtime.agent.vf - Native library successfully loaded
+2019-04-12 19:46:21,059 INFO  [main] Native - Plumbr native logging started. Native agent version B2079 build B2079
+2019-04-12 19:46:21,059 INFO  [main] eu.plumbr.runtime.agent.cH - Starting native agent (disabled features: 0)
+2019-04-12 19:46:21,061 INFO  [main] Native - Abort signal handler installed.
+2019-04-12 19:49:24,438 INFO  [main] eu.plumbr.runtime.agent.uQ - Getting properties from file:/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar!/libs.md5
+2019-04-12 19:49:24,439 INFO  [main] eu.plumbr.runtime.agent.uQ - Getting properties from file:/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar!/libs.md5
+2019-04-12 19:49:24,465 INFO  [main] eu.plumbr.runtime.agent.vf - Native library successfully loaded
+2019-04-12 19:49:24,466 INFO  [main] Native - Plumbr native logging started. Native agent version B2079 build B2079
+2019-04-12 19:49:24,466 INFO  [main] eu.plumbr.runtime.agent.cH - Starting native agent (disabled features: 0)
+2019-04-12 19:49:24,469 INFO  [main] Native - Abort signal handler installed.
+2019-04-12 19:49:24,469 INFO  [main] Native - Status of loading Serviceability API symbols: bad_version
+2019-04-12 19:49:24,469 INFO  [main] eu.plumbr.runtime.agent.cH - Configured OOM queries to host: app.plumbr.io, port: 80, accountId: b9a69v1mbec4j0p8mslpji81r, sessionId: 005691NZGv48aHWTAxhLyBOFXSNHchW6g=
+2019-04-12 19:49:24,481 INFO  [main] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 19:49:24,501 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Generic instrumentation support probe
+2019-04-12 19:49:24,517 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Runtime Application Architecture Discovery
+2019-04-12 19:49:24,519 INFO  [main] eu.plumbr.runtime.agent.rC - Creating User Transaction instrumentations
+2019-04-12 19:49:24,523 INFO  [main] eu.plumbr.runtime.agent.rC - Enabling Swing Transaction instrumentations
+2019-04-12 19:49:24,523 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for User Transaction Monitoring
+2019-04-12 19:49:24,535 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Underprovisioned Thread Pool monitoring
+2019-04-12 19:49:24,535 INFO  [main] eu.plumbr.runtime.agent.pP - Enabling concurrent lock instrumentations
+2019-04-12 19:49:24,535 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Concurrent Lock Detection
+2019-04-12 19:49:24,536 INFO  [main] eu.plumbr.runtime.agent.fN - Enabling JDBC connection monitoring instrumentations
+2019-04-12 19:49:24,537 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for JDBC Statement monitoring
+2019-04-12 19:49:24,544 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for JDBC Slow Connection Initialization
+2019-04-12 19:49:24,547 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for HTTP Connection monitoring
+2019-04-12 19:49:24,556 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for MongoDB monitoring
+2019-04-12 19:49:24,560 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Lucene monitoring
+2019-04-12 19:49:24,561 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Identity Detection
+2019-04-12 19:49:25,324 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.iJ - Trying to connect via HTTP
+2019-04-12 19:49:25,816 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.ww - Initialising native time with timestamp: 1555069765723, drift: 93ms
+2019-04-12 19:49:25,827 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.cO - Enabled probes: [user_transaction_monitoring, timings, thread_pool_monitoring, concurrent_lock, heap, operation_tracker, instrumentation_error, http_failed_requests, raa, gc, throwable, jdbc_driver, system_global_counters, agent_logs, contention, class_stats, http_connection_monitoring, network_log, allocation_stats, file_monitoring, global_transaction, jdbc_slow_result_set, browser_helper, gcmbean, identity_detection, jdbc_statement_monitoring, session_attribute_monitoring, lucene_monitoring, ejb_transaction, mongo_monitoring, swing_transaction, sampler]
+2019-04-12 19:49:25,848 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.rB - Switching on user transaction monitoring probe
+2019-04-12 19:49:25,849 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.rx - Initializing transaction manager to the default implementation
+2019-04-12 19:49:25,850 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.rk - DefaultTransactionManager initialized
+2019-04-12 19:49:25,850 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.rk - Scheduling stuck transaction monitor.
+2019-04-12 19:49:25,857 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 19:49:25,857 INFO  [Plumbr thread - 1] eu.plumbr.runtime.agent.wb - Deleting old file: /home/meirh/work/java/PopcornPinYin/lib/plumbr/tmp/plumbr/3399_plumbr
+2019-04-12 19:49:25,857 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.tM - Enabled user trackers: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 19:49:25,858 INFO  [Plumbr thread - 2] e.p.r.a.i.u.AbstractFeatureSwitchingTransactionIntegration - ejb_transaction switched on
+2019-04-12 19:49:25,858 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.cO - Plumbr session 005691NZGv48aHWTAxhLyBOFXSNHchW6g= started
+2019-04-12 19:52:46,114 INFO  [Plumbr thread - 5] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 19:52:46,114 INFO  [Plumbr thread - 5] eu.plumbr.runtime.agent.tM - Enabled user trackers: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 19:57:51,278 INFO  [Plumbr thread - 5] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 19:57:51,278 INFO  [Plumbr thread - 5] eu.plumbr.runtime.agent.tM - Enabled user trackers: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 19:59:27,095 INFO  [main] eu.plumbr.runtime.agent.vf - Native library successfully loaded
+2019-04-12 19:59:27,096 INFO  [main] Native - Plumbr native logging started. Native agent version B2079 build B2079
+2019-04-12 19:59:27,164 INFO  [main] eu.plumbr.runtime.agent.ow - Running forked OOM process for OOM in oom_1555070361414.
+2019-04-12 19:59:27,238 INFO  [main] eu.plumbr.runtime.agent.op - Processing OOM dump in /home/meirh/work/java/PopcornPinYin/lib/plumbr/tmp/plumbr/oom_1555070361414.
+2019-04-12 20:00:05,086 INFO  [main] eu.plumbr.runtime.agent.on - OOM dump oom_1555070361414 successfully uploaded.
+2019-04-12 20:14:52,274 INFO  [main] eu.plumbr.runtime.agent.uQ - Getting properties from file:/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar!/libs.md5
+2019-04-12 20:14:52,275 INFO  [main] eu.plumbr.runtime.agent.uQ - Getting properties from file:/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar!/libs.md5
+2019-04-12 20:14:52,299 INFO  [main] eu.plumbr.runtime.agent.vf - Native library successfully loaded
+2019-04-12 20:14:52,299 INFO  [main] Native - Plumbr native logging started. Native agent version B2079 build B2079
+2019-04-12 20:14:52,299 INFO  [main] eu.plumbr.runtime.agent.cH - Starting native agent (disabled features: 0)
+2019-04-12 20:14:52,302 INFO  [main] Native - Abort signal handler installed.
+2019-04-12 20:14:52,302 INFO  [main] Native - Status of loading Serviceability API symbols: bad_version
+2019-04-12 20:14:52,302 INFO  [main] eu.plumbr.runtime.agent.cH - Configured OOM queries to host: app.plumbr.io, port: 80, accountId: b9a69v1mbec4j0p8mslpji81r, sessionId: 005691jhh9wPrGQIaELRU9nn-mnhMF7rM=
+2019-04-12 20:14:52,315 INFO  [main] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 20:14:52,334 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Generic instrumentation support probe
+2019-04-12 20:14:52,346 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Runtime Application Architecture Discovery
+2019-04-12 20:14:52,347 INFO  [main] eu.plumbr.runtime.agent.rC - Creating User Transaction instrumentations
+2019-04-12 20:14:52,350 INFO  [main] eu.plumbr.runtime.agent.rC - Enabling Swing Transaction instrumentations
+2019-04-12 20:14:52,351 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for User Transaction Monitoring
+2019-04-12 20:14:52,362 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Underprovisioned Thread Pool monitoring
+2019-04-12 20:14:52,362 INFO  [main] eu.plumbr.runtime.agent.pP - Enabling concurrent lock instrumentations
+2019-04-12 20:14:52,363 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Concurrent Lock Detection
+2019-04-12 20:14:52,363 INFO  [main] eu.plumbr.runtime.agent.fN - Enabling JDBC connection monitoring instrumentations
+2019-04-12 20:14:52,364 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for JDBC Statement monitoring
+2019-04-12 20:14:52,373 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for JDBC Slow Connection Initialization
+2019-04-12 20:14:52,377 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for HTTP Connection monitoring
+2019-04-12 20:14:52,384 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for MongoDB monitoring
+2019-04-12 20:14:52,388 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Lucene monitoring
+2019-04-12 20:14:52,390 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Identity Detection
+2019-04-12 20:14:53,264 INFO  [Plumbr thread - 4] eu.plumbr.runtime.agent.iJ - Trying to connect via HTTP
+2019-04-12 20:14:54,092 INFO  [Plumbr thread - 4] eu.plumbr.runtime.agent.ww - Initialising native time with timestamp: 1555071294020, drift: 72ms
+2019-04-12 20:14:54,098 INFO  [Plumbr thread - 4] eu.plumbr.runtime.agent.cO - Enabled probes: [user_transaction_monitoring, swing_transaction, thread_pool_monitoring, concurrent_lock, heap, ejb_transaction, operation_tracker, instrumentation_error, http_failed_requests, raa, gc, throwable, jdbc_driver, system_global_counters, agent_logs, session_attribute_monitoring, contention, global_transaction, timings, class_stats, http_connection_monitoring, network_log, allocation_stats, file_monitoring, browser_helper, gcmbean, identity_detection, jdbc_statement_monitoring, lucene_monitoring, mongo_monitoring, sampler, jdbc_slow_result_set]
+2019-04-12 20:14:54,112 INFO  [Plumbr thread - 4] eu.plumbr.runtime.agent.rB - Switching on user transaction monitoring probe
+2019-04-12 20:14:54,113 INFO  [Plumbr thread - 4] eu.plumbr.runtime.agent.rx - Initializing transaction manager to the default implementation
+2019-04-12 20:14:54,113 INFO  [Plumbr thread - 4] eu.plumbr.runtime.agent.rk - DefaultTransactionManager initialized
+2019-04-12 20:14:54,113 INFO  [Plumbr thread - 4] eu.plumbr.runtime.agent.rk - Scheduling stuck transaction monitor.
+2019-04-12 20:14:54,121 INFO  [Plumbr thread - 4] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 20:14:54,122 INFO  [Plumbr thread - 1] eu.plumbr.runtime.agent.wb - Deleting old file: /home/meirh/work/java/PopcornPinYin/lib/plumbr/tmp/plumbr/4878_plumbr
+2019-04-12 20:14:54,122 INFO  [Plumbr thread - 4] eu.plumbr.runtime.agent.tM - Enabled user trackers: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:14:54,123 INFO  [Plumbr thread - 4] e.p.r.a.i.u.AbstractFeatureSwitchingTransactionIntegration - ejb_transaction switched on
+2019-04-12 20:14:54,123 INFO  [Plumbr thread - 4] eu.plumbr.runtime.agent.cO - Plumbr session 005691jhh9wPrGQIaELRU9nn-mnhMF7rM= started
+2019-04-12 20:18:09,365 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 20:18:09,366 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.tM - Enabled user trackers: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:23:14,510 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 20:23:14,510 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.tM - Enabled user trackers: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:28:19,611 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 20:28:19,611 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.tM - Enabled user trackers: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:33:24,627 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 20:33:24,627 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.tM - Enabled user trackers: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:38:29,693 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 20:38:29,693 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.tM - Enabled user trackers: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:43:34,587 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 20:43:34,587 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.tM - Enabled user trackers: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:53:08,370 INFO  [main] eu.plumbr.runtime.agent.uQ - Getting properties from file:/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar!/libs.md5
+2019-04-12 20:53:08,371 INFO  [main] eu.plumbr.runtime.agent.uQ - Getting properties from file:/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar!/libs.md5
+2019-04-12 20:53:08,391 INFO  [main] eu.plumbr.runtime.agent.vf - Native library successfully loaded
+2019-04-12 20:53:08,392 INFO  [main] Native - Plumbr native logging started. Native agent version B2079 build B2079
+2019-04-12 20:53:08,392 INFO  [main] eu.plumbr.runtime.agent.cH - Starting native agent (disabled features: 0)
+2019-04-12 20:53:08,394 INFO  [main] Native - Abort signal handler installed.
+2019-04-12 20:53:08,395 INFO  [main] Native - Status of loading Serviceability API symbols: bad_version
+2019-04-12 20:53:08,395 INFO  [main] eu.plumbr.runtime.agent.cH - Configured OOM queries to host: app.plumbr.io, port: 80, accountId: b9a69v1mbec4j0p8mslpji81r, sessionId: 005691X5ggJ1VoAxjy1w3XdY5btSg8a3I=
+2019-04-12 20:53:08,409 INFO  [main] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 20:53:08,424 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Generic instrumentation support probe
+2019-04-12 20:53:08,441 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Runtime Application Architecture Discovery
+2019-04-12 20:53:08,443 INFO  [main] eu.plumbr.runtime.agent.rC - Creating User Transaction instrumentations
+2019-04-12 20:53:08,446 INFO  [main] eu.plumbr.runtime.agent.rC - Enabling Swing Transaction instrumentations
+2019-04-12 20:53:08,446 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for User Transaction Monitoring
+2019-04-12 20:53:08,456 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Underprovisioned Thread Pool monitoring
+2019-04-12 20:53:08,457 INFO  [main] eu.plumbr.runtime.agent.pP - Enabling concurrent lock instrumentations
+2019-04-12 20:53:08,457 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Concurrent Lock Detection
+2019-04-12 20:53:08,457 INFO  [main] eu.plumbr.runtime.agent.fN - Enabling JDBC connection monitoring instrumentations
+2019-04-12 20:53:08,459 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for JDBC Statement monitoring
+2019-04-12 20:53:08,467 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for JDBC Slow Connection Initialization
+2019-04-12 20:53:08,470 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for HTTP Connection monitoring
+2019-04-12 20:53:08,478 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for MongoDB monitoring
+2019-04-12 20:53:08,481 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Lucene monitoring
+2019-04-12 20:53:08,482 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Identity Detection
+2019-04-12 20:53:09,398 INFO  [Plumbr thread - 3] eu.plumbr.runtime.agent.iJ - Trying to connect via HTTP

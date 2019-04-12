@@ -79,6 +79,7 @@ class PreProcessor {
             hanzi2index.put(c, hanziIndex);
             hanzi2pinyin[hanziIndex++] = new ArrayList<>();
         }
+        hanziBufferReader.close();
 
         BufferedReader pinyinBufferReader =
                 new BufferedReader(new FileReader(corpusPath + File.separator + "pinyin.txt"));
@@ -95,6 +96,7 @@ class PreProcessor {
             }
             pinyinIndex++;
         }
+        pinyinBufferReader.close();
     }
 
     public String toString() {

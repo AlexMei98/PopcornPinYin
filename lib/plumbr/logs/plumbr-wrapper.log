@@ -1,0 +1,63 @@
+2019-04-12 19:46:19,482 DEBUG [main] e.p.w.d.DistributionLoader - Scanning for distributions with BundledDistributionScanner
+2019-04-12 19:46:19,483 DEBUG [main] e.p.w.d.b.BundledDistributionScanner - Determined bundled distribution: version 19.03.20.5691 path plumbr-agent-19.03.20.5691.jar.
+2019-04-12 19:46:19,483 DEBUG [main] e.p.w.d.b.BundledDistributionScanner - Bundled distribution JAR present in classpath.
+2019-04-12 19:46:19,483 DEBUG [main] e.p.w.d.DistributionRegistry - Builder for version 19.03.20.5691 created.
+2019-04-12 19:46:19,484 DEBUG [main] e.p.w.d.DistributionBuilder - Assigned bundled distribution BundledDistribution{version=19.03.20.5691,path=/plumbr-agent-19.03.20.5691.jar,hash=81c668c5b9266e312c7443369f126fac5d6e8578e43fe45600e1cdbc07c2bcf0}.
+2019-04-12 19:46:19,484 DEBUG [main] e.p.w.d.DistributionLoader - Scanning for distributions with ExtractedDistributionScanner
+2019-04-12 19:46:19,484 DEBUG [main] e.p.w.d.DistributionLoader - Version to use is not explicitly specified, choosing latest valid version.
+2019-04-12 19:46:19,484 DEBUG [main] e.p.w.d.DistributionRegistry - Choosing latest version among 1 detected versions.
+2019-04-12 19:46:19,485 DEBUG [main] e.p.w.d.DistributionRegistry - Attempting to prepare version 19.03.20.5691.
+2019-04-12 19:46:19,485 DEBUG [main] e.p.w.d.DistributionBuilder - Extracting bundled distribution BundledDistribution{version=19.03.20.5691,path=/plumbr-agent-19.03.20.5691.jar,hash=81c668c5b9266e312c7443369f126fac5d6e8578e43fe45600e1cdbc07c2bcf0}.
+2019-04-12 19:46:19,530 DEBUG [main] e.p.w.d.e.DistributionValidator - Validation file does not exist, not performing weak validation.
+2019-04-12 19:46:19,530 DEBUG [main] e.p.w.d.e.DistributionValidator - Performing strong validation on BundledDistribution{version=19.03.20.5691,jarLocation=/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar,hash=81c668c5b9266e312c7443369f126fac5d6e8578e43fe45600e1cdbc07c2bcf0}
+2019-04-12 19:46:19,593 DEBUG [main] e.p.w.d.e.DistributionValidator - Distribution BundledDistribution{version=19.03.20.5691,jarLocation=/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar,hash=81c668c5b9266e312c7443369f126fac5d6e8578e43fe45600e1cdbc07c2bcf0} is valid (strong validation).
+2019-04-12 19:46:19,603 DEBUG [main] e.p.w.d.DistributionBuilder - Bundled distribution BundledDistribution{version=19.03.20.5691,path=/plumbr-agent-19.03.20.5691.jar,hash=81c668c5b9266e312c7443369f126fac5d6e8578e43fe45600e1cdbc07c2bcf0} validation successful.
+2019-04-12 19:46:19,603 INFO  [main] eu.plumbr.wrapper.AgentEntryPoint - Selected extracted distribution BundledDistribution{version=19.03.20.5691,jarLocation=/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar,hash=81c668c5b9266e312c7443369f126fac5d6e8578e43fe45600e1cdbc07c2bcf0}.
+2019-04-12 19:46:19,607 DEBUG [main] eu.plumbr.wrapper.AgentEntryPoint - System property sun.boot.class.path is not present.
+2019-04-12 19:46:19,609 INFO  [main] e.p.w.tools.Jdk9ClassPathTools - Injected agent JAR to bootloader classloader resource classpath.
+2019-04-12 19:46:21,062 INFO  [main] eu.plumbr.wrapper.AgentEntryPoint - Synchronous agent bootstrap finished.
+2019-04-12 19:49:23,092 DEBUG [main] e.p.w.d.DistributionLoader - Scanning for distributions with BundledDistributionScanner
+2019-04-12 19:49:23,093 DEBUG [main] e.p.w.d.b.BundledDistributionScanner - Determined bundled distribution: version 19.03.20.5691 path plumbr-agent-19.03.20.5691.jar.
+2019-04-12 19:49:23,094 DEBUG [main] e.p.w.d.b.BundledDistributionScanner - Bundled distribution JAR present in classpath.
+2019-04-12 19:49:23,094 DEBUG [main] e.p.w.d.DistributionRegistry - Builder for version 19.03.20.5691 created.
+2019-04-12 19:49:23,095 DEBUG [main] e.p.w.d.DistributionBuilder - Assigned bundled distribution BundledDistribution{version=19.03.20.5691,path=/plumbr-agent-19.03.20.5691.jar,hash=81c668c5b9266e312c7443369f126fac5d6e8578e43fe45600e1cdbc07c2bcf0}.
+2019-04-12 19:49:23,095 DEBUG [main] e.p.w.d.DistributionLoader - Scanning for distributions with ExtractedDistributionScanner
+2019-04-12 19:49:23,095 DEBUG [main] e.p.w.d.DistributionBuilder - Assigned extracted distribution BundledDistribution{version=19.03.20.5691,jarLocation=/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar,hash=81c668c5b9266e312c7443369f126fac5d6e8578e43fe45600e1cdbc07c2bcf0}.
+2019-04-12 19:49:23,096 DEBUG [main] e.p.w.d.DistributionLoader - Version to use is not explicitly specified, choosing latest valid version.
+2019-04-12 19:49:23,096 DEBUG [main] e.p.w.d.DistributionRegistry - Choosing latest version among 1 detected versions.
+2019-04-12 19:49:23,096 DEBUG [main] e.p.w.d.DistributionRegistry - Attempting to prepare version 19.03.20.5691.
+2019-04-12 19:49:23,101 DEBUG [main] e.p.w.d.e.DistributionValidator - Distribution BundledDistribution{version=19.03.20.5691,jarLocation=/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar,hash=81c668c5b9266e312c7443369f126fac5d6e8578e43fe45600e1cdbc07c2bcf0} is valid (weak validation).
+2019-04-12 19:49:23,101 INFO  [main] eu.plumbr.wrapper.AgentEntryPoint - Selected extracted distribution BundledDistribution{version=19.03.20.5691,jarLocation=/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar,hash=81c668c5b9266e312c7443369f126fac5d6e8578e43fe45600e1cdbc07c2bcf0}.
+2019-04-12 19:49:23,105 DEBUG [main] eu.plumbr.wrapper.AgentEntryPoint - System property sun.boot.class.path is not present.
+2019-04-12 19:49:23,106 INFO  [main] e.p.w.tools.Jdk9ClassPathTools - Injected agent JAR to bootloader classloader resource classpath.
+2019-04-12 19:49:25,245 INFO  [main] eu.plumbr.wrapper.AgentEntryPoint - Synchronous agent bootstrap finished.
+2019-04-12 20:14:50,939 DEBUG [main] e.p.w.d.DistributionLoader - Scanning for distributions with BundledDistributionScanner
+2019-04-12 20:14:50,940 DEBUG [main] e.p.w.d.b.BundledDistributionScanner - Determined bundled distribution: version 19.03.20.5691 path plumbr-agent-19.03.20.5691.jar.
+2019-04-12 20:14:50,941 DEBUG [main] e.p.w.d.b.BundledDistributionScanner - Bundled distribution JAR present in classpath.
+2019-04-12 20:14:50,941 DEBUG [main] e.p.w.d.DistributionRegistry - Builder for version 19.03.20.5691 created.
+2019-04-12 20:14:50,942 DEBUG [main] e.p.w.d.DistributionBuilder - Assigned bundled distribution BundledDistribution{version=19.03.20.5691,path=/plumbr-agent-19.03.20.5691.jar,hash=81c668c5b9266e312c7443369f126fac5d6e8578e43fe45600e1cdbc07c2bcf0}.
+2019-04-12 20:14:50,942 DEBUG [main] e.p.w.d.DistributionLoader - Scanning for distributions with ExtractedDistributionScanner
+2019-04-12 20:14:50,942 DEBUG [main] e.p.w.d.DistributionBuilder - Assigned extracted distribution BundledDistribution{version=19.03.20.5691,jarLocation=/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar,hash=81c668c5b9266e312c7443369f126fac5d6e8578e43fe45600e1cdbc07c2bcf0}.
+2019-04-12 20:14:50,942 DEBUG [main] e.p.w.d.DistributionLoader - Version to use is not explicitly specified, choosing latest valid version.
+2019-04-12 20:14:50,943 DEBUG [main] e.p.w.d.DistributionRegistry - Choosing latest version among 1 detected versions.
+2019-04-12 20:14:50,943 DEBUG [main] e.p.w.d.DistributionRegistry - Attempting to prepare version 19.03.20.5691.
+2019-04-12 20:14:50,947 DEBUG [main] e.p.w.d.e.DistributionValidator - Distribution BundledDistribution{version=19.03.20.5691,jarLocation=/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar,hash=81c668c5b9266e312c7443369f126fac5d6e8578e43fe45600e1cdbc07c2bcf0} is valid (weak validation).
+2019-04-12 20:14:50,947 INFO  [main] eu.plumbr.wrapper.AgentEntryPoint - Selected extracted distribution BundledDistribution{version=19.03.20.5691,jarLocation=/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar,hash=81c668c5b9266e312c7443369f126fac5d6e8578e43fe45600e1cdbc07c2bcf0}.
+2019-04-12 20:14:50,951 DEBUG [main] eu.plumbr.wrapper.AgentEntryPoint - System property sun.boot.class.path is not present.
+2019-04-12 20:14:50,953 INFO  [main] e.p.w.tools.Jdk9ClassPathTools - Injected agent JAR to bootloader classloader resource classpath.
+2019-04-12 20:14:53,094 INFO  [main] eu.plumbr.wrapper.AgentEntryPoint - Synchronous agent bootstrap finished.
+2019-04-12 20:53:06,434 DEBUG [main] e.p.w.d.DistributionLoader - Scanning for distributions with BundledDistributionScanner
+2019-04-12 20:53:06,435 DEBUG [main] e.p.w.d.b.BundledDistributionScanner - Determined bundled distribution: version 19.03.20.5691 path plumbr-agent-19.03.20.5691.jar.
+2019-04-12 20:53:06,436 DEBUG [main] e.p.w.d.b.BundledDistributionScanner - Bundled distribution JAR present in classpath.
+2019-04-12 20:53:06,436 DEBUG [main] e.p.w.d.DistributionRegistry - Builder for version 19.03.20.5691 created.
+2019-04-12 20:53:06,436 DEBUG [main] e.p.w.d.DistributionBuilder - Assigned bundled distribution BundledDistribution{version=19.03.20.5691,path=/plumbr-agent-19.03.20.5691.jar,hash=81c668c5b9266e312c7443369f126fac5d6e8578e43fe45600e1cdbc07c2bcf0}.
+2019-04-12 20:53:06,436 DEBUG [main] e.p.w.d.DistributionLoader - Scanning for distributions with ExtractedDistributionScanner
+2019-04-12 20:53:06,436 DEBUG [main] e.p.w.d.DistributionBuilder - Assigned extracted distribution BundledDistribution{version=19.03.20.5691,jarLocation=/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar,hash=81c668c5b9266e312c7443369f126fac5d6e8578e43fe45600e1cdbc07c2bcf0}.
+2019-04-12 20:53:06,436 DEBUG [main] e.p.w.d.DistributionLoader - Version to use is not explicitly specified, choosing latest valid version.
+2019-04-12 20:53:06,437 DEBUG [main] e.p.w.d.DistributionRegistry - Choosing latest version among 1 detected versions.
+2019-04-12 20:53:06,437 DEBUG [main] e.p.w.d.DistributionRegistry - Attempting to prepare version 19.03.20.5691.
+2019-04-12 20:53:06,441 DEBUG [main] e.p.w.d.e.DistributionValidator - Distribution BundledDistribution{version=19.03.20.5691,jarLocation=/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar,hash=81c668c5b9266e312c7443369f126fac5d6e8578e43fe45600e1cdbc07c2bcf0} is valid (weak validation).
+2019-04-12 20:53:06,441 INFO  [main] eu.plumbr.wrapper.AgentEntryPoint - Selected extracted distribution BundledDistribution{version=19.03.20.5691,jarLocation=/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar,hash=81c668c5b9266e312c7443369f126fac5d6e8578e43fe45600e1cdbc07c2bcf0}.
+2019-04-12 20:53:06,445 DEBUG [main] eu.plumbr.wrapper.AgentEntryPoint - System property sun.boot.class.path is not present.
+2019-04-12 20:53:06,446 INFO  [main] e.p.w.tools.Jdk9ClassPathTools - Injected agent JAR to bootloader classloader resource classpath.
+2019-04-12 20:53:09,256 INFO  [main] eu.plumbr.wrapper.AgentEntryPoint - Synchronous agent bootstrap finished.

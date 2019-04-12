@@ -1,0 +1,938 @@
+2019-04-12 19:46:19,717 DEBUG [main] eu.plumbr.runtime.agent.bX - Going to run Plumbr Agent with configuration: conf.sessionId=005691Xp5WsfehR3FLcOcb6R84_i1UMGE=
+env.classPath=/home/meirh/work/java/PopcornPinYin/out/production/PopcornPinYin:/home/meirh/work/java/PopcornPinYin/lib/gson-2.8.5.jar:/home/meirh/work/java/PopcornPinYin/lib/hanlp-1.7.2.jar:/home/meirh/work/java/PopcornPinYin/lib/junit-4.12.jar:/home/meirh/work/java/PopcornPinYin/lib/hamcrest-core-1.3.jar
+env.cpuCoreCount=8
+env.javaRuntimeVersion=10.0.2+13-Ubuntu-1ubuntu0.18.04.4
+env.javaVendor=Oracle Corporation
+env.javaVersion=10.0.2
+env.maxMemory=4133486592
+env.maxPermGen=-1
+env.name=3399@meirh-XPS-13-9360
+env.osArch=amd64
+env.osName=Linux
+env.osVersion=4.15.0-47-generic
+env.startTimeMillis=1555069579696
+env.sun.java.command=com.rainytiger.www.PopcornPinYin.MainTest
+env.timeZoneId=Asia/Shanghai
+env.vmName=OpenJDK 64-Bit Server VM
+env.vmVendor=Oracle Corporation
+env.vmVersion=10.0.2+13-Ubuntu-1ubuntu0.18.04.4
+env.inputArguments=	-javaagent:./lib/plumbr/plumbr.jar \
+	-javaagent:/snap/intellij-idea-ultimate/133/lib/idea_rt.jar=39603:/snap/intellij-idea-ultimate/133/bin
+
+conf.clusterId=
+conf.buildNumber=5691
+conf.tmpDir=tmp
+conf.jvmId=
+conf.serverUrl=https://app.plumbr.io
+conf.logConf=plumbr-logback.xml
+conf.version=19.03.20
+conf.accountId=b9a69v1mbec4j0p8mslpji81r
+conf.agentWrapperVersion=19.03.20.5691
+conf.agentJarPath=/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar
+conf.agentWrapperJarPath=/home/meirh/work/java/PopcornPinYin/lib/plumbr/plumbr.jar
+conf.canChangeJvmKey=true
+conf.canChangeClusterName=true
+
+2019-04-12 19:46:20,976 ERROR [main] eu.plumbr.runtime.agent.cH - There are missing properties: at least one of [[clusterId, jvmId]] must be specified
+2019-04-12 19:46:21,002 INFO  [main] eu.plumbr.runtime.agent.uQ - Getting properties from file:/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar!/libs.md5
+2019-04-12 19:46:21,002 INFO  [main] eu.plumbr.runtime.agent.uQ - Getting properties from file:/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar!/libs.md5
+2019-04-12 19:46:21,003 INFO  [main] eu.plumbr.runtime.agent.cH - Extracting libs
+2019-04-12 19:46:21,004 DEBUG [main] org.zeroturnaround.zip.ZipUtil - Extracting '/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar' into '/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691'.
+2019-04-12 19:46:21,058 DEBUG [main] eu.plumbr.runtime.agent.vf - Trying to load library via System.loadLibrary
+2019-04-12 19:46:21,058 DEBUG [main] eu.plumbr.runtime.agent.vf - Failed, trying next
+2019-04-12 19:46:21,058 DEBUG [main] eu.plumbr.runtime.agent.vf - Looking for native libraries in directory /home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691
+2019-04-12 19:46:21,058 DEBUG [main] eu.plumbr.runtime.agent.vf - Trying to load library from /home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/lib/linux/64/libplumbr.so
+2019-04-12 19:46:21,058 INFO  [main] eu.plumbr.runtime.agent.vf - Native library successfully loaded
+2019-04-12 19:46:21,059 INFO  [main] Native - Plumbr native logging started. Native agent version B2079 build B2079
+2019-04-12 19:46:21,059 INFO  [main] eu.plumbr.runtime.agent.cH - Starting native agent (disabled features: 0)
+2019-04-12 19:46:21,061 INFO  [main] Native - Abort signal handler installed.
+2019-04-12 19:49:23,243 DEBUG [main] eu.plumbr.runtime.agent.bX - Going to run Plumbr Agent with configuration: conf.sessionId=005691NZGv48aHWTAxhLyBOFXSNHchW6g=
+env.classPath=/home/meirh/work/java/PopcornPinYin/out/production/PopcornPinYin:/home/meirh/work/java/PopcornPinYin/lib/gson-2.8.5.jar:/home/meirh/work/java/PopcornPinYin/lib/hanlp-1.7.2.jar:/home/meirh/work/java/PopcornPinYin/lib/junit-4.12.jar:/home/meirh/work/java/PopcornPinYin/lib/hamcrest-core-1.3.jar
+env.cpuCoreCount=8
+env.javaRuntimeVersion=10.0.2+13-Ubuntu-1ubuntu0.18.04.4
+env.javaVendor=Oracle Corporation
+env.javaVersion=10.0.2
+env.maxMemory=4133486592
+env.maxPermGen=-1
+env.name=4878@meirh-XPS-13-9360
+env.osArch=amd64
+env.osName=Linux
+env.osVersion=4.15.0-47-generic
+env.startTimeMillis=1555069763194
+env.sun.java.command=com.rainytiger.www.PopcornPinYin.MainTest
+env.timeZoneId=Asia/Shanghai
+env.vmName=OpenJDK 64-Bit Server VM
+env.vmVendor=Oracle Corporation
+env.vmVersion=10.0.2+13-Ubuntu-1ubuntu0.18.04.4
+env.inputArguments=	-javaagent:./lib/plumbr/plumbr.jar \
+	-javaagent:/snap/intellij-idea-ultimate/133/lib/idea_rt.jar=46005:/snap/intellij-idea-ultimate/133/bin
+
+conf.clusterId=
+conf.buildNumber=5691
+conf.tmpDir=tmp
+conf.jvmId=PopcornPinYin
+conf.serverUrl=https://app.plumbr.io
+conf.logConf=plumbr-logback.xml
+conf.version=19.03.20
+conf.accountId=b9a69v1mbec4j0p8mslpji81r
+conf.agentWrapperVersion=19.03.20.5691
+conf.agentJarPath=/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar
+conf.agentWrapperJarPath=/home/meirh/work/java/PopcornPinYin/lib/plumbr/plumbr.jar
+conf.canChangeJvmKey=true
+conf.canChangeClusterName=true
+
+2019-04-12 19:49:24,438 INFO  [main] eu.plumbr.runtime.agent.uQ - Getting properties from file:/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar!/libs.md5
+2019-04-12 19:49:24,439 INFO  [main] eu.plumbr.runtime.agent.uQ - Getting properties from file:/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar!/libs.md5
+2019-04-12 19:49:24,464 DEBUG [main] eu.plumbr.runtime.agent.vf - Trying to load library via System.loadLibrary
+2019-04-12 19:49:24,464 DEBUG [main] eu.plumbr.runtime.agent.vf - Failed, trying next
+2019-04-12 19:49:24,465 DEBUG [main] eu.plumbr.runtime.agent.vf - Looking for native libraries in directory /home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691
+2019-04-12 19:49:24,465 DEBUG [main] eu.plumbr.runtime.agent.vf - Trying to load library from /home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/lib/linux/64/libplumbr.so
+2019-04-12 19:49:24,465 INFO  [main] eu.plumbr.runtime.agent.vf - Native library successfully loaded
+2019-04-12 19:49:24,466 INFO  [main] Native - Plumbr native logging started. Native agent version B2079 build B2079
+2019-04-12 19:49:24,466 INFO  [main] eu.plumbr.runtime.agent.cH - Starting native agent (disabled features: 0)
+2019-04-12 19:49:24,469 INFO  [main] Native - Abort signal handler installed.
+2019-04-12 19:49:24,469 INFO  [main] Native - Status of loading Serviceability API symbols: bad_version
+2019-04-12 19:49:24,469 INFO  [main] eu.plumbr.runtime.agent.cH - Configured OOM queries to host: app.plumbr.io, port: 80, accountId: b9a69v1mbec4j0p8mslpji81r, sessionId: 005691NZGv48aHWTAxhLyBOFXSNHchW6g=
+2019-04-12 19:49:24,470 DEBUG [main] e.p.r.agent.fork.AgentStartupForker - No pending startup jobs found, not creating forked process.
+2019-04-12 19:49:24,474 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe instrumentation_error for monitoring Instrumentation errors reporting is registered
+2019-04-12 19:49:24,474 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe generic_instrumentation for monitoring Generic instrumentation support probe is registered
+2019-04-12 19:49:24,475 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe raa for monitoring Runtime Application Architecture Discovery is registered
+2019-04-12 19:49:24,481 INFO  [main] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 19:49:24,482 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe user_transaction_monitoring for monitoring User Transaction Monitoring is registered
+2019-04-12 19:49:24,482 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe browser_helper for monitoring Browser Helper is registered
+2019-04-12 19:49:24,483 DEBUG [main] eu.plumbr.runtime.agent.pJ - Starting lock contention probe: excludedLocks: [java/lang/ref/Reference$Lock, java/net/SocksSocketImpl, weblogic/socket/PosixSocketMuxer$1], excludedLockMethods: [sun/nio/ch/ServerSocketChannelImpl/accept, java/lang/ref/Reference$ReferenceHandler/run, com/sun/grizzly/util/SyncThreadPool$SyncThreadWorker/getTask, weblogic/socket/PosixSocketMuxer/processSockets]
+2019-04-12 19:49:24,483 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe contention for monitoring Lock Contention is registered
+2019-04-12 19:49:24,483 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe thread_pool_monitoring for monitoring Underprovisioned Thread Pool monitoring is registered
+2019-04-12 19:49:24,484 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe throwable for monitoring Monitoring of throwables is registered
+2019-04-12 19:49:24,484 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe concurrent_lock for monitoring Concurrent Lock Detection is registered
+2019-04-12 19:49:24,485 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe jdbc_statement_monitoring for monitoring JDBC Statement monitoring is registered
+2019-04-12 19:49:24,485 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe jdbc_driver for monitoring JDBC Slow Connection Initialization is registered
+2019-04-12 19:49:24,486 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe operation_tracker for monitoring Operation Tracker is registered
+2019-04-12 19:49:24,486 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe http_connection_monitoring for monitoring HTTP Connection monitoring is registered
+2019-04-12 19:49:24,486 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe mongo_monitoring for monitoring MongoDB monitoring is registered
+2019-04-12 19:49:24,487 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe lucene_monitoring for monitoring Lucene monitoring is registered
+2019-04-12 19:49:24,487 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe file_monitoring for monitoring File Operation monitoring is registered
+2019-04-12 19:49:24,487 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe network_log for monitoring Network Activity monitoring is registered
+2019-04-12 19:49:24,489 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe http_failed_requests for monitoring Failed Outgoing Request monitoring is registered
+2019-04-12 19:49:24,490 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe identity_detection for monitoring Identity Detection is registered
+2019-04-12 19:49:24,491 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe sampler for monitoring Sampler is registered
+2019-04-12 19:49:24,491 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe agent_logs for monitoring Agent Log Streaming is registered
+2019-04-12 19:49:24,491 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe allocation_stats for monitoring Allocation Statistics is registered
+2019-04-12 19:49:24,495 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe class_stats for monitoring Class Loading Statistics is registered
+2019-04-12 19:49:24,495 DEBUG [main] eu.plumbr.runtime.agent.qo - GC probe created
+2019-04-12 19:49:24,496 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe gc for monitoring Garbage Collection monitoring is registered
+2019-04-12 19:49:24,496 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe heap for monitoring Memory usage statistics is registered
+2019-04-12 19:49:24,497 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe gcmbean for monitoring GC Management Bean is registered
+2019-04-12 19:49:24,497 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe system_global_counters for monitoring Global Counters Probe is registered
+2019-04-12 19:49:24,497 DEBUG [main] eu.plumbr.runtime.agent.tN - Registering session attribute listener eu.plumbr.runtime.agent.un
+2019-04-12 19:49:24,501 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Generic instrumentation support probe
+2019-04-12 19:49:24,517 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Runtime Application Architecture Discovery
+2019-04-12 19:49:24,519 INFO  [main] eu.plumbr.runtime.agent.rC - Creating User Transaction instrumentations
+2019-04-12 19:49:24,523 INFO  [main] eu.plumbr.runtime.agent.rC - Enabling Swing Transaction instrumentations
+2019-04-12 19:49:24,523 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for User Transaction Monitoring
+2019-04-12 19:49:24,535 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Underprovisioned Thread Pool monitoring
+2019-04-12 19:49:24,535 INFO  [main] eu.plumbr.runtime.agent.pP - Enabling concurrent lock instrumentations
+2019-04-12 19:49:24,535 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Concurrent Lock Detection
+2019-04-12 19:49:24,536 INFO  [main] eu.plumbr.runtime.agent.fN - Enabling JDBC connection monitoring instrumentations
+2019-04-12 19:49:24,537 DEBUG [main] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: sql parameters logging enabled: false
+2019-04-12 19:49:24,537 DEBUG [main] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: max number of sql parameters logged: 1000
+2019-04-12 19:49:24,537 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for JDBC Statement monitoring
+2019-04-12 19:49:24,537 DEBUG [main] eu.plumbr.runtime.agent.fO - Interface based JDBC instrumentations enabled.
+2019-04-12 19:49:24,544 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for JDBC Slow Connection Initialization
+2019-04-12 19:49:24,547 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for HTTP Connection monitoring
+2019-04-12 19:49:24,556 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for MongoDB monitoring
+2019-04-12 19:49:24,560 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Lucene monitoring
+2019-04-12 19:49:24,561 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Identity Detection
+2019-04-12 19:49:24,563 DEBUG [main] eu.plumbr.runtime.agent.lP - Enabling spy retransformer.
+2019-04-12 19:49:24,565 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.px@4416d64f
+2019-04-12 19:49:24,565 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.cg@1fb19a0
+2019-04-12 19:49:24,566 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.kB@6ee4d9ab
+2019-04-12 19:49:24,566 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.jY@5a5338df
+2019-04-12 19:49:24,566 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.lo@418c5a9c
+2019-04-12 19:49:24,566 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.no@18e36d14
+2019-04-12 19:49:24,566 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.nj@5082d622
+2019-04-12 19:49:24,566 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.mX@13d4992d
+2019-04-12 19:49:24,566 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.dk@302f7971
+2019-04-12 19:49:24,566 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.lQ@332729ad
+2019-04-12 19:49:24,610 DEBUG [main] eu.plumbr.runtime.agent.jP - Deserialization class has been retransformed
+2019-04-12 19:49:24,617 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class java.util.concurrent.Executors$RunnableAdapter. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 19:49:24,618 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 19:49:24,618 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class java.util.concurrent.FutureTask. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 19:49:24,618 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class java.util.concurrent.ThreadPoolExecutor$Worker. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 19:49:24,631 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class java.nio.DirectByteBuffer$Deallocator. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 19:49:24,632 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class sun.nio.ch.FileChannelImpl$Closer. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 19:49:24,636 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class sun.nio.fs.NativeBuffer$Deallocator. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 19:49:24,637 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class jdk.internal.misc.InnocuousThread. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 19:49:24,637 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class jdk.internal.ref.CleanerImpl. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 19:49:24,640 DEBUG [main] eu.plumbr.runtime.agent.lP - Retransforming classes: sun.net.www.protocol.jrt.JavaRuntimeURLConnection;java.net.HttpURLConnection;java.util.concurrent.Executors$RunnableAdapter;java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask;java.util.concurrent.FutureTask;java.util.concurrent.ThreadPoolExecutor$Worker;java.net.Socket;java.util.concurrent.ThreadPoolExecutor;java.nio.DirectByteBuffer$Deallocator;sun.nio.ch.FileChannelImpl$Closer;java.nio.channels.spi.AbstractInterruptibleChannel;java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject;java.util.concurrent.locks.AbstractQueuedSynchronizer;sun.net.www.protocol.file.FileURLConnection;sun.net.www.URLConnection;sun.net.www.protocol.jar.JarURLConnection;java.net.JarURLConnection;java.net.URLConnection;sun.nio.fs.NativeBuffer$Deallocator;jdk.internal.misc.InnocuousThread;jdk.internal.ref.CleanerImpl;jdk.internal.loader.ClassLoaders$BootClassLoader;jdk.internal.loader.ClassLoaders$PlatformClassLoader;jdk.internal.loader.ClassLoaders$AppClassLoader;jdk.internal.loader.BuiltinClassLoader;jdk.internal.reflect.DelegatingClassLoader;java.lang.ClassLoader;
+2019-04-12 19:49:24,678 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: HUC_response_code): java.net.HttpURLConnection.getResponseCode ()I
+2019-04-12 19:49:24,679 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: HUC_header_field): java.net.HttpURLConnection.getHeaderField (I)Ljava/lang/String;
+2019-04-12 19:49:24,679 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: HUC_header_field_key): java.net.HttpURLConnection.getHeaderFieldKey (I)Ljava/lang/String;
+2019-04-12 19:49:24,679 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: HUC_response_message): java.net.HttpURLConnection.getResponseMessage ()Ljava/lang/String;
+2019-04-12 19:49:24,700 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.util.concurrent.Callable;
+java.lang.Object: retransform would add an interface
+2019-04-12 19:49:24,700 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): java.util.concurrent.Executors$RunnableAdapter.call ()Ljava/lang/Object;
+2019-04-12 19:49:24,700 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.util.concurrent.Executors$RunnableAdapter.<init> (Ljava/lang/Runnable;Ljava/lang/Object;)V
+2019-04-12 19:49:24,713 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.util.concurrent.RunnableFuture;java.util.concurrent.Future;java.util.concurrent.ScheduledFuture;java.util.concurrent.RunnableScheduledFuture;java.lang.Comparable;java.util.concurrent.Delayed;java.lang.Runnable;
+java.util.concurrent.FutureTaskjava.lang.Object: retransform would add an interface
+2019-04-12 19:49:24,714 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.<init> (Ljava/util/concurrent/ScheduledThreadPoolExecutor;Ljava/lang/Runnable;Ljava/lang/Object;JJ)V
+2019-04-12 19:49:24,714 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.<init> (Ljava/util/concurrent/ScheduledThreadPoolExecutor;Ljava/lang/Runnable;Ljava/lang/Object;JJJ)V
+2019-04-12 19:49:24,714 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.<init> (Ljava/util/concurrent/ScheduledThreadPoolExecutor;Ljava/util/concurrent/Callable;JJ)V
+2019-04-12 19:49:24,715 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run ()V
+2019-04-12 19:49:24,731 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.util.concurrent.RunnableFuture;java.util.concurrent.Future;java.lang.Runnable;
+java.lang.Object: retransform would add an interface
+2019-04-12 19:49:24,733 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.util.concurrent.FutureTask.<init> (Ljava/util/concurrent/Callable;)V
+2019-04-12 19:49:24,733 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.util.concurrent.FutureTask.<init> (Ljava/lang/Runnable;Ljava/lang/Object;)V
+2019-04-12 19:49:24,733 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): java.util.concurrent.FutureTask.run ()V
+2019-04-12 19:49:24,756 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.lang.Runnable;java.io.Serializable;
+java.util.concurrent.locks.AbstractQueuedSynchronizerjava.util.concurrent.locks.AbstractOwnableSynchronizerjava.lang.Object: retransform would add an interface
+2019-04-12 19:49:24,756 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.util.concurrent.ThreadPoolExecutor$Worker.<init> (Ljava/util/concurrent/ThreadPoolExecutor;Ljava/lang/Runnable;)V
+2019-04-12 19:49:24,757 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): java.util.concurrent.ThreadPoolExecutor$Worker.run ()V
+2019-04-12 19:49:24,786 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: downstream_socket_connect): java.net.Socket.connect (Ljava/net/SocketAddress;I)V
+2019-04-12 19:49:24,787 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: downstream_socket_close): java.net.Socket.close ()V
+2019-04-12 19:49:24,813 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: thread_pool_run): java.util.concurrent.ThreadPoolExecutor.beforeExecute (Ljava/lang/Thread;Ljava/lang/Runnable;)V
+2019-04-12 19:49:24,814 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: thread_pool_leave): java.util.concurrent.ThreadPoolExecutor.afterExecute (Ljava/lang/Runnable;Ljava/lang/Throwable;)V
+2019-04-12 19:49:24,814 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: concurrent_lock_ignore): java.util.concurrent.ThreadPoolExecutor.getTask ()Ljava/lang/Runnable;
+2019-04-12 19:49:24,814 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: thread_pool_exec): java.util.concurrent.ThreadPoolExecutor.execute (Ljava/lang/Runnable;)V
+2019-04-12 19:49:24,836 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.lang.Runnable;
+java.lang.Object: retransform would add an interface
+2019-04-12 19:49:24,836 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.nio.DirectByteBuffer$Deallocator.<init> (JJILjava/nio/DirectByteBuffer$1;)V
+2019-04-12 19:49:24,837 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.nio.DirectByteBuffer$Deallocator.<init> (JJI)V
+2019-04-12 19:49:24,837 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): java.nio.DirectByteBuffer$Deallocator.run ()V
+2019-04-12 19:49:24,851 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.lang.Runnable;
+java.lang.Object: retransform would add an interface
+2019-04-12 19:49:24,852 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): sun.nio.ch.FileChannelImpl$Closer.<init> (Ljava/io/FileDescriptor;)V
+2019-04-12 19:49:24,852 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): sun.nio.ch.FileChannelImpl$Closer.run ()V
+2019-04-12 19:49:24,869 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: downstream_socket_channel_close): java.nio.channels.spi.AbstractInterruptibleChannel.close ()V
+2019-04-12 19:49:24,887 DEBUG [main] eu.plumbr.runtime.agent.ng - Instrumenting method (sdef: abstract_queued_synchronizer): java/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject.await ()V
+2019-04-12 19:49:24,889 DEBUG [main] eu.plumbr.runtime.agent.ng - Instrumenting method (sdef: abstract_queued_synchronizer): java/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject.awaitNanos (J)J
+2019-04-12 19:49:24,908 DEBUG [main] eu.plumbr.runtime.agent.ng - Instrumenting method (sdef: abstract_queued_synchronizer): java/util/concurrent/locks/AbstractQueuedSynchronizer.acquireQueued (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;I)Z
+2019-04-12 19:49:24,909 DEBUG [main] eu.plumbr.runtime.agent.ng - Instrumenting method (sdef: abstract_queued_synchronizer): java/util/concurrent/locks/AbstractQueuedSynchronizer.doAcquireInterruptibly (I)V
+2019-04-12 19:49:24,909 DEBUG [main] eu.plumbr.runtime.agent.ng - Instrumenting method (sdef: abstract_queued_synchronizer): java/util/concurrent/locks/AbstractQueuedSynchronizer.doAcquireNanos (IJ)Z
+2019-04-12 19:49:24,909 DEBUG [main] eu.plumbr.runtime.agent.ng - Instrumenting method (sdef: abstract_queued_synchronizer): java/util/concurrent/locks/AbstractQueuedSynchronizer.doAcquireShared (I)V
+2019-04-12 19:49:24,909 DEBUG [main] eu.plumbr.runtime.agent.ng - Instrumenting method (sdef: abstract_queued_synchronizer): java/util/concurrent/locks/AbstractQueuedSynchronizer.doAcquireSharedInterruptibly (I)V
+2019-04-12 19:49:24,910 DEBUG [main] eu.plumbr.runtime.agent.ng - Instrumenting method (sdef: abstract_queued_synchronizer): java/util/concurrent/locks/AbstractQueuedSynchronizer.doAcquireSharedNanos (IJ)Z
+2019-04-12 19:49:24,974 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: UC_get_content): sun.net.www.protocol.jar.JarURLConnection.getContent ()Ljava/lang/Object;
+2019-04-12 19:49:25,021 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: UC_get_content): java.net.URLConnection.getContent ([Ljava/lang/Class;)Ljava/lang/Object;
+2019-04-12 19:49:25,022 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: UC_get_content): java.net.URLConnection.getContent ()Ljava/lang/Object;
+2019-04-12 19:49:25,049 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.lang.Runnable;
+java.lang.Object: retransform would add an interface
+2019-04-12 19:49:25,050 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): sun.nio.fs.NativeBuffer$Deallocator.<init> (J)V
+2019-04-12 19:49:25,051 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): sun.nio.fs.NativeBuffer$Deallocator.run ()V
+2019-04-12 19:49:25,067 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.lang.Runnable;
+java.lang.Threadjava.lang.Object: retransform would add an interface
+2019-04-12 19:49:25,068 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): jdk.internal.misc.InnocuousThread.<init> (Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;Ljava/lang/ClassLoader;)V
+2019-04-12 19:49:25,068 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): jdk.internal.misc.InnocuousThread.<init> (Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;Ljava/lang/ClassLoader;Ljdk/internal/misc/InnocuousThread$1;)V
+2019-04-12 19:49:25,068 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): jdk.internal.misc.InnocuousThread.run ()V
+2019-04-12 19:49:25,090 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.lang.Runnable;
+java.lang.Object: retransform would add an interface
+2019-04-12 19:49:25,091 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): jdk.internal.ref.CleanerImpl.<init> ()V
+2019-04-12 19:49:25,091 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): jdk.internal.ref.CleanerImpl.run ()V
+2019-04-12 19:49:25,216 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: THROWABLE_IGNORE): java.lang.ClassLoader.loadClass (Ljava/lang/String;)Ljava/lang/Class;
+2019-04-12 19:49:25,255 DEBUG [main] eu.plumbr.runtime.agent.lQ - Applying eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class com/intellij/rt/execution/application/AppMainV2$1 (applied to ancestor true)
+2019-04-12 19:49:25,259 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): com.intellij.rt.execution.application.AppMainV2$1.<init> (Ljava/lang/String;IZ)V
+2019-04-12 19:49:25,259 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): com.intellij.rt.execution.application.AppMainV2$1.run ()V
+2019-04-12 19:49:25,324 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.cO - Trying to connect to portal: 'https://app.plumbr.io'
+2019-04-12 19:49:25,324 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.iJ - Trying to connect via HTTP
+2019-04-12 19:49:25,816 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.ww - Initialising native time with timestamp: 1555069765723, drift: 93ms
+2019-04-12 19:49:25,818 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.jA - Received configuration override from Portal: accountId=b9a69v1mbec4j0p8mslpji81r;probes=heap,gc,contention,gcmbean,class_stats,allocation_stats,jdbc_statement_monitoring,jdbc_driver,ejb_transaction,user_transaction_monitoring,swing_transaction,http_connection_monitoring,throwable,instrumentation_error,timings,sampler,operation_tracker,agent_logs,lucene_monitoring,mongo_monitoring,file_monitoring,jdbc_slow_result_set,identity_detection,concurrent_lock,global_transaction,session_attribute_monitoring,network_log,raa,http_failed_requests,browser_helper,thread_pool_monitoring,system_global_counters;samplingDelay=625;utSamplingFilterEnabled=true;heapSnapshotMinIntervalMinutes=120;heapSnapshotHeapUsageThreshold=50;enabledUserTrackers=httpHeaders,jwt,browser,servlet-session,servlet-principal;samplesCountPerTransactionLimit=20;rootCauseThreshold=1000;downtimeThreshold=40000;utGeneralThreshold=5000;utStuckThreshold=500000
+2019-04-12 19:49:25,818 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.vv - Broadcasting configuration update, updated properties: {accountId=b9a69v1mbec4j0p8mslpji81r, rootCauseThreshold=1000, downtimeThreshold=40000, heapSnapshotMinIntervalMinutes=120, heapSnapshotHeapUsageThreshold=50, samplingDelay=625, samplesCountPerTransactionLimit=20, utGeneralThreshold=5000, probes=heap,gc,contention,gcmbean,class_stats,allocation_stats,jdbc_statement_monitoring,jdbc_driver,ejb_transaction,user_transaction_monitoring,swing_transaction,http_connection_monitoring,throwable,instrumentation_error,timings,sampler,operation_tracker,agent_logs,lucene_monitoring,mongo_monitoring,file_monitoring,jdbc_slow_result_set,identity_detection,concurrent_lock,global_transaction,session_attribute_monitoring,network_log,raa,http_failed_requests,browser_helper,thread_pool_monitoring,system_global_counters, utStuckThreshold=500000, enabledUserTrackers=httpHeaders,jwt,browser,servlet-session,servlet-principal, utSamplingFilterEnabled=true}
+2019-04-12 19:49:25,818 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.vx - Updated raw property rootCauseThreshold to value 1000
+2019-04-12 19:49:25,818 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.vx - Updated raw property downtimeThreshold to value 40000
+2019-04-12 19:49:25,818 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.vx - Updated configuration property heapSnapshotMinIntervalMinutes with 120. New value is 120.
+2019-04-12 19:49:25,818 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.vx - Updated configuration property heapSnapshotHeapUsageThreshold with 50. New value is 50.
+2019-04-12 19:49:25,818 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.vx - Updated configuration property samplingDelay with 625. New value is 625.
+2019-04-12 19:49:25,818 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.vx - Updated configuration property samplesCountPerTransactionLimit with 20. New value is 20.
+2019-04-12 19:49:25,819 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.vx - Updated raw property utGeneralThreshold to value 5000
+2019-04-12 19:49:25,819 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.vx - Updated configuration property probes with heap,gc,contention,gcmbean,class_stats,allocation_stats,jdbc_statement_monitoring,jdbc_driver,ejb_transaction,user_transaction_monitoring,swing_transaction,http_connection_monitoring,throwable,instrumentation_error,timings,sampler,operation_tracker,agent_logs,lucene_monitoring,mongo_monitoring,file_monitoring,jdbc_slow_result_set,identity_detection,concurrent_lock,global_transaction,session_attribute_monitoring,network_log,raa,http_failed_requests,browser_helper,thread_pool_monitoring,system_global_counters. New value is [user_transaction_monitoring, timings, thread_pool_monitoring, concurrent_lock, heap, operation_tracker, instrumentation_error, http_failed_requests, raa, gc, throwable, jdbc_driver, system_global_counters, agent_logs, contention, class_stats, http_connection_monitoring, network_log, allocation_stats, file_monitoring, global_transaction, jdbc_slow_result_set, browser_helper, gcmbean, identity_detection, jdbc_statement_monitoring, session_attribute_monitoring, lucene_monitoring, ejb_transaction, mongo_monitoring, swing_transaction, sampler].
+2019-04-12 19:49:25,819 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.vx - Updated raw property utStuckThreshold to value 500000
+2019-04-12 19:49:25,819 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.vx - Updated configuration property enabledUserTrackers with httpHeaders,jwt,browser,servlet-session,servlet-principal. New value is [httpHeaders, jwt, browser, servlet-session, servlet-principal].
+2019-04-12 19:49:25,819 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.vx - Updated configuration property utSamplingFilterEnabled with true. New value is true.
+2019-04-12 19:49:25,820 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.uF - Updated threshold configuration. {rootCauseThreshold=1000, downtimeThreshold=40000, utGeneralThreshold=5000, utStuckThreshold=500000}, {}
+2019-04-12 19:49:25,827 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.cO - Enabled probes: [user_transaction_monitoring, timings, thread_pool_monitoring, concurrent_lock, heap, operation_tracker, instrumentation_error, http_failed_requests, raa, gc, throwable, jdbc_driver, system_global_counters, agent_logs, contention, class_stats, http_connection_monitoring, network_log, allocation_stats, file_monitoring, global_transaction, jdbc_slow_result_set, browser_helper, gcmbean, identity_detection, jdbc_statement_monitoring, session_attribute_monitoring, lucene_monitoring, ejb_transaction, mongo_monitoring, swing_transaction, sampler]
+2019-04-12 19:49:25,847 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: instrumentation_error probe switched on
+2019-04-12 19:49:25,847 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: generic_instrumentation probe disabled
+2019-04-12 19:49:25,848 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: raa probe switched on
+2019-04-12 19:49:25,848 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.rB - Switching on user transaction monitoring probe
+2019-04-12 19:49:25,849 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.rx - Initializing transaction manager to the default implementation
+2019-04-12 19:49:25,850 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.rk - DefaultTransactionManager initialized
+2019-04-12 19:49:25,850 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.rk - Scheduling stuck transaction monitor.
+2019-04-12 19:49:25,850 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: user_transaction_monitoring probe switched on
+2019-04-12 19:49:25,850 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: browser_helper probe switched on
+2019-04-12 19:49:25,851 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: contention probe switched on
+2019-04-12 19:49:25,851 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: thread_pool_monitoring probe switched on
+2019-04-12 19:49:25,851 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: throwable probe switched on
+2019-04-12 19:49:25,851 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: concurrent_lock probe switched on
+2019-04-12 19:49:25,851 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: jdbc_statement_monitoring probe switched on
+2019-04-12 19:49:25,851 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: jdbc_driver probe switched on
+2019-04-12 19:49:25,851 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: operation_tracker probe switched on
+2019-04-12 19:49:25,852 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: http_connection_monitoring probe switched on
+2019-04-12 19:49:25,852 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: mongo_monitoring probe switched on
+2019-04-12 19:49:25,852 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: lucene_monitoring probe switched on
+2019-04-12 19:49:25,852 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: file_monitoring probe switched on
+2019-04-12 19:49:25,852 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: network_log probe switched on
+2019-04-12 19:49:25,852 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: http_failed_requests probe switched on
+2019-04-12 19:49:25,852 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: identity_detection probe switched on
+2019-04-12 19:49:25,852 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.ib - Sampler waked up.
+2019-04-12 19:49:25,852 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.ib - Sampling started: delay=625 ms; utFilterEnabled=true
+2019-04-12 19:49:25,852 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: sampler probe switched on
+2019-04-12 19:49:25,852 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: agent_logs probe switched on
+2019-04-12 19:49:25,853 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: allocation_stats probe switched on
+2019-04-12 19:49:25,853 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: class_stats probe switched on
+2019-04-12 19:49:25,854 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: gc probe switched on
+2019-04-12 19:49:25,855 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: heap probe switched on
+2019-04-12 19:49:25,855 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: gcmbean probe switched on
+2019-04-12 19:49:25,855 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.oZ - ProbeManager: system_global_counters probe switched on
+2019-04-12 19:49:25,857 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 19:49:25,857 INFO  [Plumbr thread - 1] eu.plumbr.runtime.agent.wb - Deleting old file: /home/meirh/work/java/PopcornPinYin/lib/plumbr/tmp/plumbr/3399_plumbr
+2019-04-12 19:49:25,857 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.tM - Enabled user trackers: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 19:49:25,858 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker jwt received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 19:49:25,858 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker browser received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 19:49:25,858 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker httpHeaders received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 19:49:25,858 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker servlet-session received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 19:49:25,858 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker servlet-principal received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 19:49:25,858 INFO  [Plumbr thread - 2] e.p.r.a.i.u.AbstractFeatureSwitchingTransactionIntegration - ejb_transaction switched on
+2019-04-12 19:49:25,858 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.iq - Swing/AWT transaction detection enabled: true
+2019-04-12 19:49:25,858 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: sql parameters logging enabled: false
+2019-04-12 19:49:25,858 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: max number of sql parameters logged: 1000
+2019-04-12 19:49:25,858 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.nO - Identity detection enabled: true
+2019-04-12 19:49:25,858 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.cO - Plumbr session 005691NZGv48aHWTAxhLyBOFXSNHchW6g= started
+2019-04-12 19:49:25,876 DEBUG [Plumbr thread - 2] e.p.r.agent.tools.timings.Timings - SpyClassTransformer.transform                                - total:        180 ms; count:         95; time/count:   1.894737 ms
+BytecodeScanner.isClassImplementingInterface                 - total:          0 ms; count:         16; time/count:   0.000000 ms
+SpyClassTransformer.transform_verify                         - total:        120 ms; count:         28; time/count:   4.285714 ms
+SpyClassRetransformer.retransform_retransform                - total:        602 ms; count:          1; time/count: 602.000000 ms
+eu.plumbr.runtime.agent.mX_transform                         - total:         55 ms; count:        109; time/count:   0.504587 ms
+BytecodeLoader.getClassDefinitionFromFilesystem              - total:         42 ms; count:        263; time/count:   0.159696 ms
+SpyClassTransformer.transform_InheritanceScannerVisitor      - total:         18 ms; count:        195; time/count:   0.092308 ms
+SpyClassTransformer.transform_local_timing                   - total:          4 ms; count:          2; time/count:   2.000000 ms
+BytecodeScanner.getInterfacesThatTypeImplements              - total:          3 ms; count:        563; time/count:   0.005329 ms
+BytecodeScanner.getClassInheritanceInformation               - total:         12 ms; count:        196; time/count:   0.061224 ms
+SpyClassTransformer.transform_sdefsLock                      - total:          2 ms; count:         93; time/count:   0.021505 ms
+SpyClassRetransformer.retransform_clazzmatch                 - total:         28 ms; count:          1; time/count:  28.000000 ms
+SpyClassTransformer.transform_integrationAncestorCheck       - total:          0 ms; count:          1; time/count:   0.000000 ms
+SpyClassTransformer.transform_methodAdvising                 - total:         27 ms; count:         26; time/count:   1.038462 ms
+eu.plumbr.runtime.agent.jY_transform                         - total:        125 ms; count:        358; time/count:   0.349162 ms
+SpyClassTransformer.transform_integration                    - total:          3 ms; count:          1; time/count:   3.000000 ms
+BytecodeLoader.getClassInfoOfType                            - total:         61 ms; count:       4255; time/count:   0.014336 ms
+Bootstrap                                                    - total:       2136 ms; count:          1; time/count: 2136.000000 ms
+ComputeClassWriter.getCommonSuperClass                       - total:         14 ms; count:        105; time/count:   0.133333 ms
+SpyClassTransformer.lookup                                   - total:          0 ms; count:         40; time/count:   0.000000 ms
+
+2019-04-12 19:49:25,877 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.nU - Firing event PLUMBR_STATUS_WARMUP
+2019-04-12 19:49:26,456 DEBUG [main] eu.plumbr.runtime.agent.jH - Made local module unnamed module @75d2da2d readable to module java.sql, for eu.plumbr.runtime.agent.mX: java/sql/Time.
+2019-04-12 19:49:26,456 DEBUG [main] eu.plumbr.runtime.agent.lQ - Applying eu.plumbr.runtime.agent.feature.io.jdbc.integration.SqlTimeIntegration integration definition on class java/sql/Time (applied to ancestor false)
+2019-04-12 19:49:26,461 DEBUG [main] eu.plumbr.runtime.agent.lQ - Applying eu.plumbr.runtime.agent.feature.io.jdbc.integration.SqlDateIntegration integration definition on class java/sql/Date (applied to ancestor false)
+2019-04-12 19:49:26,476 DEBUG [main] eu.plumbr.runtime.agent.lQ - Applying eu.plumbr.runtime.agent.feature.io.jdbc.integration.SqlTimestampIntegration integration definition on class java/sql/Timestamp (applied to ancestor false)
+2019-04-12 19:49:26,490 DEBUG [main] eu.plumbr.runtime.agent.jH - Made local module unnamed module @75d2da2d readable to module jdk.proxy1, for eu.plumbr.runtime.agent.mX: com/sun/proxy/jdk/proxy1/$Proxy5.
+2019-04-12 19:49:26,501 DEBUG [main] eu.plumbr.runtime.agent.jH - Made local module unnamed module @75d2da2d readable to module java.logging, for eu.plumbr.runtime.agent.mX: java/util/logging/Logger.
+2019-04-12 19:49:26,552 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: downstream_socket_channel_connect): java.nio.channels.SocketChannel.connect (Ljava/net/SocketAddress;)Z
+2019-04-12 19:52:46,113 DEBUG [Plumbr thread - 5] eu.plumbr.runtime.agent.jo - Got messages from server: [{"request":"config-update","updatedProperties":{"probes":"identity_detection,http_failed_requests,system_global_counters,class_stats,operation_tracker,user_transaction_monitoring,lucene_monitoring,instrumentation_error,raa,session_attribute_monitoring,timings,jdbc_driver,gc,heap,jdbc_statement_monitoring,ejb_transaction,thread_pool_monitoring,allocation_stats,browser_helper,throwable,concurrent_lock,file_monitoring,agent_logs,network_log,contention,sampler,swing_transaction,global_transaction,jdbc_slow_result_set,http_connection_monitoring,gcmbean,mongo_monitoring"}}]
+2019-04-12 19:52:46,113 DEBUG [Plumbr thread - 5] eu.plumbr.runtime.agent.vv - Broadcasting configuration update, updated properties: {probes=identity_detection,http_failed_requests,system_global_counters,class_stats,operation_tracker,user_transaction_monitoring,lucene_monitoring,instrumentation_error,raa,session_attribute_monitoring,timings,jdbc_driver,gc,heap,jdbc_statement_monitoring,ejb_transaction,thread_pool_monitoring,allocation_stats,browser_helper,throwable,concurrent_lock,file_monitoring,agent_logs,network_log,contention,sampler,swing_transaction,global_transaction,jdbc_slow_result_set,http_connection_monitoring,gcmbean,mongo_monitoring}
+2019-04-12 19:52:46,114 DEBUG [Plumbr thread - 5] eu.plumbr.runtime.agent.vx - Updated configuration property probes with identity_detection,http_failed_requests,system_global_counters,class_stats,operation_tracker,user_transaction_monitoring,lucene_monitoring,instrumentation_error,raa,session_attribute_monitoring,timings,jdbc_driver,gc,heap,jdbc_statement_monitoring,ejb_transaction,thread_pool_monitoring,allocation_stats,browser_helper,throwable,concurrent_lock,file_monitoring,agent_logs,network_log,contention,sampler,swing_transaction,global_transaction,jdbc_slow_result_set,http_connection_monitoring,gcmbean,mongo_monitoring. New value is [user_transaction_monitoring, timings, thread_pool_monitoring, concurrent_lock, heap, operation_tracker, http_failed_requests, instrumentation_error, raa, gc, throwable, system_global_counters, jdbc_driver, agent_logs, contention, class_stats, network_log, http_connection_monitoring, allocation_stats, file_monitoring, global_transaction, browser_helper, jdbc_slow_result_set, identity_detection, gcmbean, jdbc_statement_monitoring, session_attribute_monitoring, lucene_monitoring, ejb_transaction, mongo_monitoring, sampler, swing_transaction].
+2019-04-12 19:52:46,114 INFO  [Plumbr thread - 5] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 19:52:46,114 INFO  [Plumbr thread - 5] eu.plumbr.runtime.agent.tM - Enabled user trackers: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 19:52:46,114 DEBUG [Plumbr thread - 5] eu.plumbr.runtime.agent.tK - User tracker jwt received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 19:52:46,114 DEBUG [Plumbr thread - 5] eu.plumbr.runtime.agent.tK - User tracker browser received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 19:52:46,114 DEBUG [Plumbr thread - 5] eu.plumbr.runtime.agent.tK - User tracker httpHeaders received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 19:52:46,114 DEBUG [Plumbr thread - 5] eu.plumbr.runtime.agent.tK - User tracker servlet-session received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 19:52:46,114 DEBUG [Plumbr thread - 5] eu.plumbr.runtime.agent.tK - User tracker servlet-principal received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 19:52:46,115 DEBUG [Plumbr thread - 5] eu.plumbr.runtime.agent.iq - Swing/AWT transaction detection enabled: true
+2019-04-12 19:52:46,115 DEBUG [Plumbr thread - 5] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: sql parameters logging enabled: false
+2019-04-12 19:52:46,115 DEBUG [Plumbr thread - 5] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: max number of sql parameters logged: 1000
+2019-04-12 19:52:46,115 DEBUG [Plumbr thread - 5] eu.plumbr.runtime.agent.nO - Identity detection enabled: true
+2019-04-12 19:57:51,270 DEBUG [Plumbr thread - 5] eu.plumbr.runtime.agent.jo - Got messages from server: [{"request":"config-update","updatedProperties":{"probes":"identity_detection,http_failed_requests,system_global_counters,class_stats,operation_tracker,user_transaction_monitoring,lucene_monitoring,instrumentation_error,raa,session_attribute_monitoring,timings,jdbc_driver,gc,heap,jdbc_statement_monitoring,ejb_transaction,thread_pool_monitoring,allocation_stats,browser_helper,throwable,concurrent_lock,file_monitoring,agent_logs,network_log,contention,sampler,swing_transaction,global_transaction,jdbc_slow_result_set,http_connection_monitoring,gcmbean,mongo_monitoring"}}]
+2019-04-12 19:57:51,278 DEBUG [Plumbr thread - 5] eu.plumbr.runtime.agent.vv - Broadcasting configuration update, updated properties: {probes=identity_detection,http_failed_requests,system_global_counters,class_stats,operation_tracker,user_transaction_monitoring,lucene_monitoring,instrumentation_error,raa,session_attribute_monitoring,timings,jdbc_driver,gc,heap,jdbc_statement_monitoring,ejb_transaction,thread_pool_monitoring,allocation_stats,browser_helper,throwable,concurrent_lock,file_monitoring,agent_logs,network_log,contention,sampler,swing_transaction,global_transaction,jdbc_slow_result_set,http_connection_monitoring,gcmbean,mongo_monitoring}
+2019-04-12 19:57:51,278 DEBUG [Plumbr thread - 5] eu.plumbr.runtime.agent.vx - Updated configuration property probes with identity_detection,http_failed_requests,system_global_counters,class_stats,operation_tracker,user_transaction_monitoring,lucene_monitoring,instrumentation_error,raa,session_attribute_monitoring,timings,jdbc_driver,gc,heap,jdbc_statement_monitoring,ejb_transaction,thread_pool_monitoring,allocation_stats,browser_helper,throwable,concurrent_lock,file_monitoring,agent_logs,network_log,contention,sampler,swing_transaction,global_transaction,jdbc_slow_result_set,http_connection_monitoring,gcmbean,mongo_monitoring. New value is [user_transaction_monitoring, timings, thread_pool_monitoring, concurrent_lock, heap, operation_tracker, http_failed_requests, instrumentation_error, raa, gc, throwable, system_global_counters, jdbc_driver, agent_logs, contention, class_stats, network_log, http_connection_monitoring, allocation_stats, file_monitoring, global_transaction, browser_helper, jdbc_slow_result_set, identity_detection, gcmbean, jdbc_statement_monitoring, session_attribute_monitoring, lucene_monitoring, ejb_transaction, mongo_monitoring, sampler, swing_transaction].
+2019-04-12 19:57:51,278 INFO  [Plumbr thread - 5] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 19:57:51,278 INFO  [Plumbr thread - 5] eu.plumbr.runtime.agent.tM - Enabled user trackers: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 19:57:51,278 DEBUG [Plumbr thread - 5] eu.plumbr.runtime.agent.tK - User tracker jwt received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 19:57:51,279 DEBUG [Plumbr thread - 5] eu.plumbr.runtime.agent.tK - User tracker browser received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 19:57:51,279 DEBUG [Plumbr thread - 5] eu.plumbr.runtime.agent.tK - User tracker httpHeaders received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 19:57:51,279 DEBUG [Plumbr thread - 5] eu.plumbr.runtime.agent.tK - User tracker servlet-session received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 19:57:51,279 DEBUG [Plumbr thread - 5] eu.plumbr.runtime.agent.tK - User tracker servlet-principal received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 19:57:51,279 DEBUG [Plumbr thread - 5] eu.plumbr.runtime.agent.iq - Swing/AWT transaction detection enabled: true
+2019-04-12 19:57:51,279 DEBUG [Plumbr thread - 5] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: sql parameters logging enabled: false
+2019-04-12 19:57:51,279 DEBUG [Plumbr thread - 5] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: max number of sql parameters logged: 1000
+2019-04-12 19:57:51,279 DEBUG [Plumbr thread - 5] eu.plumbr.runtime.agent.nO - Identity detection enabled: true
+2019-04-12 19:59:26,906 DEBUG [Thread-0] eu.plumbr.runtime.agent.cX - Sending shutdown notification to server.
+2019-04-12 19:59:26,906 DEBUG [Plumbr thread - 6] eu.plumbr.runtime.agent.lv - Error submitting value from instrumented code: 
+java.lang.OutOfMemoryError: Java heap space
+	at java.base/java.util.Arrays$ArrayList.iterator(Arrays.java:4409)
+	at java.base/java.util.Collections$UnmodifiableCollection$1.<init>(Collections.java:1040)
+	at java.base/java.util.Collections$UnmodifiableCollection.iterator(Collections.java:1039)
+	at eu.plumbr.runtime.agent.lE.a(Plumbr:173)
+	at eu.plumbr.runtime.agent.lE.a(Plumbr:96)
+	at eu.plumbr.runtime.agent.lv.submit(Plumbr:61)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1063)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2019-04-12 19:59:26,926 DEBUG [Plumbr thread - 6] eu.plumbr.runtime.agent.qX - Probe data statistics in the time period 1555069765752 to 1555070366813 (total size 36540): [ID: heap, count: 120, total: 6000, max: 50] [ID: gcmbean, count: 120, total: 10200, max: 85] [ID: allocation_stats, count: 120, total: 3000, max: 25] [ID: agent_logs, count: 60, total: 16920, max: 2691] [ID: raa_downstream, count: 12, total: 420, max: 44] 
+2019-04-12 19:59:27,092 DEBUG [main] eu.plumbr.runtime.agent.vf - Trying to load library via System.loadLibrary
+2019-04-12 19:59:27,093 DEBUG [main] eu.plumbr.runtime.agent.vf - Failed, trying next
+2019-04-12 19:59:27,095 DEBUG [main] eu.plumbr.runtime.agent.vf - Looking for native libraries in directory /home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691
+2019-04-12 19:59:27,095 DEBUG [main] eu.plumbr.runtime.agent.vf - Trying to load library from /home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/lib/linux/64/libplumbr.so
+2019-04-12 19:59:27,095 INFO  [main] eu.plumbr.runtime.agent.vf - Native library successfully loaded
+2019-04-12 19:59:27,096 INFO  [main] Native - Plumbr native logging started. Native agent version B2079 build B2079
+2019-04-12 19:59:27,164 INFO  [main] eu.plumbr.runtime.agent.ow - Running forked OOM process for OOM in oom_1555070361414.
+2019-04-12 19:59:27,238 INFO  [main] eu.plumbr.runtime.agent.op - Processing OOM dump in /home/meirh/work/java/PopcornPinYin/lib/plumbr/tmp/plumbr/oom_1555070361414.
+2019-04-12 20:00:05,086 INFO  [main] eu.plumbr.runtime.agent.on - OOM dump oom_1555070361414 successfully uploaded.
+2019-04-12 20:00:05,107 DEBUG [main] eu.plumbr.runtime.agent.op - Cleaned up files for oom oom_1555070361414.
+2019-04-12 20:14:51,078 DEBUG [main] eu.plumbr.runtime.agent.bX - Going to run Plumbr Agent with configuration: conf.sessionId=005691jhh9wPrGQIaELRU9nn-mnhMF7rM=
+env.classPath=/home/meirh/work/java/PopcornPinYin/out/production/PopcornPinYin:/home/meirh/work/java/PopcornPinYin/lib/gson-2.8.5.jar:/home/meirh/work/java/PopcornPinYin/lib/hanlp-1.7.2.jar:/home/meirh/work/java/PopcornPinYin/lib/junit-4.12.jar:/home/meirh/work/java/PopcornPinYin/lib/hamcrest-core-1.3.jar
+env.cpuCoreCount=8
+env.javaRuntimeVersion=10.0.2+13-Ubuntu-1ubuntu0.18.04.4
+env.javaVendor=Oracle Corporation
+env.javaVersion=10.0.2
+env.maxMemory=4133486592
+env.maxPermGen=-1
+env.name=18889@meirh-XPS-13-9360
+env.osArch=amd64
+env.osName=Linux
+env.osVersion=4.15.0-47-generic
+env.startTimeMillis=1555071291040
+env.sun.java.command=com.rainytiger.www.PopcornPinYin.MainTest
+env.timeZoneId=Asia/Shanghai
+env.vmName=OpenJDK 64-Bit Server VM
+env.vmVendor=Oracle Corporation
+env.vmVersion=10.0.2+13-Ubuntu-1ubuntu0.18.04.4
+env.inputArguments=	-javaagent:./lib/plumbr/plumbr.jar \
+	-javaagent:/snap/intellij-idea-ultimate/133/lib/idea_rt.jar=38409:/snap/intellij-idea-ultimate/133/bin
+
+conf.clusterId=
+conf.buildNumber=5691
+conf.tmpDir=tmp
+conf.jvmId=PopcornPinYin
+conf.serverUrl=https://app.plumbr.io
+conf.logConf=plumbr-logback.xml
+conf.version=19.03.20
+conf.accountId=b9a69v1mbec4j0p8mslpji81r
+conf.agentWrapperVersion=19.03.20.5691
+conf.agentJarPath=/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar
+conf.agentWrapperJarPath=/home/meirh/work/java/PopcornPinYin/lib/plumbr/plumbr.jar
+conf.canChangeJvmKey=true
+conf.canChangeClusterName=true
+
+2019-04-12 20:14:52,274 INFO  [main] eu.plumbr.runtime.agent.uQ - Getting properties from file:/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar!/libs.md5
+2019-04-12 20:14:52,275 INFO  [main] eu.plumbr.runtime.agent.uQ - Getting properties from file:/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar!/libs.md5
+2019-04-12 20:14:52,298 DEBUG [main] eu.plumbr.runtime.agent.vf - Trying to load library via System.loadLibrary
+2019-04-12 20:14:52,298 DEBUG [main] eu.plumbr.runtime.agent.vf - Failed, trying next
+2019-04-12 20:14:52,298 DEBUG [main] eu.plumbr.runtime.agent.vf - Looking for native libraries in directory /home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691
+2019-04-12 20:14:52,298 DEBUG [main] eu.plumbr.runtime.agent.vf - Trying to load library from /home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/lib/linux/64/libplumbr.so
+2019-04-12 20:14:52,299 INFO  [main] eu.plumbr.runtime.agent.vf - Native library successfully loaded
+2019-04-12 20:14:52,299 INFO  [main] Native - Plumbr native logging started. Native agent version B2079 build B2079
+2019-04-12 20:14:52,299 INFO  [main] eu.plumbr.runtime.agent.cH - Starting native agent (disabled features: 0)
+2019-04-12 20:14:52,302 INFO  [main] Native - Abort signal handler installed.
+2019-04-12 20:14:52,302 INFO  [main] Native - Status of loading Serviceability API symbols: bad_version
+2019-04-12 20:14:52,302 INFO  [main] eu.plumbr.runtime.agent.cH - Configured OOM queries to host: app.plumbr.io, port: 80, accountId: b9a69v1mbec4j0p8mslpji81r, sessionId: 005691jhh9wPrGQIaELRU9nn-mnhMF7rM=
+2019-04-12 20:14:52,303 DEBUG [main] e.p.r.agent.fork.AgentStartupForker - No pending startup jobs found, not creating forked process.
+2019-04-12 20:14:52,307 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe instrumentation_error for monitoring Instrumentation errors reporting is registered
+2019-04-12 20:14:52,307 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe generic_instrumentation for monitoring Generic instrumentation support probe is registered
+2019-04-12 20:14:52,308 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe raa for monitoring Runtime Application Architecture Discovery is registered
+2019-04-12 20:14:52,315 INFO  [main] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 20:14:52,315 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe user_transaction_monitoring for monitoring User Transaction Monitoring is registered
+2019-04-12 20:14:52,315 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe browser_helper for monitoring Browser Helper is registered
+2019-04-12 20:14:52,316 DEBUG [main] eu.plumbr.runtime.agent.pJ - Starting lock contention probe: excludedLocks: [java/lang/ref/Reference$Lock, java/net/SocksSocketImpl, weblogic/socket/PosixSocketMuxer$1], excludedLockMethods: [sun/nio/ch/ServerSocketChannelImpl/accept, java/lang/ref/Reference$ReferenceHandler/run, com/sun/grizzly/util/SyncThreadPool$SyncThreadWorker/getTask, weblogic/socket/PosixSocketMuxer/processSockets]
+2019-04-12 20:14:52,316 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe contention for monitoring Lock Contention is registered
+2019-04-12 20:14:52,317 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe thread_pool_monitoring for monitoring Underprovisioned Thread Pool monitoring is registered
+2019-04-12 20:14:52,317 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe throwable for monitoring Monitoring of throwables is registered
+2019-04-12 20:14:52,317 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe concurrent_lock for monitoring Concurrent Lock Detection is registered
+2019-04-12 20:14:52,318 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe jdbc_statement_monitoring for monitoring JDBC Statement monitoring is registered
+2019-04-12 20:14:52,319 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe jdbc_driver for monitoring JDBC Slow Connection Initialization is registered
+2019-04-12 20:14:52,319 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe operation_tracker for monitoring Operation Tracker is registered
+2019-04-12 20:14:52,319 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe http_connection_monitoring for monitoring HTTP Connection monitoring is registered
+2019-04-12 20:14:52,320 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe mongo_monitoring for monitoring MongoDB monitoring is registered
+2019-04-12 20:14:52,320 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe lucene_monitoring for monitoring Lucene monitoring is registered
+2019-04-12 20:14:52,320 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe file_monitoring for monitoring File Operation monitoring is registered
+2019-04-12 20:14:52,321 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe network_log for monitoring Network Activity monitoring is registered
+2019-04-12 20:14:52,323 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe http_failed_requests for monitoring Failed Outgoing Request monitoring is registered
+2019-04-12 20:14:52,324 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe identity_detection for monitoring Identity Detection is registered
+2019-04-12 20:14:52,324 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe sampler for monitoring Sampler is registered
+2019-04-12 20:14:52,325 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe agent_logs for monitoring Agent Log Streaming is registered
+2019-04-12 20:14:52,325 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe allocation_stats for monitoring Allocation Statistics is registered
+2019-04-12 20:14:52,325 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe class_stats for monitoring Class Loading Statistics is registered
+2019-04-12 20:14:52,326 DEBUG [main] eu.plumbr.runtime.agent.qo - GC probe created
+2019-04-12 20:14:52,326 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe gc for monitoring Garbage Collection monitoring is registered
+2019-04-12 20:14:52,326 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe heap for monitoring Memory usage statistics is registered
+2019-04-12 20:14:52,327 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe gcmbean for monitoring GC Management Bean is registered
+2019-04-12 20:14:52,327 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe system_global_counters for monitoring Global Counters Probe is registered
+2019-04-12 20:14:52,327 DEBUG [main] eu.plumbr.runtime.agent.tN - Registering session attribute listener eu.plumbr.runtime.agent.un
+2019-04-12 20:14:52,334 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Generic instrumentation support probe
+2019-04-12 20:14:52,346 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Runtime Application Architecture Discovery
+2019-04-12 20:14:52,347 INFO  [main] eu.plumbr.runtime.agent.rC - Creating User Transaction instrumentations
+2019-04-12 20:14:52,350 INFO  [main] eu.plumbr.runtime.agent.rC - Enabling Swing Transaction instrumentations
+2019-04-12 20:14:52,351 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for User Transaction Monitoring
+2019-04-12 20:14:52,362 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Underprovisioned Thread Pool monitoring
+2019-04-12 20:14:52,362 INFO  [main] eu.plumbr.runtime.agent.pP - Enabling concurrent lock instrumentations
+2019-04-12 20:14:52,363 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Concurrent Lock Detection
+2019-04-12 20:14:52,363 INFO  [main] eu.plumbr.runtime.agent.fN - Enabling JDBC connection monitoring instrumentations
+2019-04-12 20:14:52,364 DEBUG [main] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: sql parameters logging enabled: false
+2019-04-12 20:14:52,364 DEBUG [main] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: max number of sql parameters logged: 1000
+2019-04-12 20:14:52,364 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for JDBC Statement monitoring
+2019-04-12 20:14:52,364 DEBUG [main] eu.plumbr.runtime.agent.fO - Interface based JDBC instrumentations enabled.
+2019-04-12 20:14:52,373 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for JDBC Slow Connection Initialization
+2019-04-12 20:14:52,377 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for HTTP Connection monitoring
+2019-04-12 20:14:52,384 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for MongoDB monitoring
+2019-04-12 20:14:52,388 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Lucene monitoring
+2019-04-12 20:14:52,390 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Identity Detection
+2019-04-12 20:14:52,392 DEBUG [main] eu.plumbr.runtime.agent.lP - Enabling spy retransformer.
+2019-04-12 20:14:52,394 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.px@4416d64f
+2019-04-12 20:14:52,394 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.cg@1fb19a0
+2019-04-12 20:14:52,394 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.kB@6ee4d9ab
+2019-04-12 20:14:52,395 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.jY@5a5338df
+2019-04-12 20:14:52,395 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.lo@418c5a9c
+2019-04-12 20:14:52,395 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.no@18e36d14
+2019-04-12 20:14:52,395 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.nj@5082d622
+2019-04-12 20:14:52,395 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.mX@13d4992d
+2019-04-12 20:14:52,395 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.dk@302f7971
+2019-04-12 20:14:52,395 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.lQ@332729ad
+2019-04-12 20:14:52,440 DEBUG [main] eu.plumbr.runtime.agent.jP - Deserialization class has been retransformed
+2019-04-12 20:14:52,449 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class java.util.concurrent.Executors$RunnableAdapter. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 20:14:52,449 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 20:14:52,449 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class java.util.concurrent.FutureTask. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 20:14:52,450 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class java.util.concurrent.ThreadPoolExecutor$Worker. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 20:14:52,466 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class java.nio.DirectByteBuffer$Deallocator. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 20:14:52,466 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class sun.nio.ch.FileChannelImpl$Closer. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 20:14:52,471 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class sun.nio.fs.NativeBuffer$Deallocator. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 20:14:52,471 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class jdk.internal.misc.InnocuousThread. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 20:14:52,472 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class jdk.internal.ref.CleanerImpl. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 20:14:52,474 DEBUG [main] eu.plumbr.runtime.agent.lP - Retransforming classes: sun.net.www.protocol.jrt.JavaRuntimeURLConnection;java.net.HttpURLConnection;java.util.concurrent.Executors$RunnableAdapter;java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask;java.util.concurrent.FutureTask;java.util.concurrent.ThreadPoolExecutor$Worker;java.net.Socket;java.util.concurrent.ThreadPoolExecutor;java.nio.DirectByteBuffer$Deallocator;sun.nio.ch.FileChannelImpl$Closer;java.nio.channels.spi.AbstractInterruptibleChannel;java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject;java.util.concurrent.locks.AbstractQueuedSynchronizer;sun.net.www.protocol.file.FileURLConnection;sun.net.www.URLConnection;sun.net.www.protocol.jar.JarURLConnection;java.net.JarURLConnection;java.net.URLConnection;sun.nio.fs.NativeBuffer$Deallocator;jdk.internal.misc.InnocuousThread;jdk.internal.ref.CleanerImpl;jdk.internal.loader.ClassLoaders$BootClassLoader;jdk.internal.loader.ClassLoaders$PlatformClassLoader;jdk.internal.loader.ClassLoaders$AppClassLoader;jdk.internal.loader.BuiltinClassLoader;jdk.internal.reflect.DelegatingClassLoader;java.lang.ClassLoader;
+2019-04-12 20:14:52,504 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: HUC_response_code): java.net.HttpURLConnection.getResponseCode ()I
+2019-04-12 20:14:52,505 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: HUC_response_message): java.net.HttpURLConnection.getResponseMessage ()Ljava/lang/String;
+2019-04-12 20:14:52,505 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: HUC_header_field): java.net.HttpURLConnection.getHeaderField (I)Ljava/lang/String;
+2019-04-12 20:14:52,505 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: HUC_header_field_key): java.net.HttpURLConnection.getHeaderFieldKey (I)Ljava/lang/String;
+2019-04-12 20:14:52,530 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.util.concurrent.Callable;
+java.lang.Object: retransform would add an interface
+2019-04-12 20:14:52,530 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): java.util.concurrent.Executors$RunnableAdapter.call ()Ljava/lang/Object;
+2019-04-12 20:14:52,531 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.util.concurrent.Executors$RunnableAdapter.<init> (Ljava/lang/Runnable;Ljava/lang/Object;)V
+2019-04-12 20:14:52,546 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.util.concurrent.RunnableFuture;java.util.concurrent.Future;java.util.concurrent.ScheduledFuture;java.util.concurrent.RunnableScheduledFuture;java.lang.Comparable;java.util.concurrent.Delayed;java.lang.Runnable;
+java.util.concurrent.FutureTaskjava.lang.Object: retransform would add an interface
+2019-04-12 20:14:52,546 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.<init> (Ljava/util/concurrent/ScheduledThreadPoolExecutor;Ljava/lang/Runnable;Ljava/lang/Object;JJ)V
+2019-04-12 20:14:52,547 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.<init> (Ljava/util/concurrent/ScheduledThreadPoolExecutor;Ljava/lang/Runnable;Ljava/lang/Object;JJJ)V
+2019-04-12 20:14:52,547 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.<init> (Ljava/util/concurrent/ScheduledThreadPoolExecutor;Ljava/util/concurrent/Callable;JJ)V
+2019-04-12 20:14:52,547 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run ()V
+2019-04-12 20:14:52,567 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.util.concurrent.RunnableFuture;java.util.concurrent.Future;java.lang.Runnable;
+java.lang.Object: retransform would add an interface
+2019-04-12 20:14:52,568 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.util.concurrent.FutureTask.<init> (Ljava/lang/Runnable;Ljava/lang/Object;)V
+2019-04-12 20:14:52,568 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.util.concurrent.FutureTask.<init> (Ljava/util/concurrent/Callable;)V
+2019-04-12 20:14:52,569 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): java.util.concurrent.FutureTask.run ()V
+2019-04-12 20:14:52,591 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.lang.Runnable;java.io.Serializable;
+java.util.concurrent.locks.AbstractQueuedSynchronizerjava.util.concurrent.locks.AbstractOwnableSynchronizerjava.lang.Object: retransform would add an interface
+2019-04-12 20:14:52,592 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.util.concurrent.ThreadPoolExecutor$Worker.<init> (Ljava/util/concurrent/ThreadPoolExecutor;Ljava/lang/Runnable;)V
+2019-04-12 20:14:52,592 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): java.util.concurrent.ThreadPoolExecutor$Worker.run ()V
+2019-04-12 20:14:52,617 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: downstream_socket_connect): java.net.Socket.connect (Ljava/net/SocketAddress;I)V
+2019-04-12 20:14:52,618 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: downstream_socket_close): java.net.Socket.close ()V
+2019-04-12 20:14:52,658 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: concurrent_lock_ignore): java.util.concurrent.ThreadPoolExecutor.getTask ()Ljava/lang/Runnable;
+2019-04-12 20:14:52,659 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: thread_pool_run): java.util.concurrent.ThreadPoolExecutor.beforeExecute (Ljava/lang/Thread;Ljava/lang/Runnable;)V
+2019-04-12 20:14:52,659 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: thread_pool_leave): java.util.concurrent.ThreadPoolExecutor.afterExecute (Ljava/lang/Runnable;Ljava/lang/Throwable;)V
+2019-04-12 20:14:52,659 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: thread_pool_exec): java.util.concurrent.ThreadPoolExecutor.execute (Ljava/lang/Runnable;)V
+2019-04-12 20:14:52,696 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.lang.Runnable;
+java.lang.Object: retransform would add an interface
+2019-04-12 20:14:52,696 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.nio.DirectByteBuffer$Deallocator.<init> (JJILjava/nio/DirectByteBuffer$1;)V
+2019-04-12 20:14:52,697 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.nio.DirectByteBuffer$Deallocator.<init> (JJI)V
+2019-04-12 20:14:52,697 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): java.nio.DirectByteBuffer$Deallocator.run ()V
+2019-04-12 20:14:52,716 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.lang.Runnable;
+java.lang.Object: retransform would add an interface
+2019-04-12 20:14:52,716 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): sun.nio.ch.FileChannelImpl$Closer.<init> (Ljava/io/FileDescriptor;)V
+2019-04-12 20:14:52,717 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): sun.nio.ch.FileChannelImpl$Closer.run ()V
+2019-04-12 20:14:52,734 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: downstream_socket_channel_close): java.nio.channels.spi.AbstractInterruptibleChannel.close ()V
+2019-04-12 20:14:52,752 DEBUG [main] eu.plumbr.runtime.agent.ng - Instrumenting method (sdef: abstract_queued_synchronizer): java/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject.await ()V
+2019-04-12 20:14:52,753 DEBUG [main] eu.plumbr.runtime.agent.ng - Instrumenting method (sdef: abstract_queued_synchronizer): java/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject.awaitNanos (J)J
+2019-04-12 20:14:52,777 DEBUG [main] eu.plumbr.runtime.agent.ng - Instrumenting method (sdef: abstract_queued_synchronizer): java/util/concurrent/locks/AbstractQueuedSynchronizer.acquireQueued (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;I)Z
+2019-04-12 20:14:52,778 DEBUG [main] eu.plumbr.runtime.agent.ng - Instrumenting method (sdef: abstract_queued_synchronizer): java/util/concurrent/locks/AbstractQueuedSynchronizer.doAcquireInterruptibly (I)V
+2019-04-12 20:14:52,779 DEBUG [main] eu.plumbr.runtime.agent.ng - Instrumenting method (sdef: abstract_queued_synchronizer): java/util/concurrent/locks/AbstractQueuedSynchronizer.doAcquireNanos (IJ)Z
+2019-04-12 20:14:52,779 DEBUG [main] eu.plumbr.runtime.agent.ng - Instrumenting method (sdef: abstract_queued_synchronizer): java/util/concurrent/locks/AbstractQueuedSynchronizer.doAcquireShared (I)V
+2019-04-12 20:14:52,779 DEBUG [main] eu.plumbr.runtime.agent.ng - Instrumenting method (sdef: abstract_queued_synchronizer): java/util/concurrent/locks/AbstractQueuedSynchronizer.doAcquireSharedInterruptibly (I)V
+2019-04-12 20:14:52,779 DEBUG [main] eu.plumbr.runtime.agent.ng - Instrumenting method (sdef: abstract_queued_synchronizer): java/util/concurrent/locks/AbstractQueuedSynchronizer.doAcquireSharedNanos (IJ)Z
+2019-04-12 20:14:52,844 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: UC_get_content): sun.net.www.protocol.jar.JarURLConnection.getContent ()Ljava/lang/Object;
+2019-04-12 20:14:52,888 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: UC_get_content): java.net.URLConnection.getContent ([Ljava/lang/Class;)Ljava/lang/Object;
+2019-04-12 20:14:52,889 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: UC_get_content): java.net.URLConnection.getContent ()Ljava/lang/Object;
+2019-04-12 20:14:52,915 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.lang.Runnable;
+java.lang.Object: retransform would add an interface
+2019-04-12 20:14:52,916 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): sun.nio.fs.NativeBuffer$Deallocator.<init> (J)V
+2019-04-12 20:14:52,916 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): sun.nio.fs.NativeBuffer$Deallocator.run ()V
+2019-04-12 20:14:52,936 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.lang.Runnable;
+java.lang.Threadjava.lang.Object: retransform would add an interface
+2019-04-12 20:14:52,937 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): jdk.internal.misc.InnocuousThread.<init> (Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;Ljava/lang/ClassLoader;)V
+2019-04-12 20:14:52,937 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): jdk.internal.misc.InnocuousThread.<init> (Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;Ljava/lang/ClassLoader;Ljdk/internal/misc/InnocuousThread$1;)V
+2019-04-12 20:14:52,937 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): jdk.internal.misc.InnocuousThread.run ()V
+2019-04-12 20:14:52,955 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.lang.Runnable;
+java.lang.Object: retransform would add an interface
+2019-04-12 20:14:52,955 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): jdk.internal.ref.CleanerImpl.<init> ()V
+2019-04-12 20:14:52,956 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): jdk.internal.ref.CleanerImpl.run ()V
+2019-04-12 20:14:53,069 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: THROWABLE_IGNORE): java.lang.ClassLoader.loadClass (Ljava/lang/String;)Ljava/lang/Class;
+2019-04-12 20:14:53,102 DEBUG [main] eu.plumbr.runtime.agent.lQ - Applying eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class com/intellij/rt/execution/application/AppMainV2$1 (applied to ancestor true)
+2019-04-12 20:14:53,105 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): com.intellij.rt.execution.application.AppMainV2$1.<init> (Ljava/lang/String;IZ)V
+2019-04-12 20:14:53,105 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): com.intellij.rt.execution.application.AppMainV2$1.run ()V
+2019-04-12 20:14:53,264 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.cO - Trying to connect to portal: 'https://app.plumbr.io'
+2019-04-12 20:14:53,264 INFO  [Plumbr thread - 4] eu.plumbr.runtime.agent.iJ - Trying to connect via HTTP
+2019-04-12 20:14:53,969 DEBUG [main] eu.plumbr.runtime.agent.jH - Made local module unnamed module @75d2da2d readable to module java.sql, for eu.plumbr.runtime.agent.mX: java/sql/Time.
+2019-04-12 20:14:53,969 DEBUG [main] eu.plumbr.runtime.agent.lQ - Applying eu.plumbr.runtime.agent.feature.io.jdbc.integration.SqlTimeIntegration integration definition on class java/sql/Time (applied to ancestor false)
+2019-04-12 20:14:53,973 DEBUG [main] eu.plumbr.runtime.agent.lQ - Applying eu.plumbr.runtime.agent.feature.io.jdbc.integration.SqlDateIntegration integration definition on class java/sql/Date (applied to ancestor false)
+2019-04-12 20:14:53,986 DEBUG [main] eu.plumbr.runtime.agent.lQ - Applying eu.plumbr.runtime.agent.feature.io.jdbc.integration.SqlTimestampIntegration integration definition on class java/sql/Timestamp (applied to ancestor false)
+2019-04-12 20:14:53,996 DEBUG [main] eu.plumbr.runtime.agent.jH - Made local module unnamed module @75d2da2d readable to module jdk.proxy1, for eu.plumbr.runtime.agent.mX: com/sun/proxy/jdk/proxy1/$Proxy5.
+2019-04-12 20:14:54,005 DEBUG [main] eu.plumbr.runtime.agent.jH - Made local module unnamed module @75d2da2d readable to module java.logging, for eu.plumbr.runtime.agent.mX: java/util/logging/Logger.
+2019-04-12 20:14:54,051 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: downstream_socket_channel_connect): java.nio.channels.SocketChannel.connect (Ljava/net/SocketAddress;)Z
+2019-04-12 20:14:54,092 INFO  [Plumbr thread - 4] eu.plumbr.runtime.agent.ww - Initialising native time with timestamp: 1555071294020, drift: 72ms
+2019-04-12 20:14:54,093 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.jA - Received configuration override from Portal: accountId=b9a69v1mbec4j0p8mslpji81r;probes=heap,gc,contention,gcmbean,class_stats,allocation_stats,jdbc_statement_monitoring,jdbc_driver,ejb_transaction,user_transaction_monitoring,swing_transaction,http_connection_monitoring,throwable,instrumentation_error,timings,sampler,operation_tracker,agent_logs,lucene_monitoring,mongo_monitoring,file_monitoring,jdbc_slow_result_set,identity_detection,concurrent_lock,global_transaction,session_attribute_monitoring,network_log,raa,http_failed_requests,browser_helper,thread_pool_monitoring,system_global_counters;samplingDelay=625;utSamplingFilterEnabled=true;heapSnapshotMinIntervalMinutes=120;heapSnapshotHeapUsageThreshold=50;enabledUserTrackers=httpHeaders,jwt,browser,servlet-session,servlet-principal;samplesCountPerTransactionLimit=20;rootCauseThreshold=1000;downtimeThreshold=40000;utGeneralThreshold=5000;utStuckThreshold=500000
+2019-04-12 20:14:54,093 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.vv - Broadcasting configuration update, updated properties: {accountId=b9a69v1mbec4j0p8mslpji81r, rootCauseThreshold=1000, downtimeThreshold=40000, heapSnapshotMinIntervalMinutes=120, heapSnapshotHeapUsageThreshold=50, samplingDelay=625, samplesCountPerTransactionLimit=20, utGeneralThreshold=5000, probes=heap,gc,contention,gcmbean,class_stats,allocation_stats,jdbc_statement_monitoring,jdbc_driver,ejb_transaction,user_transaction_monitoring,swing_transaction,http_connection_monitoring,throwable,instrumentation_error,timings,sampler,operation_tracker,agent_logs,lucene_monitoring,mongo_monitoring,file_monitoring,jdbc_slow_result_set,identity_detection,concurrent_lock,global_transaction,session_attribute_monitoring,network_log,raa,http_failed_requests,browser_helper,thread_pool_monitoring,system_global_counters, utStuckThreshold=500000, enabledUserTrackers=httpHeaders,jwt,browser,servlet-session,servlet-principal, utSamplingFilterEnabled=true}
+2019-04-12 20:14:54,093 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.vx - Updated raw property rootCauseThreshold to value 1000
+2019-04-12 20:14:54,093 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.vx - Updated raw property downtimeThreshold to value 40000
+2019-04-12 20:14:54,094 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.vx - Updated configuration property heapSnapshotMinIntervalMinutes with 120. New value is 120.
+2019-04-12 20:14:54,094 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.vx - Updated configuration property heapSnapshotHeapUsageThreshold with 50. New value is 50.
+2019-04-12 20:14:54,094 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.vx - Updated configuration property samplingDelay with 625. New value is 625.
+2019-04-12 20:14:54,094 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.vx - Updated configuration property samplesCountPerTransactionLimit with 20. New value is 20.
+2019-04-12 20:14:54,094 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.vx - Updated raw property utGeneralThreshold to value 5000
+2019-04-12 20:14:54,094 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.vx - Updated configuration property probes with heap,gc,contention,gcmbean,class_stats,allocation_stats,jdbc_statement_monitoring,jdbc_driver,ejb_transaction,user_transaction_monitoring,swing_transaction,http_connection_monitoring,throwable,instrumentation_error,timings,sampler,operation_tracker,agent_logs,lucene_monitoring,mongo_monitoring,file_monitoring,jdbc_slow_result_set,identity_detection,concurrent_lock,global_transaction,session_attribute_monitoring,network_log,raa,http_failed_requests,browser_helper,thread_pool_monitoring,system_global_counters. New value is [user_transaction_monitoring, swing_transaction, thread_pool_monitoring, concurrent_lock, heap, ejb_transaction, operation_tracker, instrumentation_error, http_failed_requests, raa, gc, throwable, jdbc_driver, system_global_counters, agent_logs, session_attribute_monitoring, contention, global_transaction, timings, class_stats, http_connection_monitoring, network_log, allocation_stats, file_monitoring, browser_helper, gcmbean, identity_detection, jdbc_statement_monitoring, lucene_monitoring, mongo_monitoring, sampler, jdbc_slow_result_set].
+2019-04-12 20:14:54,094 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.vx - Updated raw property utStuckThreshold to value 500000
+2019-04-12 20:14:54,094 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.vx - Updated configuration property enabledUserTrackers with httpHeaders,jwt,browser,servlet-session,servlet-principal. New value is [httpHeaders, jwt, browser, servlet-session, servlet-principal].
+2019-04-12 20:14:54,094 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.vx - Updated configuration property utSamplingFilterEnabled with true. New value is true.
+2019-04-12 20:14:54,095 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.uF - Updated threshold configuration. {rootCauseThreshold=1000, downtimeThreshold=40000, utGeneralThreshold=5000, utStuckThreshold=500000}, {}
+2019-04-12 20:14:54,098 INFO  [Plumbr thread - 4] eu.plumbr.runtime.agent.cO - Enabled probes: [user_transaction_monitoring, swing_transaction, thread_pool_monitoring, concurrent_lock, heap, ejb_transaction, operation_tracker, instrumentation_error, http_failed_requests, raa, gc, throwable, jdbc_driver, system_global_counters, agent_logs, session_attribute_monitoring, contention, global_transaction, timings, class_stats, http_connection_monitoring, network_log, allocation_stats, file_monitoring, browser_helper, gcmbean, identity_detection, jdbc_statement_monitoring, lucene_monitoring, mongo_monitoring, sampler, jdbc_slow_result_set]
+2019-04-12 20:14:54,111 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: instrumentation_error probe switched on
+2019-04-12 20:14:54,111 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: generic_instrumentation probe disabled
+2019-04-12 20:14:54,112 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: raa probe switched on
+2019-04-12 20:14:54,112 INFO  [Plumbr thread - 4] eu.plumbr.runtime.agent.rB - Switching on user transaction monitoring probe
+2019-04-12 20:14:54,113 INFO  [Plumbr thread - 4] eu.plumbr.runtime.agent.rx - Initializing transaction manager to the default implementation
+2019-04-12 20:14:54,113 INFO  [Plumbr thread - 4] eu.plumbr.runtime.agent.rk - DefaultTransactionManager initialized
+2019-04-12 20:14:54,113 INFO  [Plumbr thread - 4] eu.plumbr.runtime.agent.rk - Scheduling stuck transaction monitor.
+2019-04-12 20:14:54,114 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: user_transaction_monitoring probe switched on
+2019-04-12 20:14:54,114 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: browser_helper probe switched on
+2019-04-12 20:14:54,115 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: contention probe switched on
+2019-04-12 20:14:54,115 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: thread_pool_monitoring probe switched on
+2019-04-12 20:14:54,115 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: throwable probe switched on
+2019-04-12 20:14:54,115 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: concurrent_lock probe switched on
+2019-04-12 20:14:54,115 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: jdbc_statement_monitoring probe switched on
+2019-04-12 20:14:54,115 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: jdbc_driver probe switched on
+2019-04-12 20:14:54,115 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: operation_tracker probe switched on
+2019-04-12 20:14:54,115 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: http_connection_monitoring probe switched on
+2019-04-12 20:14:54,115 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: mongo_monitoring probe switched on
+2019-04-12 20:14:54,115 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: lucene_monitoring probe switched on
+2019-04-12 20:14:54,115 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: file_monitoring probe switched on
+2019-04-12 20:14:54,116 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: network_log probe switched on
+2019-04-12 20:14:54,116 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: http_failed_requests probe switched on
+2019-04-12 20:14:54,116 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: identity_detection probe switched on
+2019-04-12 20:14:54,116 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.ib - Sampler waked up.
+2019-04-12 20:14:54,116 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.ib - Sampling started: delay=625 ms; utFilterEnabled=true
+2019-04-12 20:14:54,116 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: sampler probe switched on
+2019-04-12 20:14:54,116 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: agent_logs probe switched on
+2019-04-12 20:14:54,116 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: allocation_stats probe switched on
+2019-04-12 20:14:54,116 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: class_stats probe switched on
+2019-04-12 20:14:54,117 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: gc probe switched on
+2019-04-12 20:14:54,118 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: heap probe switched on
+2019-04-12 20:14:54,118 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: gcmbean probe switched on
+2019-04-12 20:14:54,118 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.oZ - ProbeManager: system_global_counters probe switched on
+2019-04-12 20:14:54,121 INFO  [Plumbr thread - 4] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 20:14:54,122 INFO  [Plumbr thread - 1] eu.plumbr.runtime.agent.wb - Deleting old file: /home/meirh/work/java/PopcornPinYin/lib/plumbr/tmp/plumbr/4878_plumbr
+2019-04-12 20:14:54,122 INFO  [Plumbr thread - 4] eu.plumbr.runtime.agent.tM - Enabled user trackers: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:14:54,122 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.tK - User tracker jwt received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:14:54,122 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.tK - User tracker browser received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:14:54,122 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.tK - User tracker httpHeaders received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:14:54,122 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.tK - User tracker servlet-session received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:14:54,122 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.tK - User tracker servlet-principal received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:14:54,123 INFO  [Plumbr thread - 4] e.p.r.a.i.u.AbstractFeatureSwitchingTransactionIntegration - ejb_transaction switched on
+2019-04-12 20:14:54,123 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.iq - Swing/AWT transaction detection enabled: true
+2019-04-12 20:14:54,123 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: sql parameters logging enabled: false
+2019-04-12 20:14:54,123 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: max number of sql parameters logged: 1000
+2019-04-12 20:14:54,123 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.nO - Identity detection enabled: true
+2019-04-12 20:14:54,123 INFO  [Plumbr thread - 4] eu.plumbr.runtime.agent.cO - Plumbr session 005691jhh9wPrGQIaELRU9nn-mnhMF7rM= started
+2019-04-12 20:14:54,130 DEBUG [Plumbr thread - 4] e.p.r.agent.tools.timings.Timings - SpyClassTransformer.transform                                - total:        186 ms; count:        251; time/count:   0.741036 ms
+BytecodeScanner.isClassImplementingInterface                 - total:          0 ms; count:         28; time/count:   0.000000 ms
+SpyClassTransformer.transform_verify                         - total:        127 ms; count:         32; time/count:   3.968750 ms
+SpyClassRetransformer.retransform_retransform                - total:        617 ms; count:          1; time/count: 617.000000 ms
+eu.plumbr.runtime.agent.mX_transform                         - total:         79 ms; count:        295; time/count:   0.267797 ms
+BytecodeLoader.getClassDefinitionFromFilesystem              - total:         35 ms; count:        289; time/count:   0.121107 ms
+SpyClassTransformer.transform_InheritanceScannerVisitor      - total:         24 ms; count:        627; time/count:   0.038278 ms
+SpyClassTransformer.transform_local_timing                   - total:          5 ms; count:          2; time/count:   2.500000 ms
+BytecodeScanner.getInterfacesThatTypeImplements              - total:          4 ms; count:       1775; time/count:   0.002254 ms
+BytecodeScanner.getClassInheritanceInformation               - total:         16 ms; count:        631; time/count:   0.025357 ms
+SpyClassTransformer.transform_sdefsLock                      - total:          2 ms; count:        237; time/count:   0.008439 ms
+SpyClassRetransformer.retransform_clazzmatch                 - total:         33 ms; count:          1; time/count:  33.000000 ms
+SpyClassTransformer.transform_integrationAncestorCheck       - total:          0 ms; count:          4; time/count:   0.000000 ms
+SpyClassTransformer.transform_methodAdvising                 - total:         26 ms; count:         27; time/count:   0.962963 ms
+eu.plumbr.runtime.agent.jY_transform                         - total:        124 ms; count:        548; time/count:   0.226277 ms
+SpyClassTransformer.transform_integration                    - total:          7 ms; count:          4; time/count:   1.750000 ms
+BytecodeLoader.getClassInfoOfType                            - total:         55 ms; count:       6723; time/count:   0.008181 ms
+Bootstrap                                                    - total:       2139 ms; count:          1; time/count: 2139.000000 ms
+ComputeClassWriter.getCommonSuperClass                       - total:         10 ms; count:        119; time/count:   0.084034 ms
+SpyClassTransformer.lookup                                   - total:          0 ms; count:         41; time/count:   0.000000 ms
+
+2019-04-12 20:14:54,131 DEBUG [Plumbr thread - 4] eu.plumbr.runtime.agent.nU - Firing event PLUMBR_STATUS_WARMUP
+2019-04-12 20:18:09,365 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.jo - Got messages from server: [{"request":"config-update","updatedProperties":{"probes":"identity_detection,http_failed_requests,system_global_counters,class_stats,operation_tracker,user_transaction_monitoring,lucene_monitoring,instrumentation_error,raa,session_attribute_monitoring,timings,jdbc_driver,gc,heap,jdbc_statement_monitoring,ejb_transaction,thread_pool_monitoring,allocation_stats,browser_helper,throwable,concurrent_lock,file_monitoring,agent_logs,network_log,contention,sampler,swing_transaction,global_transaction,jdbc_slow_result_set,http_connection_monitoring,gcmbean,mongo_monitoring"}}]
+2019-04-12 20:18:09,365 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.vv - Broadcasting configuration update, updated properties: {probes=identity_detection,http_failed_requests,system_global_counters,class_stats,operation_tracker,user_transaction_monitoring,lucene_monitoring,instrumentation_error,raa,session_attribute_monitoring,timings,jdbc_driver,gc,heap,jdbc_statement_monitoring,ejb_transaction,thread_pool_monitoring,allocation_stats,browser_helper,throwable,concurrent_lock,file_monitoring,agent_logs,network_log,contention,sampler,swing_transaction,global_transaction,jdbc_slow_result_set,http_connection_monitoring,gcmbean,mongo_monitoring}
+2019-04-12 20:18:09,365 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.vx - Updated configuration property probes with identity_detection,http_failed_requests,system_global_counters,class_stats,operation_tracker,user_transaction_monitoring,lucene_monitoring,instrumentation_error,raa,session_attribute_monitoring,timings,jdbc_driver,gc,heap,jdbc_statement_monitoring,ejb_transaction,thread_pool_monitoring,allocation_stats,browser_helper,throwable,concurrent_lock,file_monitoring,agent_logs,network_log,contention,sampler,swing_transaction,global_transaction,jdbc_slow_result_set,http_connection_monitoring,gcmbean,mongo_monitoring. New value is [user_transaction_monitoring, swing_transaction, thread_pool_monitoring, concurrent_lock, heap, operation_tracker, ejb_transaction, http_failed_requests, instrumentation_error, raa, gc, throwable, system_global_counters, jdbc_driver, agent_logs, session_attribute_monitoring, contention, global_transaction, timings, class_stats, network_log, http_connection_monitoring, allocation_stats, file_monitoring, browser_helper, identity_detection, gcmbean, jdbc_statement_monitoring, lucene_monitoring, mongo_monitoring, sampler, jdbc_slow_result_set].
+2019-04-12 20:18:09,365 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 20:18:09,366 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.tM - Enabled user trackers: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:18:09,366 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker jwt received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:18:09,366 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker browser received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:18:09,366 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker httpHeaders received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:18:09,366 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker servlet-session received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:18:09,366 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker servlet-principal received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:18:09,366 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.iq - Swing/AWT transaction detection enabled: true
+2019-04-12 20:18:09,366 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: sql parameters logging enabled: false
+2019-04-12 20:18:09,366 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: max number of sql parameters logged: 1000
+2019-04-12 20:18:09,366 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.nO - Identity detection enabled: true
+2019-04-12 20:23:14,509 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.jo - Got messages from server: [{"request":"config-update","updatedProperties":{"probes":"identity_detection,http_failed_requests,system_global_counters,class_stats,operation_tracker,user_transaction_monitoring,lucene_monitoring,instrumentation_error,raa,session_attribute_monitoring,timings,jdbc_driver,gc,heap,jdbc_statement_monitoring,ejb_transaction,thread_pool_monitoring,allocation_stats,browser_helper,throwable,concurrent_lock,file_monitoring,agent_logs,network_log,contention,sampler,swing_transaction,global_transaction,jdbc_slow_result_set,http_connection_monitoring,gcmbean,mongo_monitoring"}}]
+2019-04-12 20:23:14,509 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.vv - Broadcasting configuration update, updated properties: {probes=identity_detection,http_failed_requests,system_global_counters,class_stats,operation_tracker,user_transaction_monitoring,lucene_monitoring,instrumentation_error,raa,session_attribute_monitoring,timings,jdbc_driver,gc,heap,jdbc_statement_monitoring,ejb_transaction,thread_pool_monitoring,allocation_stats,browser_helper,throwable,concurrent_lock,file_monitoring,agent_logs,network_log,contention,sampler,swing_transaction,global_transaction,jdbc_slow_result_set,http_connection_monitoring,gcmbean,mongo_monitoring}
+2019-04-12 20:23:14,510 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.vx - Updated configuration property probes with identity_detection,http_failed_requests,system_global_counters,class_stats,operation_tracker,user_transaction_monitoring,lucene_monitoring,instrumentation_error,raa,session_attribute_monitoring,timings,jdbc_driver,gc,heap,jdbc_statement_monitoring,ejb_transaction,thread_pool_monitoring,allocation_stats,browser_helper,throwable,concurrent_lock,file_monitoring,agent_logs,network_log,contention,sampler,swing_transaction,global_transaction,jdbc_slow_result_set,http_connection_monitoring,gcmbean,mongo_monitoring. New value is [user_transaction_monitoring, swing_transaction, thread_pool_monitoring, concurrent_lock, heap, operation_tracker, ejb_transaction, http_failed_requests, instrumentation_error, raa, gc, throwable, system_global_counters, jdbc_driver, agent_logs, session_attribute_monitoring, contention, global_transaction, timings, class_stats, network_log, http_connection_monitoring, allocation_stats, file_monitoring, browser_helper, identity_detection, gcmbean, jdbc_statement_monitoring, lucene_monitoring, mongo_monitoring, sampler, jdbc_slow_result_set].
+2019-04-12 20:23:14,510 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 20:23:14,510 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.tM - Enabled user trackers: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:23:14,510 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker jwt received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:23:14,510 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker browser received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:23:14,510 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker httpHeaders received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:23:14,510 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker servlet-session received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:23:14,510 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker servlet-principal received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:23:14,510 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.iq - Swing/AWT transaction detection enabled: true
+2019-04-12 20:23:14,510 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: sql parameters logging enabled: false
+2019-04-12 20:23:14,510 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: max number of sql parameters logged: 1000
+2019-04-12 20:23:14,510 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.nO - Identity detection enabled: true
+2019-04-12 20:24:54,237 DEBUG [Plumbr thread - 6] eu.plumbr.runtime.agent.qX - Probe data statistics in the time period 1555071294038 to 1555071894140 (total size 34389): [ID: heap, count: 121, total: 6050, max: 50] [ID: gcmbean, count: 121, total: 10285, max: 85] [ID: allocation_stats, count: 121, total: 3025, max: 25] [ID: agent_logs, count: 51, total: 14577, max: 2691] [ID: raa_downstream, count: 13, total: 452, max: 44] 
+2019-04-12 20:28:19,611 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.jo - Got messages from server: [{"request":"config-update","updatedProperties":{"probes":"identity_detection,http_failed_requests,system_global_counters,class_stats,operation_tracker,user_transaction_monitoring,lucene_monitoring,instrumentation_error,raa,session_attribute_monitoring,timings,jdbc_driver,gc,heap,jdbc_statement_monitoring,ejb_transaction,thread_pool_monitoring,allocation_stats,browser_helper,throwable,concurrent_lock,file_monitoring,agent_logs,network_log,contention,sampler,swing_transaction,global_transaction,jdbc_slow_result_set,http_connection_monitoring,gcmbean,mongo_monitoring"}}]
+2019-04-12 20:28:19,611 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.vv - Broadcasting configuration update, updated properties: {probes=identity_detection,http_failed_requests,system_global_counters,class_stats,operation_tracker,user_transaction_monitoring,lucene_monitoring,instrumentation_error,raa,session_attribute_monitoring,timings,jdbc_driver,gc,heap,jdbc_statement_monitoring,ejb_transaction,thread_pool_monitoring,allocation_stats,browser_helper,throwable,concurrent_lock,file_monitoring,agent_logs,network_log,contention,sampler,swing_transaction,global_transaction,jdbc_slow_result_set,http_connection_monitoring,gcmbean,mongo_monitoring}
+2019-04-12 20:28:19,611 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.vx - Updated configuration property probes with identity_detection,http_failed_requests,system_global_counters,class_stats,operation_tracker,user_transaction_monitoring,lucene_monitoring,instrumentation_error,raa,session_attribute_monitoring,timings,jdbc_driver,gc,heap,jdbc_statement_monitoring,ejb_transaction,thread_pool_monitoring,allocation_stats,browser_helper,throwable,concurrent_lock,file_monitoring,agent_logs,network_log,contention,sampler,swing_transaction,global_transaction,jdbc_slow_result_set,http_connection_monitoring,gcmbean,mongo_monitoring. New value is [user_transaction_monitoring, swing_transaction, thread_pool_monitoring, concurrent_lock, heap, operation_tracker, ejb_transaction, http_failed_requests, instrumentation_error, raa, gc, throwable, system_global_counters, jdbc_driver, agent_logs, session_attribute_monitoring, contention, global_transaction, timings, class_stats, network_log, http_connection_monitoring, allocation_stats, file_monitoring, browser_helper, identity_detection, gcmbean, jdbc_statement_monitoring, lucene_monitoring, mongo_monitoring, sampler, jdbc_slow_result_set].
+2019-04-12 20:28:19,611 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 20:28:19,611 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.tM - Enabled user trackers: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:28:19,611 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker jwt received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:28:19,611 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker browser received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:28:19,611 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker httpHeaders received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:28:19,611 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker servlet-session received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:28:19,611 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker servlet-principal received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:28:19,611 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.iq - Swing/AWT transaction detection enabled: true
+2019-04-12 20:28:19,611 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: sql parameters logging enabled: false
+2019-04-12 20:28:19,611 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: max number of sql parameters logged: 1000
+2019-04-12 20:28:19,611 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.nO - Identity detection enabled: true
+2019-04-12 20:33:24,626 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.jo - Got messages from server: [{"request":"config-update","updatedProperties":{"probes":"identity_detection,http_failed_requests,system_global_counters,class_stats,operation_tracker,user_transaction_monitoring,lucene_monitoring,instrumentation_error,raa,session_attribute_monitoring,timings,jdbc_driver,gc,heap,jdbc_statement_monitoring,ejb_transaction,thread_pool_monitoring,allocation_stats,browser_helper,throwable,concurrent_lock,file_monitoring,agent_logs,network_log,contention,sampler,swing_transaction,global_transaction,jdbc_slow_result_set,http_connection_monitoring,gcmbean,mongo_monitoring"}}]
+2019-04-12 20:33:24,627 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.vv - Broadcasting configuration update, updated properties: {probes=identity_detection,http_failed_requests,system_global_counters,class_stats,operation_tracker,user_transaction_monitoring,lucene_monitoring,instrumentation_error,raa,session_attribute_monitoring,timings,jdbc_driver,gc,heap,jdbc_statement_monitoring,ejb_transaction,thread_pool_monitoring,allocation_stats,browser_helper,throwable,concurrent_lock,file_monitoring,agent_logs,network_log,contention,sampler,swing_transaction,global_transaction,jdbc_slow_result_set,http_connection_monitoring,gcmbean,mongo_monitoring}
+2019-04-12 20:33:24,627 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.vx - Updated configuration property probes with identity_detection,http_failed_requests,system_global_counters,class_stats,operation_tracker,user_transaction_monitoring,lucene_monitoring,instrumentation_error,raa,session_attribute_monitoring,timings,jdbc_driver,gc,heap,jdbc_statement_monitoring,ejb_transaction,thread_pool_monitoring,allocation_stats,browser_helper,throwable,concurrent_lock,file_monitoring,agent_logs,network_log,contention,sampler,swing_transaction,global_transaction,jdbc_slow_result_set,http_connection_monitoring,gcmbean,mongo_monitoring. New value is [user_transaction_monitoring, swing_transaction, thread_pool_monitoring, concurrent_lock, heap, operation_tracker, ejb_transaction, http_failed_requests, instrumentation_error, raa, gc, throwable, system_global_counters, jdbc_driver, agent_logs, session_attribute_monitoring, contention, global_transaction, timings, class_stats, network_log, http_connection_monitoring, allocation_stats, file_monitoring, browser_helper, identity_detection, gcmbean, jdbc_statement_monitoring, lucene_monitoring, mongo_monitoring, sampler, jdbc_slow_result_set].
+2019-04-12 20:33:24,627 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 20:33:24,627 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.tM - Enabled user trackers: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:33:24,627 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker jwt received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:33:24,627 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker browser received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:33:24,627 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker httpHeaders received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:33:24,627 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker servlet-session received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:33:24,627 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker servlet-principal received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:33:24,627 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.iq - Swing/AWT transaction detection enabled: true
+2019-04-12 20:33:24,627 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: sql parameters logging enabled: false
+2019-04-12 20:33:24,627 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: max number of sql parameters logged: 1000
+2019-04-12 20:33:24,627 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.nO - Identity detection enabled: true
+2019-04-12 20:34:54,307 DEBUG [Plumbr thread - 6] eu.plumbr.runtime.agent.qX - Probe data statistics in the time period 1555071894140 to 1555072494233 (total size 29124): [ID: heap, count: 120, total: 6000, max: 50] [ID: gcmbean, count: 120, total: 10200, max: 85] [ID: allocation_stats, count: 120, total: 3000, max: 25] [ID: agent_logs, count: 29, total: 9120, max: 1187] [ID: raa_downstream, count: 21, total: 804, max: 44] 
+2019-04-12 20:38:29,692 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.jo - Got messages from server: [{"request":"config-update","updatedProperties":{"probes":"identity_detection,http_failed_requests,system_global_counters,class_stats,operation_tracker,user_transaction_monitoring,lucene_monitoring,instrumentation_error,raa,session_attribute_monitoring,timings,jdbc_driver,gc,heap,jdbc_statement_monitoring,ejb_transaction,thread_pool_monitoring,allocation_stats,browser_helper,throwable,concurrent_lock,file_monitoring,agent_logs,network_log,contention,sampler,swing_transaction,global_transaction,jdbc_slow_result_set,http_connection_monitoring,gcmbean,mongo_monitoring"}}]
+2019-04-12 20:38:29,693 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.vv - Broadcasting configuration update, updated properties: {probes=identity_detection,http_failed_requests,system_global_counters,class_stats,operation_tracker,user_transaction_monitoring,lucene_monitoring,instrumentation_error,raa,session_attribute_monitoring,timings,jdbc_driver,gc,heap,jdbc_statement_monitoring,ejb_transaction,thread_pool_monitoring,allocation_stats,browser_helper,throwable,concurrent_lock,file_monitoring,agent_logs,network_log,contention,sampler,swing_transaction,global_transaction,jdbc_slow_result_set,http_connection_monitoring,gcmbean,mongo_monitoring}
+2019-04-12 20:38:29,693 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.vx - Updated configuration property probes with identity_detection,http_failed_requests,system_global_counters,class_stats,operation_tracker,user_transaction_monitoring,lucene_monitoring,instrumentation_error,raa,session_attribute_monitoring,timings,jdbc_driver,gc,heap,jdbc_statement_monitoring,ejb_transaction,thread_pool_monitoring,allocation_stats,browser_helper,throwable,concurrent_lock,file_monitoring,agent_logs,network_log,contention,sampler,swing_transaction,global_transaction,jdbc_slow_result_set,http_connection_monitoring,gcmbean,mongo_monitoring. New value is [user_transaction_monitoring, swing_transaction, thread_pool_monitoring, concurrent_lock, heap, operation_tracker, ejb_transaction, http_failed_requests, instrumentation_error, raa, gc, throwable, system_global_counters, jdbc_driver, agent_logs, session_attribute_monitoring, contention, global_transaction, timings, class_stats, network_log, http_connection_monitoring, allocation_stats, file_monitoring, browser_helper, identity_detection, gcmbean, jdbc_statement_monitoring, lucene_monitoring, mongo_monitoring, sampler, jdbc_slow_result_set].
+2019-04-12 20:38:29,693 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 20:38:29,693 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.tM - Enabled user trackers: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:38:29,693 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker jwt received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:38:29,693 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker browser received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:38:29,693 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker httpHeaders received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:38:29,693 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker servlet-session received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:38:29,693 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker servlet-principal received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:38:29,693 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.iq - Swing/AWT transaction detection enabled: true
+2019-04-12 20:38:29,693 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: sql parameters logging enabled: false
+2019-04-12 20:38:29,693 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: max number of sql parameters logged: 1000
+2019-04-12 20:38:29,693 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.nO - Identity detection enabled: true
+2019-04-12 20:43:34,587 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.jo - Got messages from server: [{"request":"config-update","updatedProperties":{"probes":"identity_detection,http_failed_requests,system_global_counters,class_stats,operation_tracker,user_transaction_monitoring,lucene_monitoring,instrumentation_error,raa,session_attribute_monitoring,timings,jdbc_driver,gc,heap,jdbc_statement_monitoring,ejb_transaction,thread_pool_monitoring,allocation_stats,browser_helper,throwable,concurrent_lock,file_monitoring,agent_logs,network_log,contention,sampler,swing_transaction,global_transaction,jdbc_slow_result_set,http_connection_monitoring,gcmbean,mongo_monitoring"}}]
+2019-04-12 20:43:34,587 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.vv - Broadcasting configuration update, updated properties: {probes=identity_detection,http_failed_requests,system_global_counters,class_stats,operation_tracker,user_transaction_monitoring,lucene_monitoring,instrumentation_error,raa,session_attribute_monitoring,timings,jdbc_driver,gc,heap,jdbc_statement_monitoring,ejb_transaction,thread_pool_monitoring,allocation_stats,browser_helper,throwable,concurrent_lock,file_monitoring,agent_logs,network_log,contention,sampler,swing_transaction,global_transaction,jdbc_slow_result_set,http_connection_monitoring,gcmbean,mongo_monitoring}
+2019-04-12 20:43:34,587 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.vx - Updated configuration property probes with identity_detection,http_failed_requests,system_global_counters,class_stats,operation_tracker,user_transaction_monitoring,lucene_monitoring,instrumentation_error,raa,session_attribute_monitoring,timings,jdbc_driver,gc,heap,jdbc_statement_monitoring,ejb_transaction,thread_pool_monitoring,allocation_stats,browser_helper,throwable,concurrent_lock,file_monitoring,agent_logs,network_log,contention,sampler,swing_transaction,global_transaction,jdbc_slow_result_set,http_connection_monitoring,gcmbean,mongo_monitoring. New value is [user_transaction_monitoring, swing_transaction, thread_pool_monitoring, concurrent_lock, heap, operation_tracker, ejb_transaction, http_failed_requests, instrumentation_error, raa, gc, throwable, system_global_counters, jdbc_driver, agent_logs, session_attribute_monitoring, contention, global_transaction, timings, class_stats, network_log, http_connection_monitoring, allocation_stats, file_monitoring, browser_helper, identity_detection, gcmbean, jdbc_statement_monitoring, lucene_monitoring, mongo_monitoring, sampler, jdbc_slow_result_set].
+2019-04-12 20:43:34,587 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 20:43:34,587 INFO  [Plumbr thread - 2] eu.plumbr.runtime.agent.tM - Enabled user trackers: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:43:34,587 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker jwt received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:43:34,587 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker browser received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:43:34,587 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker httpHeaders received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:43:34,587 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker servlet-session received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:43:34,587 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.tK - User tracker servlet-principal received configuration update, enabled userTrackers are: [httpHeaders, jwt, browser, servlet-session, servlet-principal]
+2019-04-12 20:43:34,587 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.iq - Swing/AWT transaction detection enabled: true
+2019-04-12 20:43:34,588 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: sql parameters logging enabled: false
+2019-04-12 20:43:34,588 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: max number of sql parameters logged: 1000
+2019-04-12 20:43:34,588 DEBUG [Plumbr thread - 2] eu.plumbr.runtime.agent.nO - Identity detection enabled: true
+2019-04-12 20:44:52,304 DEBUG [Plumbr thread - 6] e.p.r.agent.fork.AgentStartupForker - No pending startup jobs found, not creating forked process.
+2019-04-12 20:44:54,374 DEBUG [Plumbr thread - 6] eu.plumbr.runtime.agent.qX - Probe data statistics in the time period 1555072494233 to 1555073094300 (total size 29274): [ID: heap, count: 120, total: 6000, max: 50] [ID: gcmbean, count: 120, total: 10200, max: 85] [ID: allocation_stats, count: 120, total: 3000, max: 25] [ID: agent_logs, count: 30, total: 9270, max: 1187] [ID: raa_downstream, count: 21, total: 804, max: 44] 
+2019-04-12 20:47:59,456 DEBUG [Thread-0] eu.plumbr.runtime.agent.cX - Sending shutdown notification to server.
+2019-04-12 20:53:06,577 DEBUG [main] eu.plumbr.runtime.agent.bX - Going to run Plumbr Agent with configuration: conf.sessionId=005691X5ggJ1VoAxjy1w3XdY5btSg8a3I=
+env.classPath=/home/meirh/work/java/PopcornPinYin/out/production/PopcornPinYin:/home/meirh/work/java/PopcornPinYin/lib/gson-2.8.5.jar:/home/meirh/work/java/PopcornPinYin/lib/hanlp-1.7.2.jar:/home/meirh/work/java/PopcornPinYin/lib/junit-4.12.jar:/home/meirh/work/java/PopcornPinYin/lib/hamcrest-core-1.3.jar
+env.cpuCoreCount=8
+env.javaRuntimeVersion=10.0.2+13-Ubuntu-1ubuntu0.18.04.4
+env.javaVendor=Oracle Corporation
+env.javaVersion=10.0.2
+env.maxMemory=4133486592
+env.maxPermGen=-1
+env.name=28073@meirh-XPS-13-9360
+env.osArch=amd64
+env.osName=Linux
+env.osVersion=4.15.0-47-generic
+env.startTimeMillis=1555073586538
+env.sun.java.command=com.rainytiger.www.PopcornPinYin.MainTest
+env.timeZoneId=Asia/Shanghai
+env.vmName=OpenJDK 64-Bit Server VM
+env.vmVendor=Oracle Corporation
+env.vmVersion=10.0.2+13-Ubuntu-1ubuntu0.18.04.4
+env.inputArguments=	-javaagent:./lib/plumbr/plumbr.jar \
+	-javaagent:/snap/intellij-idea-ultimate/133/lib/idea_rt.jar=37453:/snap/intellij-idea-ultimate/133/bin
+
+conf.clusterId=
+conf.buildNumber=5691
+conf.tmpDir=tmp
+conf.jvmId=PopcornPinYin
+conf.serverUrl=https://app.plumbr.io
+conf.logConf=plumbr-logback.xml
+conf.version=19.03.20
+conf.accountId=b9a69v1mbec4j0p8mslpji81r
+conf.agentWrapperVersion=19.03.20.5691
+conf.agentJarPath=/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar
+conf.agentWrapperJarPath=/home/meirh/work/java/PopcornPinYin/lib/plumbr/plumbr.jar
+conf.canChangeJvmKey=true
+conf.canChangeClusterName=true
+
+2019-04-12 20:53:08,370 INFO  [main] eu.plumbr.runtime.agent.uQ - Getting properties from file:/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar!/libs.md5
+2019-04-12 20:53:08,371 INFO  [main] eu.plumbr.runtime.agent.uQ - Getting properties from file:/home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/plumbr-agent.jar!/libs.md5
+2019-04-12 20:53:08,390 DEBUG [main] eu.plumbr.runtime.agent.vf - Trying to load library via System.loadLibrary
+2019-04-12 20:53:08,391 DEBUG [main] eu.plumbr.runtime.agent.vf - Failed, trying next
+2019-04-12 20:53:08,391 DEBUG [main] eu.plumbr.runtime.agent.vf - Looking for native libraries in directory /home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691
+2019-04-12 20:53:08,391 DEBUG [main] eu.plumbr.runtime.agent.vf - Trying to load library from /home/meirh/work/java/PopcornPinYin/lib/plumbr/version-19.03.20.5691/lib/linux/64/libplumbr.so
+2019-04-12 20:53:08,391 INFO  [main] eu.plumbr.runtime.agent.vf - Native library successfully loaded
+2019-04-12 20:53:08,392 INFO  [main] Native - Plumbr native logging started. Native agent version B2079 build B2079
+2019-04-12 20:53:08,392 INFO  [main] eu.plumbr.runtime.agent.cH - Starting native agent (disabled features: 0)
+2019-04-12 20:53:08,394 INFO  [main] Native - Abort signal handler installed.
+2019-04-12 20:53:08,395 INFO  [main] Native - Status of loading Serviceability API symbols: bad_version
+2019-04-12 20:53:08,395 INFO  [main] eu.plumbr.runtime.agent.cH - Configured OOM queries to host: app.plumbr.io, port: 80, accountId: b9a69v1mbec4j0p8mslpji81r, sessionId: 005691X5ggJ1VoAxjy1w3XdY5btSg8a3I=
+2019-04-12 20:53:08,396 DEBUG [main] e.p.r.agent.fork.AgentStartupForker - No pending startup jobs found, not creating forked process.
+2019-04-12 20:53:08,401 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe instrumentation_error for monitoring Instrumentation errors reporting is registered
+2019-04-12 20:53:08,401 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe generic_instrumentation for monitoring Generic instrumentation support probe is registered
+2019-04-12 20:53:08,401 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe raa for monitoring Runtime Application Architecture Discovery is registered
+2019-04-12 20:53:08,409 INFO  [main] eu.plumbr.runtime.agent.rG - Configured default application to PopcornPinYin
+2019-04-12 20:53:08,409 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe user_transaction_monitoring for monitoring User Transaction Monitoring is registered
+2019-04-12 20:53:08,410 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe browser_helper for monitoring Browser Helper is registered
+2019-04-12 20:53:08,410 DEBUG [main] eu.plumbr.runtime.agent.pJ - Starting lock contention probe: excludedLocks: [java/lang/ref/Reference$Lock, java/net/SocksSocketImpl, weblogic/socket/PosixSocketMuxer$1], excludedLockMethods: [sun/nio/ch/ServerSocketChannelImpl/accept, java/lang/ref/Reference$ReferenceHandler/run, com/sun/grizzly/util/SyncThreadPool$SyncThreadWorker/getTask, weblogic/socket/PosixSocketMuxer/processSockets]
+2019-04-12 20:53:08,410 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe contention for monitoring Lock Contention is registered
+2019-04-12 20:53:08,411 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe thread_pool_monitoring for monitoring Underprovisioned Thread Pool monitoring is registered
+2019-04-12 20:53:08,411 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe throwable for monitoring Monitoring of throwables is registered
+2019-04-12 20:53:08,412 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe concurrent_lock for monitoring Concurrent Lock Detection is registered
+2019-04-12 20:53:08,413 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe jdbc_statement_monitoring for monitoring JDBC Statement monitoring is registered
+2019-04-12 20:53:08,413 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe jdbc_driver for monitoring JDBC Slow Connection Initialization is registered
+2019-04-12 20:53:08,413 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe operation_tracker for monitoring Operation Tracker is registered
+2019-04-12 20:53:08,414 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe http_connection_monitoring for monitoring HTTP Connection monitoring is registered
+2019-04-12 20:53:08,414 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe mongo_monitoring for monitoring MongoDB monitoring is registered
+2019-04-12 20:53:08,414 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe lucene_monitoring for monitoring Lucene monitoring is registered
+2019-04-12 20:53:08,415 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe file_monitoring for monitoring File Operation monitoring is registered
+2019-04-12 20:53:08,415 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe network_log for monitoring Network Activity monitoring is registered
+2019-04-12 20:53:08,417 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe http_failed_requests for monitoring Failed Outgoing Request monitoring is registered
+2019-04-12 20:53:08,418 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe identity_detection for monitoring Identity Detection is registered
+2019-04-12 20:53:08,419 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe sampler for monitoring Sampler is registered
+2019-04-12 20:53:08,419 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe agent_logs for monitoring Agent Log Streaming is registered
+2019-04-12 20:53:08,419 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe allocation_stats for monitoring Allocation Statistics is registered
+2019-04-12 20:53:08,420 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe class_stats for monitoring Class Loading Statistics is registered
+2019-04-12 20:53:08,420 DEBUG [main] eu.plumbr.runtime.agent.qo - GC probe created
+2019-04-12 20:53:08,420 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe gc for monitoring Garbage Collection monitoring is registered
+2019-04-12 20:53:08,421 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe heap for monitoring Memory usage statistics is registered
+2019-04-12 20:53:08,421 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe gcmbean for monitoring GC Management Bean is registered
+2019-04-12 20:53:08,421 DEBUG [main] eu.plumbr.runtime.agent.oZ - Probe system_global_counters for monitoring Global Counters Probe is registered
+2019-04-12 20:53:08,421 DEBUG [main] eu.plumbr.runtime.agent.tN - Registering session attribute listener eu.plumbr.runtime.agent.un
+2019-04-12 20:53:08,424 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Generic instrumentation support probe
+2019-04-12 20:53:08,441 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Runtime Application Architecture Discovery
+2019-04-12 20:53:08,443 INFO  [main] eu.plumbr.runtime.agent.rC - Creating User Transaction instrumentations
+2019-04-12 20:53:08,446 INFO  [main] eu.plumbr.runtime.agent.rC - Enabling Swing Transaction instrumentations
+2019-04-12 20:53:08,446 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for User Transaction Monitoring
+2019-04-12 20:53:08,456 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Underprovisioned Thread Pool monitoring
+2019-04-12 20:53:08,457 INFO  [main] eu.plumbr.runtime.agent.pP - Enabling concurrent lock instrumentations
+2019-04-12 20:53:08,457 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Concurrent Lock Detection
+2019-04-12 20:53:08,457 INFO  [main] eu.plumbr.runtime.agent.fN - Enabling JDBC connection monitoring instrumentations
+2019-04-12 20:53:08,458 DEBUG [main] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: sql parameters logging enabled: false
+2019-04-12 20:53:08,459 DEBUG [main] eu.plumbr.runtime.agent.fO - Expensive JDBC Operations: max number of sql parameters logged: 1000
+2019-04-12 20:53:08,459 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for JDBC Statement monitoring
+2019-04-12 20:53:08,459 DEBUG [main] eu.plumbr.runtime.agent.fO - Interface based JDBC instrumentations enabled.
+2019-04-12 20:53:08,467 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for JDBC Slow Connection Initialization
+2019-04-12 20:53:08,470 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for HTTP Connection monitoring
+2019-04-12 20:53:08,478 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for MongoDB monitoring
+2019-04-12 20:53:08,481 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Lucene monitoring
+2019-04-12 20:53:08,482 INFO  [main] eu.plumbr.runtime.agent.oZ - ProbeManager: enabling spydefs for Identity Detection
+2019-04-12 20:53:08,485 DEBUG [main] eu.plumbr.runtime.agent.lP - Enabling spy retransformer.
+2019-04-12 20:53:08,487 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.px@4416d64f
+2019-04-12 20:53:08,487 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.cg@1fb19a0
+2019-04-12 20:53:08,487 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.kB@6ee4d9ab
+2019-04-12 20:53:08,487 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.jY@5a5338df
+2019-04-12 20:53:08,487 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.lo@418c5a9c
+2019-04-12 20:53:08,487 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.no@18e36d14
+2019-04-12 20:53:08,487 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.nj@5082d622
+2019-04-12 20:53:08,487 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.mX@13d4992d
+2019-04-12 20:53:08,487 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.dk@302f7971
+2019-04-12 20:53:08,487 DEBUG [main] eu.plumbr.runtime.agent.jP - Adding transformer eu.plumbr.runtime.agent.lQ@332729ad
+2019-04-12 20:53:08,534 DEBUG [main] eu.plumbr.runtime.agent.jP - Deserialization class has been retransformed
+2019-04-12 20:53:08,546 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class java.util.concurrent.Executors$RunnableAdapter. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 20:53:08,547 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 20:53:08,547 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class java.util.concurrent.FutureTask. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 20:53:08,547 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class java.util.concurrent.ThreadPoolExecutor$Worker. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 20:53:08,572 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class java.nio.DirectByteBuffer$Deallocator. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 20:53:08,573 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class sun.nio.ch.FileChannelImpl$Closer. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 20:53:08,579 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class sun.nio.fs.NativeBuffer$Deallocator. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 20:53:08,580 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class jdk.internal.misc.InnocuousThread. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 20:53:08,580 DEBUG [main] eu.plumbr.runtime.agent.lP - Field defining spy definition(s) matched during retransform for class jdk.internal.ref.CleanerImpl. However, retransform does not support adding new fields to the class. Offending sdefs: eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration 
+2019-04-12 20:53:08,583 DEBUG [main] eu.plumbr.runtime.agent.lP - Retransforming classes: sun.net.www.protocol.jrt.JavaRuntimeURLConnection;java.net.HttpURLConnection;java.util.concurrent.Executors$RunnableAdapter;java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask;java.util.concurrent.FutureTask;java.util.concurrent.ThreadPoolExecutor$Worker;java.net.Socket;java.util.concurrent.ThreadPoolExecutor;java.nio.DirectByteBuffer$Deallocator;sun.nio.ch.FileChannelImpl$Closer;java.nio.channels.spi.AbstractInterruptibleChannel;java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject;java.util.concurrent.locks.AbstractQueuedSynchronizer;sun.net.www.protocol.file.FileURLConnection;sun.net.www.URLConnection;sun.net.www.protocol.jar.JarURLConnection;java.net.JarURLConnection;java.net.URLConnection;sun.nio.fs.NativeBuffer$Deallocator;jdk.internal.misc.InnocuousThread;jdk.internal.ref.CleanerImpl;jdk.internal.loader.ClassLoaders$BootClassLoader;jdk.internal.loader.ClassLoaders$PlatformClassLoader;jdk.internal.loader.ClassLoaders$AppClassLoader;jdk.internal.loader.BuiltinClassLoader;jdk.internal.reflect.DelegatingClassLoader;java.lang.ClassLoader;
+2019-04-12 20:53:08,627 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: HUC_response_code): java.net.HttpURLConnection.getResponseCode ()I
+2019-04-12 20:53:08,630 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: HUC_response_message): java.net.HttpURLConnection.getResponseMessage ()Ljava/lang/String;
+2019-04-12 20:53:08,630 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: HUC_header_field): java.net.HttpURLConnection.getHeaderField (I)Ljava/lang/String;
+2019-04-12 20:53:08,631 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: HUC_header_field_key): java.net.HttpURLConnection.getHeaderFieldKey (I)Ljava/lang/String;
+2019-04-12 20:53:08,657 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.util.concurrent.Callable;
+java.lang.Object: retransform would add an interface
+2019-04-12 20:53:08,658 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): java.util.concurrent.Executors$RunnableAdapter.call ()Ljava/lang/Object;
+2019-04-12 20:53:08,659 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.util.concurrent.Executors$RunnableAdapter.<init> (Ljava/lang/Runnable;Ljava/lang/Object;)V
+2019-04-12 20:53:08,677 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.util.concurrent.RunnableFuture;java.util.concurrent.Future;java.util.concurrent.ScheduledFuture;java.util.concurrent.RunnableScheduledFuture;java.lang.Comparable;java.util.concurrent.Delayed;java.lang.Runnable;
+java.util.concurrent.FutureTaskjava.lang.Object: retransform would add an interface
+2019-04-12 20:53:08,677 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.<init> (Ljava/util/concurrent/ScheduledThreadPoolExecutor;Ljava/lang/Runnable;Ljava/lang/Object;JJ)V
+2019-04-12 20:53:08,678 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.<init> (Ljava/util/concurrent/ScheduledThreadPoolExecutor;Ljava/lang/Runnable;Ljava/lang/Object;JJJ)V
+2019-04-12 20:53:08,678 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.<init> (Ljava/util/concurrent/ScheduledThreadPoolExecutor;Ljava/util/concurrent/Callable;JJ)V
+2019-04-12 20:53:08,678 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run ()V
+2019-04-12 20:53:08,699 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.util.concurrent.RunnableFuture;java.util.concurrent.Future;java.lang.Runnable;
+java.lang.Object: retransform would add an interface
+2019-04-12 20:53:08,700 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.util.concurrent.FutureTask.<init> (Ljava/util/concurrent/Callable;)V
+2019-04-12 20:53:08,700 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.util.concurrent.FutureTask.<init> (Ljava/lang/Runnable;Ljava/lang/Object;)V
+2019-04-12 20:53:08,701 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): java.util.concurrent.FutureTask.run ()V
+2019-04-12 20:53:08,724 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.lang.Runnable;java.io.Serializable;
+java.util.concurrent.locks.AbstractQueuedSynchronizerjava.util.concurrent.locks.AbstractOwnableSynchronizerjava.lang.Object: retransform would add an interface
+2019-04-12 20:53:08,725 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.util.concurrent.ThreadPoolExecutor$Worker.<init> (Ljava/util/concurrent/ThreadPoolExecutor;Ljava/lang/Runnable;)V
+2019-04-12 20:53:08,725 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): java.util.concurrent.ThreadPoolExecutor$Worker.run ()V
+2019-04-12 20:53:08,750 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: downstream_socket_connect): java.net.Socket.connect (Ljava/net/SocketAddress;I)V
+2019-04-12 20:53:08,750 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: downstream_socket_close): java.net.Socket.close ()V
+2019-04-12 20:53:08,793 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: concurrent_lock_ignore): java.util.concurrent.ThreadPoolExecutor.getTask ()Ljava/lang/Runnable;
+2019-04-12 20:53:08,794 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: thread_pool_run): java.util.concurrent.ThreadPoolExecutor.beforeExecute (Ljava/lang/Thread;Ljava/lang/Runnable;)V
+2019-04-12 20:53:08,794 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: thread_pool_leave): java.util.concurrent.ThreadPoolExecutor.afterExecute (Ljava/lang/Runnable;Ljava/lang/Throwable;)V
+2019-04-12 20:53:08,795 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: thread_pool_exec): java.util.concurrent.ThreadPoolExecutor.execute (Ljava/lang/Runnable;)V
+2019-04-12 20:53:08,826 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.lang.Runnable;
+java.lang.Object: retransform would add an interface
+2019-04-12 20:53:08,827 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.nio.DirectByteBuffer$Deallocator.<init> (JJILjava/nio/DirectByteBuffer$1;)V
+2019-04-12 20:53:08,827 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): java.nio.DirectByteBuffer$Deallocator.<init> (JJI)V
+2019-04-12 20:53:08,827 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): java.nio.DirectByteBuffer$Deallocator.run ()V
+2019-04-12 20:53:08,846 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.lang.Runnable;
+java.lang.Object: retransform would add an interface
+2019-04-12 20:53:08,847 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): sun.nio.ch.FileChannelImpl$Closer.<init> (Ljava/io/FileDescriptor;)V
+2019-04-12 20:53:08,847 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): sun.nio.ch.FileChannelImpl$Closer.run ()V
+2019-04-12 20:53:08,865 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: downstream_socket_channel_close): java.nio.channels.spi.AbstractInterruptibleChannel.close ()V
+2019-04-12 20:53:08,884 DEBUG [main] eu.plumbr.runtime.agent.ng - Instrumenting method (sdef: abstract_queued_synchronizer): java/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject.await ()V
+2019-04-12 20:53:08,886 DEBUG [main] eu.plumbr.runtime.agent.ng - Instrumenting method (sdef: abstract_queued_synchronizer): java/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject.awaitNanos (J)J
+2019-04-12 20:53:08,907 DEBUG [main] eu.plumbr.runtime.agent.ng - Instrumenting method (sdef: abstract_queued_synchronizer): java/util/concurrent/locks/AbstractQueuedSynchronizer.acquireQueued (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;I)Z
+2019-04-12 20:53:08,908 DEBUG [main] eu.plumbr.runtime.agent.ng - Instrumenting method (sdef: abstract_queued_synchronizer): java/util/concurrent/locks/AbstractQueuedSynchronizer.doAcquireInterruptibly (I)V
+2019-04-12 20:53:08,908 DEBUG [main] eu.plumbr.runtime.agent.ng - Instrumenting method (sdef: abstract_queued_synchronizer): java/util/concurrent/locks/AbstractQueuedSynchronizer.doAcquireNanos (IJ)Z
+2019-04-12 20:53:08,908 DEBUG [main] eu.plumbr.runtime.agent.ng - Instrumenting method (sdef: abstract_queued_synchronizer): java/util/concurrent/locks/AbstractQueuedSynchronizer.doAcquireShared (I)V
+2019-04-12 20:53:08,909 DEBUG [main] eu.plumbr.runtime.agent.ng - Instrumenting method (sdef: abstract_queued_synchronizer): java/util/concurrent/locks/AbstractQueuedSynchronizer.doAcquireSharedInterruptibly (I)V
+2019-04-12 20:53:08,909 DEBUG [main] eu.plumbr.runtime.agent.ng - Instrumenting method (sdef: abstract_queued_synchronizer): java/util/concurrent/locks/AbstractQueuedSynchronizer.doAcquireSharedNanos (IJ)Z
+2019-04-12 20:53:08,972 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: UC_get_content): sun.net.www.protocol.jar.JarURLConnection.getContent ()Ljava/lang/Object;
+2019-04-12 20:53:09,024 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: UC_get_content): java.net.URLConnection.getContent ([Ljava/lang/Class;)Ljava/lang/Object;
+2019-04-12 20:53:09,025 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: UC_get_content): java.net.URLConnection.getContent ()Ljava/lang/Object;
+2019-04-12 20:53:09,054 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.lang.Runnable;
+java.lang.Object: retransform would add an interface
+2019-04-12 20:53:09,055 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): sun.nio.fs.NativeBuffer$Deallocator.<init> (J)V
+2019-04-12 20:53:09,055 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): sun.nio.fs.NativeBuffer$Deallocator.run ()V
+2019-04-12 20:53:09,077 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.lang.Runnable;
+java.lang.Threadjava.lang.Object: retransform would add an interface
+2019-04-12 20:53:09,078 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): jdk.internal.misc.InnocuousThread.<init> (Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;Ljava/lang/ClassLoader;)V
+2019-04-12 20:53:09,078 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): jdk.internal.misc.InnocuousThread.<init> (Ljava/lang/ThreadGroup;Ljava/lang/Runnable;Ljava/lang/String;Ljava/lang/ClassLoader;Ljdk/internal/misc/InnocuousThread$1;)V
+2019-04-12 20:53:09,078 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): jdk.internal.misc.InnocuousThread.run ()V
+2019-04-12 20:53:09,103 DEBUG [main] eu.plumbr.runtime.agent.lQ - Skipping eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class java.lang.Runnable;
+java.lang.Object: retransform would add an interface
+2019-04-12 20:53:09,104 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): jdk.internal.ref.CleanerImpl.<init> ()V
+2019-04-12 20:53:09,104 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): jdk.internal.ref.CleanerImpl.run ()V
+2019-04-12 20:53:09,231 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: THROWABLE_IGNORE): java.lang.ClassLoader.loadClass (Ljava/lang/String;)Ljava/lang/Class;
+2019-04-12 20:53:09,264 DEBUG [main] eu.plumbr.runtime.agent.lQ - Applying eu.plumbr.runtime.agent.probes.ut.integration.async.integration.AsyncSpanIntegration integration definition on class com/intellij/rt/execution/application/AppMainV2$1 (applied to ancestor true)
+2019-04-12 20:53:09,267 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_constructor): com.intellij.rt.execution.application.AppMainV2$1.<init> (Ljava/lang/String;IZ)V
+2019-04-12 20:53:09,267 DEBUG [main] eu.plumbr.runtime.agent.lR - Instrumenting method (sdef: AsyncSpans_payload): com.intellij.rt.execution.application.AppMainV2$1.run ()V
+2019-04-12 20:53:09,397 DEBUG [Plumbr thread - 3] eu.plumbr.runtime.agent.cO - Trying to connect to portal: 'https://app.plumbr.io'
+2019-04-12 20:53:09,398 INFO  [Plumbr thread - 3] eu.plumbr.runtime.agent.iJ - Trying to connect via HTTP
+2019-04-12 20:53:09,641 DEBUG [main] eu.plumbr.runtime.agent.jH - Made local module unnamed module @75d2da2d readable to module java.logging, for eu.plumbr.runtime.agent.mX: java/util/logging/Logger.

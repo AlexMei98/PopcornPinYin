@@ -1,7 +1,7 @@
 package com.rainytiger.www.PopcornPinYin;
 
 import com.google.gson.Gson;
-import com.hankcs.hanlp.seg.NShort.NShortSegment;
+import com.hankcs.hanlp.seg.Dijkstra.DijkstraSegment;
 import com.hankcs.hanlp.seg.Segment;
 import com.hankcs.hanlp.seg.common.Term;
 
@@ -13,7 +13,7 @@ class JsonParser {
 
     JsonParser() {
         nShortSegment();
-        segment = new NShortSegment().enableCustomDictionary(false).enablePlaceRecognize(true).enableOrganizationRecognize(true);
+        segment = new DijkstraSegment().enableCustomDictionary(false).enablePlaceRecognize(true).enableOrganizationRecognize(true);
     }
 
     private void nShortSegment() {

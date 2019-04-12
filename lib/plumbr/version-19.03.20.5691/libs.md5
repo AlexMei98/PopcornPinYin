@@ -1,0 +1,7 @@
+#Tue Oct 09 14:50:59 UTC 2018
+lib/win/64/plumbr.dll=79aac4ce74d1fd423f0987e14a3a9ffb
+lib/win/32/plumbr.dll=46db1ffdc0ef1850a92987ec2e261ade
+lib/mac/32/libplumbr.jnilib=8d62b16fe1c33e617423d5019c49d652
+lib/linux/64/libplumbr.so=3b69350e0ba13f85a3ca4eec0a647240
+lib/linux/32/libplumbr.so=4245fc9ba218e9835641b38a62772d0e
+lib/mac/64/libplumbr.jnilib=7da107c15075509e12a44bfe4480cd1c

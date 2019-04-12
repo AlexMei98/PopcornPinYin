@@ -1,0 +1,46 @@
+2019-04-12 19:46:21,059 [agent   :3399 ] INFO  - Plumbr native logging started. Native agent version B2079 build B2079
+2019-04-12 19:46:21,059 [agent   :3399 ] INFO  - JVMTI raw version is 30090000, major version is 9.
+2019-04-12 19:46:21,059 [agent   :3399 ] DEBUG - Child process tracking started.
+2019-04-12 19:46:21,061 [agent   :3399 ] DEBUG - Started child process 3555. Now tracking 1 processes.
+2019-04-12 19:46:21,061 [agent   :3399 ] INFO  - Abort signal handler installed.
+2019-04-12 19:46:21,061 [monitor :3555 ] INFO  - Process monitor succesfully started, monitoring PID 3399.
+2019-04-12 19:46:24,206 [monitor :3555 ] INFO  - Monitored process exited, no crash log found.
+2019-04-12 19:49:24,466 [agent   :4878 ] INFO  - Plumbr native logging started. Native agent version B2079 build B2079
+2019-04-12 19:49:24,466 [agent   :4878 ] INFO  - JVMTI raw version is 30090000, major version is 9.
+2019-04-12 19:49:24,466 [agent   :4878 ] DEBUG - Child process tracking started.
+2019-04-12 19:49:24,469 [agent   :4878 ] DEBUG - Started child process 4972. Now tracking 1 processes.
+2019-04-12 19:49:24,469 [agent   :4878 ] INFO  - Abort signal handler installed.
+2019-04-12 19:49:24,469 [agent   :4878 ] INFO  - Status of loading Serviceability API symbols: bad_version
+2019-04-12 19:49:24,469 [monitor :4972 ] INFO  - Process monitor succesfully started, monitoring PID 4878.
+2019-04-12 19:59:21,508 [agent   :4878 ] DEBUG - Beginning to process snapshot {"type":"heap","flags":3,"description":"Java heap space"} of type 0 (started at 1555070361414).
+2019-04-12 19:59:21,508 [agent   :4878 ] DEBUG - Sending processing message start: 
+2019-04-12 19:59:21,509 [agent   :4878 ] DEBUG - Started child process 5384. Now tracking 2 processes.
+2019-04-12 19:59:21,509 [agent   :4878 ] DEBUG - Disk space check passed (294938853376 available, 1000000000 required, 0 written)
+2019-04-12 19:59:21,509 [agent   :4878 ] INFO  - Memory state before taking a memory snapshot: 16529805312 total physical memory, 6200406016 available (minimum allowed 330596106).
+2019-04-12 19:59:21,510 [notify  :5384 ] INFO  - Sending OOM status notification start: .
+2019-04-12 19:59:24,479 [agent   :4878 ] DEBUG - Child process 5384 finished successfully with exit code 0.
+2019-04-12 19:59:24,479 [agent   :4878 ] DEBUG - 1 tracked processes still active.
+2019-04-12 19:59:24,480 [agent   :4878 ] DEBUG - Disk space check passed (294888841216 available, 1000000000 required, 50000015 written)
+2019-04-12 19:59:26,684 [agent   :4878 ] DEBUG - Started child process 5385. Now tracking 2 processes.
+2019-04-12 19:59:26,684 [agent   :4878 ] DEBUG - Snapshot processing finished.
+2019-04-12 19:59:26,684 [agent   :4878 ] DEBUG - Received an OOM of already handled type 0, not handling again.
+2019-04-12 19:59:27,096 [uploader:5385 ] INFO  - Plumbr native logging started. Native agent version B2079 build B2079
+2019-04-12 19:59:27,242 [uploader:5385 ] INFO  - Starting to compress files /home/meirh/work/java/PopcornPinYin/lib/plumbr/tmp/plumbr/oom_1555070361414/oom_info.txt and /home/meirh/work/java/PopcornPinYin/lib/plumbr/tmp/plumbr/oom_1555070361414/oom_graph.bin to /home/meirh/work/java/PopcornPinYin/lib/plumbr/tmp/plumbr/oom_1555070361414/oom.tbz2.
+2019-04-12 19:59:27,417 [monitor :4972 ] INFO  - Monitored process exited, no crash log found.
+2019-04-12 19:59:31,013 [uploader:5385 ] INFO  - Finished compression to /home/meirh/work/java/PopcornPinYin/lib/plumbr/tmp/plumbr/oom_1555070361414/oom.tbz2.
+2019-04-12 20:14:52,299 [agent   :18889] INFO  - Plumbr native logging started. Native agent version B2079 build B2079
+2019-04-12 20:14:52,299 [agent   :18889] INFO  - JVMTI raw version is 30090000, major version is 9.
+2019-04-12 20:14:52,300 [agent   :18889] DEBUG - Child process tracking started.
+2019-04-12 20:14:52,302 [agent   :18889] DEBUG - Started child process 18968. Now tracking 1 processes.
+2019-04-12 20:14:52,302 [agent   :18889] INFO  - Abort signal handler installed.
+2019-04-12 20:14:52,302 [agent   :18889] INFO  - Status of loading Serviceability API symbols: bad_version
+2019-04-12 20:14:52,302 [monitor :18968] INFO  - Process monitor succesfully started, monitoring PID 18889.
+2019-04-12 20:47:59,956 [monitor :18968] INFO  - Monitored process exited, no crash log found.
+2019-04-12 20:53:08,392 [agent   :28073] INFO  - Plumbr native logging started. Native agent version B2079 build B2079
+2019-04-12 20:53:08,392 [agent   :28073] INFO  - JVMTI raw version is 30090000, major version is 9.
+2019-04-12 20:53:08,392 [agent   :28073] DEBUG - Child process tracking started.
+2019-04-12 20:53:08,394 [agent   :28073] DEBUG - Started child process 28159. Now tracking 1 processes.
+2019-04-12 20:53:08,394 [agent   :28073] INFO  - Abort signal handler installed.
+2019-04-12 20:53:08,395 [monitor :28159] INFO  - Process monitor succesfully started, monitoring PID 28073.
+2019-04-12 20:53:08,395 [agent   :28073] INFO  - Status of loading Serviceability API symbols: bad_version
+2019-04-12 20:53:10,197 [monitor :28159] INFO  - Monitored process exited, no crash log found.
