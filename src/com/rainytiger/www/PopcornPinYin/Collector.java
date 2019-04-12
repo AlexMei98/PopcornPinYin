@@ -19,7 +19,7 @@ public class Collector {
     private Map<Integer, Map<Integer, Map<Integer, Integer>>> map3;
 
     private PreProcessor processor;
-    private Parser parser = new Parser();
+    private JsonParser jsonParser = new JsonParser();
 
     Collector(String corpusPath, PreProcessor processor) {
         this.corpusPath = corpusPath;
@@ -93,7 +93,7 @@ public class Collector {
         System.out.println("Parsing " + fileName + "...");
         while ((line = br.readLine()) != null) {
             System.out.println("Parsing File " + index + " / " + total + ", Line " + lineIndex++ + " / " + lineNumber + ".");
-            List<Term> terms = parser.parseJson(line);
+            List<Term> terms = jsonParser.parseJson(line);
             for (Term term : terms) {
                 if (!isAllChinese(term.word)) continue;
                 updateMap(term.word);

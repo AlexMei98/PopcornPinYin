@@ -7,11 +7,11 @@ import com.hankcs.hanlp.seg.common.Term;
 
 import java.util.List;
 
-class Parser {
+class JsonParser {
 
     private Segment segment;
 
-    Parser() {
+    JsonParser() {
         nShortSegment();
         segment = new NShortSegment().enableCustomDictionary(false).enablePlaceRecognize(true).enableOrganizationRecognize(true);
     }
