@@ -27,17 +27,20 @@ class PreProcessor {
             "pinyin2hanzi"
     };
 
-    PreProcessor(String corpusPath, String cachePath) throws IOException, ClassNotFoundException {
+    PreProcessor(String corpusPath, String cachePath) {
         this.corpusPath = corpusPath;
         this.cachePath = cachePath;
+    }
 
-        if (cacheExist()) {
+    void init() throws IOException, ClassNotFoundException {
+        if (Util.cacheExist(cachePath, cacheNames)) {
             readAll();
         } else {
-            deleteCache();
+            Util.deleteCache(cachePath, cacheNames);
             initMap();
             writeAll();
         }
+
     }
 
     private void writeAll() throws IOException {
@@ -50,12 +53,12 @@ class PreProcessor {
     }
 
     private void readAll() throws IOException, ClassNotFoundException {
-        index2hanzi = (Map<Integer, Character>) Util.read(cachePath + File.separator + "index2hanzi.data");
-        hanzi2index = (Map<Character, Integer>) Util.read(cachePath + File.separator + "hanzi2index.data");
-        pinyin2index = (Map<String, Integer>) Util.read(cachePath + File.separator + "pinyin2index.data");
-        index2pinyin = (Map<Integer, String>) Util.read(cachePath + File.separator + "index2pinyin.data");
-        hanzi2pinyin = (List<Integer>[]) Util.read(cachePath + File.separator + "hanzi2pinyin.data");
-        pinyin2hanzi = (List<Integer>[]) Util.read(cachePath + File.separator + "pinyin2hanzi.data");
+        index2hanzi = Util.cast(Util.read(cachePath + File.separator + "index2hanzi.data"));
+        hanzi2index = Util.cast(Util.read(cachePath + File.separator + "hanzi2index.data"));
+        pinyin2index = Util.cast(Util.read(cachePath + File.separator + "pinyin2index.data"));
+        index2pinyin = Util.cast(Util.read(cachePath + File.separator + "index2pinyin.data"));
+        hanzi2pinyin = Util.cast(Util.read(cachePath + File.separator + "hanzi2pinyin.data"));
+        pinyin2hanzi = Util.cast(Util.read(cachePath + File.separator + "pinyin2hanzi.data"));
     }
 
     private void initMap() throws IOException {
@@ -91,34 +94,6 @@ class PreProcessor {
                 hanzi2pinyin[hanziIndex].add(pinyinIndex);
             }
             pinyinIndex++;
-        }
-    }
-
-    private boolean cacheExist() {
-        File file = new File(cachePath);
-        if (!file.exists()) return false;
-        for (String fileName : cacheNames) {
-            file = new File(cachePath + File.separator + fileName + ".data");
-            if (!file.exists()) return false;
-        }
-        return true;
-    }
-
-    private void deleteCache() throws IOException {
-        File dir = new File(cachePath);
-        if (!dir.exists()) {
-            if (!dir.mkdir()) {
-                throw new IOException("Create New Directory Filed!");
-            }
-        } else {
-            for (String cacheName : cacheNames) {
-                File file = new File(cacheName);
-                if (file.exists()) {
-                    if (!file.delete()) {
-                        throw new IOException("Delete Cache File \"" + file.getName() + "\" Filed!");
-                    }
-                }
-            }
         }
     }
 

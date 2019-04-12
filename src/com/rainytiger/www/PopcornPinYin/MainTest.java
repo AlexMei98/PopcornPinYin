@@ -11,9 +11,9 @@ public class MainTest {
         String corpusPath = "sina_news";
 
         PreProcessor processor = new PreProcessor(preCorpusPath, cachePath);
-        Collector collector = new Collector(preCorpusPath + File.separator + corpusPath, processor);
-        collector.parseAll();
-        System.out.println(collector);
+        processor.init();
+        Collector collector = new Collector(preCorpusPath + File.separator + corpusPath, cachePath, processor);
+        collector.init();
     }
 
 }

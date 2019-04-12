@@ -7,12 +7,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class Collector {
 
     private String corpusPath;
+    private String cachePath;
     private List<String> corpusFileNames;
     private Map<Integer, Integer> map1;
     private Map<Integer, Map<Integer, Integer>> map2;
@@ -21,8 +20,15 @@ public class Collector {
     private PreProcessor processor;
     private JsonParser jsonParser = new JsonParser();
 
-    Collector(String corpusPath, PreProcessor processor) {
+    private String[] cacheFileNames = {
+            "map1",
+            "map2",
+            "map3"
+    };
+
+    Collector(String corpusPath, String cachePath, PreProcessor processor) {
         this.corpusPath = corpusPath;
+        this.cachePath = cachePath;
         findCorpus(this.corpusPath);
         this.processor = processor;
         map1 = new HashMap<>();
@@ -30,14 +36,26 @@ public class Collector {
         map3 = new HashMap<>();
     }
 
-    private boolean isAllChinese(String string) {
-        String regex = "([\u4e00-\u9fa5]+)";
-        StringBuilder sb = new StringBuilder();
-        Matcher matcher = Pattern.compile(regex).matcher(string);
-        while (matcher.find()) {
-            sb.append(matcher.group(0));
+    void init() throws IOException, ClassNotFoundException {
+        if (Util.cacheExist(cachePath, cacheFileNames)) {
+            readAll();
+        } else {
+            Util.deleteCache(cachePath, cacheFileNames);
+            parseAll();
+            writeAll();
         }
-        return sb.toString().equals(string);
+    }
+
+    private void readAll() throws IOException, ClassNotFoundException {
+        map1 = Util.cast(Util.read(cachePath + File.separator + "map1.data"));
+        map2 = Util.cast(Util.read(cachePath + File.separator + "map2.data"));
+        map3 = Util.cast(Util.read(cachePath + File.separator + "map3.data"));
+    }
+
+    private void writeAll() throws IOException {
+        Util.write(cachePath + File.separator + "map1.data", map1);
+        Util.write(cachePath + File.separator + "map2.data", map2);
+        Util.write(cachePath + File.separator + "map3.data", map3);
     }
 
     private void findCorpus(String path) {
@@ -92,21 +110,25 @@ public class Collector {
         BufferedReader br = new BufferedReader(new FileReader(fileName));
         System.out.println("Parsing " + fileName + "...");
         while ((line = br.readLine()) != null) {
-            System.out.println("Parsing File " + index + " / " + total + ", Line " + lineIndex++ + " / " + lineNumber + ".");
+            System.out.println("Parsing File " + index + " / " + total + " | Line " + lineIndex++ + " / " + lineNumber);
             List<Term> terms = jsonParser.parseJson(line);
             for (Term term : terms) {
-                if (!isAllChinese(term.word)) continue;
+                if (!Util.isAllChinese(term.word)) continue;
                 updateMap(term.word);
             }
         }
     }
 
-    void parseAll() throws IOException {
+    private void parseAll() throws IOException {
         int size = corpusFileNames.size();
         int index = 1;
+        long startTime = System.currentTimeMillis();
         for (String corpusName : corpusFileNames) {
-            parseOneFile(corpusPath + File.separator + corpusName, index, size);
+            parseOneFile(corpusPath + File.separator + corpusName, index++, size);
         }
+        long endTime = System.currentTimeMillis();
+        long totalTime = endTime - startTime;
+        System.out.println("Total Time: " + totalTime + " ms");
     }
 
     public String toString() {
