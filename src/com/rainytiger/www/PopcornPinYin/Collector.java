@@ -110,7 +110,8 @@ public class Collector {
         BufferedReader br = new BufferedReader(new FileReader(fileName));
         System.out.println("Parsing " + fileName + "...");
         while ((line = br.readLine()) != null) {
-            System.out.println("Parsing File " + index + " / " + total + " | Line " + lineIndex++ + " / " + lineNumber);
+            if (lineIndex % 1000 == 0)System.out.println("Parsing File " + index + " / " + total + " | Line " + lineIndex + " / " + lineNumber);
+            lineIndex++;
             List<Term> terms = jsonParser.parseJson(line);
             for (Term term : terms) {
                 if (!Util.isAllChinese(term.word)) continue;
