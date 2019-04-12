@@ -1,5 +1,6 @@
 # directories
 data/
+test/
 out/
 cache/
 .idea/
