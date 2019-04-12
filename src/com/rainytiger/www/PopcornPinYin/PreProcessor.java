@@ -1,6 +1,9 @@
 package com.rainytiger.www.PopcornPinYin;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.*;
 
 @SuppressWarnings({"unchecked", "unused"})
@@ -8,12 +11,12 @@ class PreProcessor {
 
     private String cachePath;
     private String corpusPath;
-    private Map<Character, Integer> hanzi2index = new HashMap<>();
-    private Map<Integer, Character> index2hanzi = new HashMap<>();
-    private Map<String, Integer> pinyin2index = new HashMap<>();
-    private Map<Integer, String> index2pinyin = new HashMap<>();
-    private List<Integer>[] hanzi2pinyin = new List[6763];
-    private List<Integer>[] pinyin2hanzi = new List[406];
+    private Map<Character, Integer> hanzi2index;
+    private Map<Integer, Character> index2hanzi;
+    private Map<String, Integer> pinyin2index;
+    private Map<Integer, String> index2pinyin;
+    private List<Integer>[] hanzi2pinyin;
+    private List<Integer>[] pinyin2hanzi;
 
     private String[] cacheNames = {
             "index2hanzi",
@@ -37,43 +40,32 @@ class PreProcessor {
         }
     }
 
-    private Object read(String path) throws IOException, ClassNotFoundException {
-        FileInputStream i = new FileInputStream(path);
-        ObjectInputStream in = new ObjectInputStream(i);
-        Object map = in.readObject();
-        in.close();
-        return map;
-    }
-
-    private void write(String path, Object obj) throws IOException {
-        File file = new File(path);
-        FileOutputStream o = new FileOutputStream(file);
-        ObjectOutputStream out = new ObjectOutputStream(o);
-        out.writeObject(obj);
-        out.flush();
-        out.close();
-    }
-
     private void writeAll() throws IOException {
-        write(cachePath + File.separator + "index2hanzi.data", index2hanzi);
-        write(cachePath + File.separator + "hanzi2index.data", hanzi2index);
-        write(cachePath + File.separator + "pinyin2index.data", pinyin2index);
-        write(cachePath + File.separator + "index2pinyin.data", index2pinyin);
-        write(cachePath + File.separator + "hanzi2pinyin.data", hanzi2pinyin);
-        write(cachePath + File.separator + "pinyin2hanzi.data", pinyin2hanzi);
+        Util.write(cachePath + File.separator + "index2hanzi.data", index2hanzi);
+        Util.write(cachePath + File.separator + "hanzi2index.data", hanzi2index);
+        Util.write(cachePath + File.separator + "pinyin2index.data", pinyin2index);
+        Util.write(cachePath + File.separator + "index2pinyin.data", index2pinyin);
+        Util.write(cachePath + File.separator + "hanzi2pinyin.data", hanzi2pinyin);
+        Util.write(cachePath + File.separator + "pinyin2hanzi.data", pinyin2hanzi);
     }
 
     private void readAll() throws IOException, ClassNotFoundException {
-        index2hanzi = (Map<Integer, Character>) read(cachePath + File.separator + "index2hanzi.data");
-        hanzi2index = (Map<Character, Integer>) read(cachePath + File.separator + "hanzi2index.data");
-        pinyin2index = (Map<String, Integer>) read(cachePath + File.separator + "pinyin2index.data");
-        index2pinyin = (Map<Integer, String>) read(cachePath + File.separator + "index2pinyin.data");
-        hanzi2pinyin = (List<Integer>[]) read(cachePath + File.separator + "hanzi2pinyin.data");
-        pinyin2hanzi = (List<Integer>[]) read(cachePath + File.separator + "pinyin2hanzi.data");
+        index2hanzi = (Map<Integer, Character>) Util.read(cachePath + File.separator + "index2hanzi.data");
+        hanzi2index = (Map<Character, Integer>) Util.read(cachePath + File.separator + "hanzi2index.data");
+        pinyin2index = (Map<String, Integer>) Util.read(cachePath + File.separator + "pinyin2index.data");
+        index2pinyin = (Map<Integer, String>) Util.read(cachePath + File.separator + "index2pinyin.data");
+        hanzi2pinyin = (List<Integer>[]) Util.read(cachePath + File.separator + "hanzi2pinyin.data");
+        pinyin2hanzi = (List<Integer>[]) Util.read(cachePath + File.separator + "pinyin2hanzi.data");
     }
 
     private void initMap() throws IOException {
-        // 汉字
+        hanzi2index = new HashMap<>();
+        index2hanzi = new HashMap<>();
+        pinyin2index = new HashMap<>();
+        index2pinyin = new HashMap<>();
+        hanzi2pinyin = new List[6763];
+        pinyin2hanzi = new List[406];
+
         BufferedReader hanziBufferReader =
                 new BufferedReader(new FileReader(corpusPath + File.separator + "hanzi.txt"));
         String line = hanziBufferReader.readLine();
@@ -85,7 +77,6 @@ class PreProcessor {
             hanzi2pinyin[hanziIndex++] = new ArrayList<>();
         }
 
-        // 拼音
         BufferedReader pinyinBufferReader =
                 new BufferedReader(new FileReader(corpusPath + File.separator + "pinyin.txt"));
         int pinyinIndex = 0;
