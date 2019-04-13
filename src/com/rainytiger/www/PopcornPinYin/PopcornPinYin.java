@@ -8,10 +8,13 @@ public class PopcornPinYin {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         if (args.length == 0) {
             String usage =
-                    "Usage: java -jar PopcornPinYin.jar INPUT OUTPUT\n" +
-                            "       Use INPUT file which one line as a input pinyin, save the output to OUTPUT file.\n\n" +
-                            "   Or: java -jar PopcornPinYin.jar PINYIN\n" +
-                            "       Use PINYIN as input, print the output to the terminal.\n";
+                    "  Usage: java -jar PopcornPinYin.jar \"PINYIN\"\n" +
+                    "         Use PINYIN as input (with \"\" surrounding), print the output to the terminal.\n\n" +
+                    "     Or: java -jar PopcornPinYin.jar INPUT OUTPUT PRINT_FLAG\n" +
+                    "         Use INPUT file which one line as a input pinyin, save the output to OUTPUT file.\n\n" +
+                    "     Or: java -jar PopcornPinYin.jar TESTSET PRINT_FLAG\n" +
+                    "         Use PINYIN as input, print the output to the terminal.\n\n" +
+                    "         PRINT_FLAG: \"true\" or others, means print the results to the terminal or not.\n";
             System.out.println(usage);
             return;
         }
@@ -29,7 +32,9 @@ public class PopcornPinYin {
         if (args.length == 1) {
             System.out.println(translator.translateOneLine(args[0]));
         } else if (args.length == 2) {
-            translator.translateFile(args[0], args[1]);
+            translator.translateTestSet(args[0], Boolean.valueOf(args[1]));
+        } else if (args.length == 3) {
+            translator.translateFile(args[0], args[1], Boolean.valueOf(args[2]));
         }
     }
 

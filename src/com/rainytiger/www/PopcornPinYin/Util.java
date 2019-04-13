@@ -61,6 +61,17 @@ class Util {
         return sb.toString().equals(string);
     }
 
+    static int stringSameNumber(String string1, String string2) {
+        char[] str1 = string1.toCharArray();
+        char[] str2 = string2.toCharArray();
+        int count = 0;
+        int size = Math.min(string1.length(), string2.length());
+        for (int i = 0; i < size; i++) {
+            if (str1[i] == str2[i]) count++;
+        }
+        return count;
+    }
+
     @SuppressWarnings("unchecked")
     static <T> T cast(Object obj) {
         return (T) obj;

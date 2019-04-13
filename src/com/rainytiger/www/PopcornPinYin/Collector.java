@@ -81,8 +81,8 @@ public class Collector {
 
         int size = list.size();
         for (int c : list) update(c);
-        if (size == 2) update(list.get(0), list.get(1));
-        if (size == 3) update(list.get(0), list.get(1), list.get(2));
+        if (size >= 2) update(list.get(0), list.get(1));
+        if (size >= 3) update(list.get(0), list.get(1), list.get(2));
     }
 
     private void update(int han1) {

@@ -10,11 +10,9 @@
     <property name="dest" value="bin"/>
     <property name="cache" value="cache"/>
     <property name="test" value="test"/>
-
     <property name="dist" value="dist"/>
     <property name="dist.lib" value="dist/lib"/>
     <property name="dist.cache" value="dist/cache"/>
-
     <property name="jarfile" value="${ant.project.name}.jar"/>
     <property name="testset" value="testset.data"/>
     <property name="input" value="input.txt"/>
@@ -27,6 +25,7 @@
         <mkdir dir="${dist.lib}"/>
         <mkdir dir="${dist.cache}"/>
     </target>
+
     <path id="classpath">
         <fileset dir="${lib}">
             <include name="*.jar"/>
@@ -34,9 +33,11 @@
             <exclude name="*javadoc.jar"/>
         </fileset>
     </path>
+
     <target name="compile" depends="init" description="compile the source">
         <javac includeantruntime="false" srcdir="${src}" destdir="${dest}" classpathref="classpath"/>
     </target>
+
     <pathconvert property="classpath.name" pathsep=" ">
         <path refid="classpath"/>
         <mapper>
@@ -46,15 +47,27 @@
             </chainedmapper>
         </mapper>
     </pathconvert>
+
     <target name="copy-dependencies" depends="init">
         <copy todir="${dist.lib}">
             <fileset dir="${lib}" includes="**/*.jar" excludes="**/*sources.jar, **/*javadoc.jar"/>
         </copy>
+    </target>
+
+    <target name="copy-cache-condition">
+        <condition property="cache.exist">
+            <available file="${cache}" type="dir"/>
+        </condition>
+    </target>
+
+    <target name="copy-cache" depends="init, copy-cache-condition" if="cache.exist">
+        <echo message="Cache Files Exits"/>
         <copy todir="${dist.cache}">
             <fileset dir="${cache}" includes="**/*.data"/>
         </copy>
     </target>
-    <target name="build" depends="compile, copy-dependencies" description="package, output to JAR">
+
+    <target name="build" depends="compile, copy-dependencies, copy-cache" description="package, output to JAR">
         <echo message="classpath.name: ${classpath.name}"/>
         <jar jarfile="${dist}/${jarfile}" basedir="${dest}">
             <manifest>
@@ -63,15 +76,20 @@
             </manifest>
         </jar>
     </target>
+
+    <target name="test" depends="build">
+        <java classpath="${dist}/${jarfile}" classname="${mainclass}" args="${test}/${testset} true"/>
+    </target>
+
     <target name="filetest" depends="build">
-        <java classpath="${dist}/${jarfile}" classname="${mainclass}" args="${test}/${testset}"/>
+        <java classpath="${dist}/${jarfile}" classname="${mainclass}" args="${test}/${input} ${test}/${output} false"/>
     </target>
-    <target name="maintest" depends="build">
-        <java classpath="${dist}/${jarfile}" classname="${mainclass}" args="${test}/${input} ${test}/${output}"/>
-    </target>
+
     <target name="clean" description="clean up">
         <delete dir="${dest}"/>
         <delete dir="${dist}"/>
     </target>
-    <target name="main" depends="clean, init, compile, build"/>
+
+    <target name="main" depends="clean, build"/>
+
 </project>
