@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="PopcornPinyin" default="run" basedir=".">
+    <description>
+        Create a Java Project (JAR) with Ant build script.
+    </description>
+    <property name="src" value="src"/>
+    <property name="lib" value="lib"/>
+    <property name="dest" value="out"/>
+    <property name="data" value="data"/>
+    <property name="corpus" value="corpus"/>
+    <property name="cache" value="cache"/>
+    <property name="jarfile" value="PopcornPinYin.jar"/>
+    <target name="init">
+        <mkdir dir="${dest}"/>
+    </target>
+    <path id="classpath">
+        <fileset dir="${lib}">
+            <include name="*.jar"/>
+            <exclude name="*sources.jar"/>
+            <exclude name="*javadoc.jar"/>
+        </fileset>
+    </path>
+    <target name="compile" depends="init">
+        <javac includeantruntime="false" srcdir="${src}" destdir="${dest}" classpathref="classpath"/>
+    </target>
+    <target name="build" depends="compile">
+        <jar jarfile="${jarfile}" basedir="${dest}"/>
+    </target>
+    <target name="run" depends="build">
+        <java classpath="${jarfile}" classname="com.rainytiger.www.PopcornPinYin.PopcornPinYin"/>
+    </target>
+    <target name="clean">
+        <delete dir="${dest}"/>
+        <delete file="${jarfile}"/>
+    </target>
+    <target name="rerun" depends="clean,run">
+        <ant target="clean"/>
+        <ant target="run"/>
+    </target>
+</project>
