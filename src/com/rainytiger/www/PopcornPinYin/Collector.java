@@ -115,7 +115,8 @@ public class Collector {
         BufferedReader br = new BufferedReader(new FileReader(fileName));
         System.out.println("Parsing " + fileName + "...");
         while ((line = br.readLine()) != null) {
-            if (lineIndex % 1000 == 0)System.out.println("Parsing File " + index + " / " + total + " | Line " + lineIndex + " / " + lineNumber);
+            if (lineIndex % 1000 == 0)
+                System.out.println("Parsing File " + index + " / " + total + " | Line " + lineIndex + " / " + lineNumber);
             lineIndex++;
             List<Term> terms = jsonParser.parseJson(line);
             for (Term term : terms) {
@@ -136,6 +137,26 @@ public class Collector {
         long endTime = System.currentTimeMillis();
         long totalTime = endTime - startTime;
         System.out.println("Total Time: " + totalTime + " ms");
+    }
+
+    int getFromMap1(int hanziIndex) {
+        return map1.getOrDefault(hanziIndex, -1);
+    }
+
+    Map<Integer, Integer> getFromMap2(int hanziIndex) {
+        return map2.getOrDefault(hanziIndex, null);
+    }
+
+    Map<Integer, Map<Integer, Integer>> getFromMap3(int hanziIndex) {
+        return map3.getOrDefault(hanziIndex, null);
+    }
+
+    int hanziTotalNumber() {
+        int count = 0;
+        for (int i : map1.values()) {
+            count += i;
+        }
+        return count;
     }
 
     public String toString() {

@@ -6,7 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
 
-@SuppressWarnings({"unchecked", "unused"})
+@SuppressWarnings({"unchecked"})
 class PreProcessor {
 
     private String cachePath;
@@ -132,28 +132,18 @@ class PreProcessor {
         return hanzi2index.getOrDefault(hanzi, -1);
     }
 
-    public char parseHanzi(int index) {
-        return index2hanzi.getOrDefault(index, null);
+    char parseHanzi(int index) {
+        return index2hanzi.getOrDefault(index, ' ');
     }
 
     private int parsePinyin(String pinyin) {
         return pinyin2index.getOrDefault(pinyin, -1);
     }
 
-    public String parsePinyin(int index) {
-        return index2pinyin.getOrDefault(index, null);
-    }
-
-    public List<Integer> hanziList(String pinyin) {
+    List<Integer> hanziList(String pinyin) {
         int index = parsePinyin(pinyin);
-        if (index == -1) return null;
+        if (index < 0) return null;
         return pinyin2hanzi[index];
-    }
-
-    public List<Integer> pinyinList(char hanzi) {
-        int index = parseHanzi(hanzi);
-        if (index == -1) return null;
-        return hanzi2pinyin[index];
     }
 
 }

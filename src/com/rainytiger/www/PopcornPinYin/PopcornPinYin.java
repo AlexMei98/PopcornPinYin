@@ -27,7 +27,7 @@ public class PopcornPinYin {
         processor.init();
         Collector collector = new Collector(preCorpusPath + File.separator + corpusPath, cachePath, processor);
         collector.init();
-        Translator translator = new Translator(processor, collector);
+        Translator translator = new Translator(processor, collector, 0.9999);
 
         if (args.length == 1) {
             System.out.println(translator.translateOneLine(args[0]));
