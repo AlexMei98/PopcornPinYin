@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<project name="PopcornPinyin" default="run" basedir=".">
+<project name="PopcornPinyin" default="main" basedir=".">
+
     <description>
         Create a Java Project (JAR) with Ant build script.
     </description>
+
     <property name="src" value="src"/>
     <property name="lib" value="lib"/>
-    <property name="dest" value="out"/>
-    <property name="data" value="data"/>
-    <property name="corpus" value="corpus"/>
+    <property name="dest" value="bin"/>
     <property name="cache" value="cache"/>
-    <property name="jarfile" value="PopcornPinYin.jar"/>
+    <property name="test" value="test"/>
+
+    <property name="dist" value="dist"/>
+    <property name="dist.lib" value="dist/lib"/>
+    <property name="dist.cache" value="dist/cache"/>
+
+    <property name="jarfile" value="${ant.project.name}.jar"/>
+    <property name="testset" value="testset.data"/>
+    <property name="input" value="input.txt"/>
+    <property name="output" value="output.txt"/>
+    <property name="mainclass" value="com.rainytiger.www.PopcornPinYin.PopcornPinYin"/>
+
     <target name="init">
         <mkdir dir="${dest}"/>
+        <mkdir dir="${dist}"/>
+        <mkdir dir="${dist.lib}"/>
+        <mkdir dir="${dist.cache}"/>
     </target>
     <path id="classpath">
         <fileset dir="${lib}">
@@ -20,21 +34,44 @@
             <exclude name="*javadoc.jar"/>
         </fileset>
     </path>
-    <target name="compile" depends="init">
+    <target name="compile" depends="init" description="compile the source">
         <javac includeantruntime="false" srcdir="${src}" destdir="${dest}" classpathref="classpath"/>
     </target>
-    <target name="build" depends="compile">
-        <jar jarfile="${jarfile}" basedir="${dest}"/>
+    <pathconvert property="classpath.name" pathsep=" ">
+        <path refid="classpath"/>
+        <mapper>
+            <chainedmapper>
+                <flattenmapper/>
+                <globmapper from="*.jar" to="${lib}/*.jar"/>
+            </chainedmapper>
+        </mapper>
+    </pathconvert>
+    <target name="copy-dependencies" depends="init">
+        <copy todir="${dist.lib}">
+            <fileset dir="${lib}" includes="**/*.jar" excludes="**/*sources.jar, **/*javadoc.jar"/>
+        </copy>
+        <copy todir="${dist.cache}">
+            <fileset dir="${cache}" includes="**/*.data"/>
+        </copy>
     </target>
-    <target name="run" depends="build">
-        <java classpath="${jarfile}" classname="com.rainytiger.www.PopcornPinYin.PopcornPinYin"/>
+    <target name="build" depends="compile, copy-dependencies" description="package, output to JAR">
+        <echo message="classpath.name: ${classpath.name}"/>
+        <jar jarfile="${dist}/${jarfile}" basedir="${dest}">
+            <manifest>
+                <attribute name="Main-Class" value="${mainclass}"/>
+                <attribute name="Class-Path" value="${classpath.name}"/>
+            </manifest>
+        </jar>
     </target>
-    <target name="clean">
+    <target name="filetest" depends="build">
+        <java classpath="${dist}/${jarfile}" classname="${mainclass}" args="${test}/${testset}"/>
+    </target>
+    <target name="maintest" depends="build">
+        <java classpath="${dist}/${jarfile}" classname="${mainclass}" args="${test}/${input} ${test}/${output}"/>
+    </target>
+    <target name="clean" description="clean up">
         <delete dir="${dest}"/>
-        <delete file="${jarfile}"/>
+        <delete dir="${dist}"/>
     </target>
-    <target name="rerun" depends="clean,run">
-        <ant target="clean"/>
-        <ant target="run"/>
-    </target>
+    <target name="main" depends="clean, init, compile, build"/>
 </project>

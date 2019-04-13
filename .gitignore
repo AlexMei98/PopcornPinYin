@@ -1,6 +1,8 @@
 # directories
 data/
 test/
+dist/
+bin/
 out/
 cache/
 .idea/
