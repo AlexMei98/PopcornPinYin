@@ -37,13 +37,17 @@ public class Collector {
     }
 
     void init() throws IOException, ClassNotFoundException {
+        System.out.println("Step 2: Setup Frequency Record...");
         if (Util.cacheExist(cachePath, cacheFileNames)) {
+            System.out.println("Cache File Exist, Loading Cache...");
             readAll();
         } else {
+            System.out.println("Cache File Not Exist, Building...");
             Util.deleteCache(cachePath, cacheFileNames);
             parseAll();
             writeAll();
         }
+        System.out.println("Step 2 Finish !!!");
     }
 
     private void readAll() throws IOException, ClassNotFoundException {

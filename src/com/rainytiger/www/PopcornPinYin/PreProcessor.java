@@ -33,13 +33,17 @@ class PreProcessor {
     }
 
     void init() throws IOException, ClassNotFoundException {
+        System.out.println("Step 1: Setup Mapping...");
         if (Util.cacheExist(cachePath, cacheNames)) {
+            System.out.println("Cache File Exist, Loading Cache...");
             readAll();
         } else {
+            System.out.println("Cache File Not Exist, Building...");
             Util.deleteCache(cachePath, cacheNames);
             initMap();
             writeAll();
         }
+        System.out.println("Step 1 Finish !!!");
 
     }
 
