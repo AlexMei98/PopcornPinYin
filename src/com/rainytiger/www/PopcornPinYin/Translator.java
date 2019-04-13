@@ -9,15 +9,12 @@ class Translator {
 
     private PreProcessor processor;
     private Collector collector;
-    private int hanziTotal;
     private double lambda;
 
     Translator(PreProcessor processor, Collector collector, double lambda) {
         this.processor = processor;
         this.collector = collector;
         this.lambda = lambda;
-        this.hanziTotal = collector.hanziTotalNumber();
-        System.out.println(hanziTotal);
     }
 
     void translateFile(String inputPath, String outputPath, boolean print) throws IOException {
@@ -67,6 +64,7 @@ class Translator {
         long skipBits = lnr.skip(Long.MAX_VALUE);
         if (skipBits >= Long.MAX_VALUE) throw new IOException("This File Is Too Large!");
         BufferedReader br = new BufferedReader(new FileReader(file));
+        BufferedWriter bw = new BufferedWriter(new FileWriter("test/testset_out.txt"));
         String line, temp;
         int lineTotal = 0;
         int lineRight = 0;
@@ -74,8 +72,10 @@ class Translator {
         int hanziRight = 0;
         while ((line = br.readLine()) != null) {
             line = line.trim();
+            bw.write(line + "\n");
             temp = translateOneLine(line);
             line = br.readLine().trim();
+            bw.write(temp + "\n");
 
             if (line.equals(temp)) {
                 lineRight++;
@@ -86,6 +86,8 @@ class Translator {
             hanziTotal += line.length();
             lineTotal++;
         }
+        bw.close();
+        br.close();
         if (!print) return;
         System.out.println("Translate Result:");
         System.out.println();
@@ -102,7 +104,6 @@ class Translator {
         private List<List<Node>> lists = new ArrayList<>();
 
         Graph(List<String> pys) {
-            System.out.println(pys.size());
             for (String pinyin : pys) {
                 List<Integer> hs = processor.hanziList(pinyin.trim());
                 List<Node> list = new ArrayList<>(hs.size());
@@ -115,7 +116,7 @@ class Translator {
 
         String parse() {
             for (int i = 0, size = lists.size(); i < size; i++) {
-                viterbi(i, lambda, 1 - lambda);
+                viterbi(i, lambda, 1.0 - lambda);
             }
             StringBuilder sb = new StringBuilder();
             double P = -Double.MAX_VALUE;
@@ -128,7 +129,7 @@ class Translator {
                 }
             }
             if (max == null) return "";
-            while (max.prev != null) {
+            while (max != null) {
                 sb.append(max.hanzi);
                 max = max.prev;
             }
@@ -136,6 +137,7 @@ class Translator {
         }
 
         void viterbi(int level, double lambda, double alpha) {
+            int hanziTotal = 561368362;
             if (level == 0) {
                 for (Node node : lists.get(level)) {
                     if (node.isNull()) continue;
@@ -151,7 +153,7 @@ class Translator {
                     if (prev.map1 == 0) {
                         P = -Double.MAX_VALUE;
                     } else {
-                        P = Math.log(((double) prev.map2.getOrDefault(node.hanziIndex, 0)) * lambda + alpha * ((double) prev.map1));
+                        P = prev.prob + Math.log(((double) prev.map2.getOrDefault(node.hanziIndex, 0)) / ((double) prev.map1) * lambda + alpha * ((double) prev.map1) / ((double) hanziTotal));
                     }
                     if (P > node.prob) {
                         node.prob = P;

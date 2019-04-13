@@ -14,7 +14,7 @@
     <property name="dist.lib" value="dist/lib"/>
     <property name="dist.cache" value="dist/cache"/>
     <property name="jarfile" value="${ant.project.name}.jar"/>
-    <property name="testset" value="testset.data"/>
+    <property name="testset" value="testset.txt"/>
     <property name="input" value="input.txt"/>
     <property name="output" value="output.txt"/>
     <property name="mainclass" value="com.rainytiger.www.PopcornPinYin.PopcornPinYin"/>
@@ -77,11 +77,11 @@
         </jar>
     </target>
 
-    <target name="test" depends="build">
+    <target name="test-set" depends="build">
         <java classpath="${dist}/${jarfile}" classname="${mainclass}" args="${test}/${testset} true"/>
     </target>
 
-    <target name="filetest" depends="build">
+    <target name="test-file" depends="build">
         <java classpath="${dist}/${jarfile}" classname="${mainclass}" args="${test}/${input} ${test}/${output} false"/>
     </target>
 

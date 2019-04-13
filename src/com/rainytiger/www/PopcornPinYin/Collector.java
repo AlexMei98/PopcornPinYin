@@ -151,14 +151,6 @@ public class Collector {
         return map3.getOrDefault(hanziIndex, null);
     }
 
-    int hanziTotalNumber() {
-        int count = 0;
-        for (int i : map1.values()) {
-            count += i;
-        }
-        return count;
-    }
-
     public String toString() {
         return map1.toString() + "\n" + map2.toString() + "\n" + map3.toString();
     }
