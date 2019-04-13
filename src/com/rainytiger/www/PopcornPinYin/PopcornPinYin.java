@@ -2,8 +2,6 @@ package com.rainytiger.www.PopcornPinYin;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 public class PopcornPinYin {
 
@@ -29,8 +27,7 @@ public class PopcornPinYin {
         processor.init();
         Collector collector = new Collector(preCorpusPath + File.separator + corpusPath, cachePath, processor);
         collector.init();
-        List<Translator> translators = new ArrayList<>(1001);
-        Translator translator = new Translator(processor, collector, 0.01);
+        Translator translator = new Translator(processor, collector, 0.501);
 
         if (args.length == 1) {
             System.out.println(translator.translateOneLine(args[0]));
