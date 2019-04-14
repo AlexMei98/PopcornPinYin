@@ -65,6 +65,8 @@ class Translator {
         if (skipBits >= Long.MAX_VALUE) throw new IOException("This File Is Too Large!");
         BufferedReader br = new BufferedReader(new FileReader(file));
         BufferedWriter bw = new BufferedWriter(new FileWriter("test/testset_out.txt"));
+        BufferedWriter bwcsv = new BufferedWriter(new FileWriter("test/testset.csv"));
+        bwcsv.write("拼音,结果,标准,句长,单句准确率\n");
         String line, temp;
         int lineTotal = 0;
         int lineRight = 0;
@@ -72,20 +74,24 @@ class Translator {
         int hanziRight = 0;
         while ((line = br.readLine()) != null) {
             line = line.trim();
-            bw.write(line + "\n");
             temp = translateOneLine(line);
+            bwcsv.write(line + "," + temp + ",");
+
             line = br.readLine().trim();
-            bw.write(temp + "\n");
+            int same = Util.stringSameNumber(line, temp);
+            bw.write(line + "\n" + temp + "\n");
+            bwcsv.write(line + "," + String.format("%d,%8f\n",line.length(), ((double) same) / ((double)line.length())));
 
             if (line.equals(temp)) {
                 lineRight++;
                 hanziRight += line.length();
             } else {
-                hanziRight += Util.stringSameNumber(line, temp);
+                hanziRight += same;
             }
             hanziTotal += line.length();
             lineTotal++;
         }
+        bwcsv.close();
         bw.close();
         br.close();
         if (!print) return;
